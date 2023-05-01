@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "80ce82636eb3f78b",
+            "id": "5ce8387d44c0175a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a55c7b4d8fd677be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Structures & Algorithms/Lists.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structures & Algorithms/Lists.md",
+                "file": "readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structures & Algorithms/Lists.md",
+                "file": "readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structures & Algorithms/Lists.md"
+                "file": "readme.md"
               }
             }
           }
@@ -159,10 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a55c7b4d8fd677be",
+  "active": "5ce8387d44c0175a",
   "lastOpenFiles": [
+    "Data Structures/Queue.md",
+    "Data Structures/Stack.md",
+    "Data Structures/LinkedList.md",
+    "Data Structures/Arrays.md",
     "readme.md",
-    "Data Structures & Algorithms/Lists.md",
-    "Data Structures & Algorithms"
+    "Data Structures"
   ]
 }
