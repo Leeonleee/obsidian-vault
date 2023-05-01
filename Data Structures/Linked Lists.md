@@ -23,12 +23,24 @@
 
 
 ## Implementation
+Uses nodes that contain a pointer to the next node, and a pointer to the previous node if it's a doubly linked list
 
+```python
+class Node:
+	def __init__(self, value):
+		self.value = value
+		self.next = None
+		# optional
+		self.prev = None
 
+```
 
 ### Advantages
+- Inserting and removing a node given it's location is $O(1)$ in a doubly linked list compared to $O(n)$ for an array
 
 ### Disadvantages
+- Accessing/getting a value is $O(n)$ because you need to 
+- Searching for a value is $O(n)$ because you need to start from the head
 
 ## Edge cases
 
