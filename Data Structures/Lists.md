@@ -4,10 +4,14 @@
 
 ### Array Implementation
 
-| Operation | Time Complexity | Notes              |
-| --------- | --------------- | ------------------ |
-| size      | $O(1)           | number of elements | 
-|           |                 |                    |
+| Operation  | Time Complexity | Notes                                                                                |
+| ---------- | --------------- | ------------------------------------------------------------------------------------ |
+| access/get | $O(1)$          | returns element at index                                                             |
+| set        | $O(1)$          | replaces element at index i with element e, and return the element that was replaced |
+| add        | $O(n)$          | insert element at index, shift elements after index up                               |
+| remove     | $O(1)$          | remove and return element at index, shift elements after index down                                                                                     |
+| size       | $O(1)$          | number of elements                                                                   |
+| is empty   | $O(1)$          |                                                                                      |
 
 ### Linked List Implementation
 | Operation    | Time Complexity | Notes                                                                                                                  |
