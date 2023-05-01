@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "readme.md",
+                "file": "Data Structures/Arrays.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c3e944e9bcb81cbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Data Structure Template.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 205.5
   },
   "right": {
     "id": "39a09cbae1133db5",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "readme.md",
+                "file": "Templates/Data Structure Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "readme.md",
+                "file": "Templates/Data Structure Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "readme.md"
+                "file": "Templates/Data Structure Template.md"
               }
             }
           }
@@ -136,12 +149,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5ce8387d44c0175a",
+  "active": "c3e944e9bcb81cbb",
   "lastOpenFiles": [
-    "Data Structures/Stack.md",
-    "Data Structures/Queue.md",
     "Data Structures/Arrays.md",
     "readme.md",
+    "Data Structures/Stack.md",
+    "Data Structures/Queue.md",
     "Algorithms/Sorting/Bubble Sort.md",
     "Algorithms/Sorting",
     "Algorithms",
