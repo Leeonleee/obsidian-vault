@@ -2,16 +2,24 @@
 
 ## Operations & Time Complexity
 
+### Array Implementation
+
+| Operation | Time Complexity | Notes              |
+| --------- | --------------- | ------------------ |
+| size      | $O(1)           | number of elements | 
+|           |                 |                    |
+
+### Linked List Implementation
 | Operation    | Time Complexity | Notes                                                                                                                  |
 | ------------ | --------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| access/get   | $O(n)$          | find element via index                                                                                                 |
-| search       | $O(n)$          |                                                                                                                        |
+| search       | $O(n)$          | traverse through each element to find node                                                                             |
 | insert first | $O(1)$          |                                                                                                                        |
 | remove first | $O(1)$          |                                                                                                                        |
 | insert       | $O(n)/O(1)$     | insert after given node. $O(n)$ in singly, $O(1)$ in doubly if we have a reference to the node we want to insert after |
 | remove       | $O(n)/O(1)$     | $O(n)$ in singly. $O(1)$ in doubly if we have a reference to the node, else $O(n)$ as we need to find the node         |
-| size         | $O(1)/O(n)$     | number of elements in array, or traverse through linked list with a counter                                            |
-
+| size         | $O(n)$          | traverse through linked list with a counter                                                                            |
+| first        | $O(1)$          |                                                                                                                        |
+| is empty     | $O(1)$          | checks if head is `null`                                                                                                                       |
 
 
 
