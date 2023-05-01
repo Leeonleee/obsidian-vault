@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures/Stack.md",
+                "file": "Data Structures/Arrays.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structures/Stack.md",
+                "file": "Data Structures/Arrays.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structures/Stack.md",
+                "file": "Data Structures/Arrays.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structures/Stack.md"
+                "file": "Data Structures/Arrays.md"
               }
             }
           }
@@ -162,11 +162,11 @@
   "active": "951f3443f24df1d9",
   "lastOpenFiles": [
     "Data Structures/LinkedList.md",
-    "Data Structures/Arrays.md",
     "Data Structures/Queue.md",
     "Templates/Data Structure Template.md",
-    "Untitled.md",
     "Data Structures/Stack.md",
+    "Data Structures/Arrays.md",
+    "Untitled.md",
     "Templates",
     "readme.md",
     "Algorithms/Sorting/Bubble Sort.md",
