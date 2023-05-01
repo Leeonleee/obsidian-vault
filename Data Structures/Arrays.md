@@ -11,18 +11,13 @@
 | Remove | $O(n)$ | Shifts all elements after $n$ to the left by one|
 |Remove (end of array) | $O(1)$ | No elements need to be shifted |
 
-
-
-
-
-
-
-
-
 ## Implementation
+Built in to most languages
 
 ## Edge cases
+- Empty Arrays
+- Du
 
-## Interview Tips
+## Question Tips
 
 ## Techniques

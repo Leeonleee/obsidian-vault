@@ -1,5 +1,6 @@
 {
   "accentColor": "#cf66ff",
   "translucency": false,
-  "cssTheme": "Royal Velvet"
+  "cssTheme": "Royal Velvet",
+  "theme": "obsidian"
 }

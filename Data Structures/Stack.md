@@ -6,6 +6,6 @@
 
 ## Edge cases
 
-## Interview Tips
+## Question Interview Tips
 
 ## Techniques
