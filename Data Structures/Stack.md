@@ -1,2 +1,9 @@
 # Stack
-Can be implemented using [Arrays](Arrays.md) or 
+
+## Operations & Time Complexity
+
+## Edge cases
+
+## Interview Tips
+
+## Techniques

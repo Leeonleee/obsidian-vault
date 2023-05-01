@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Templates/Data Structure Template.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "951f3443f24df1d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Data Structures/Stack.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,20 +159,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5ce8387d44c0175a",
+  "active": "951f3443f24df1d9",
   "lastOpenFiles": [
-    "Templates/Data Structure Template.md",
-    "Templates",
-    "Data Structures/Stack.md",
-    "Data Structures/Queue.md",
+    "Data Structures/LinkedList.md",
     "Data Structures/Arrays.md",
+    "Data Structures/Queue.md",
+    "Templates/Data Structure Template.md",
+    "Untitled.md",
+    "Data Structures/Stack.md",
+    "Templates",
     "readme.md",
     "Algorithms/Sorting/Bubble Sort.md",
     "Algorithms/Sorting",
     "Algorithms",
     "Data.md",
     "Test.md",
-    "Data Structures/LinkedList.md",
     "Data Structures"
   ]
 }
