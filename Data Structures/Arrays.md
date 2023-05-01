@@ -3,15 +3,15 @@
 ## Operations & Time Complexity
 | Operation | Time Complexity | Notes |
 | ----------|-----------------|-------| 
-| Access | $O(1)$ | |
+| access/get | $O(1)$ | |
 | Search | $O(n)$| |
 | Search | $O(log (n))$ | |
-| Insert | $O(n)$ | Shifts all elements after $n$ to the right by one|
-| Insert (end of array) | $O(1)$) | No elements need to be shifted|
-| Remove | $O(n)$ | Shifts all elements after $n$ to the left by one|
-|Remove (end of array) | $O(1)$ | No elements need to be shifted |
-
-
+| insert/add | $O(n)$ | Shifts all elements after $n$ to the right by one|
+| insert/add (end of array) | $O(1)$) | No elements need to be shifted|
+| remove | $O(n)$ | Shifts all elements after $n$ to the left by one|
+|remove (end of array) | $O(1)$ | No elements need to be shifted |
+| size | $O(1)$ | number of elements in array|
+| is empty | $O(1)$ | |
 
 ## Implementation
 Built in to most languages

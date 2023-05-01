@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures/Arrays.md",
+                "file": "Data Structures/Linked Lists.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Data Structure Template.md",
+                "file": "Data Structures/Arrays.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Data Structure Template.md",
+                "file": "Data Structures/Linked Lists.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Data Structure Template.md",
+                "file": "Data Structures/Linked Lists.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Data Structure Template.md"
+                "file": "Data Structures/Linked Lists.md"
               }
             }
           }
@@ -159,7 +158,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b861c1b79e6f4476",
+  "active": "5ce8387d44c0175a",
   "lastOpenFiles": [
     "Data Structures/Arrays.md",
     "Data Structures/Linked Lists.md",

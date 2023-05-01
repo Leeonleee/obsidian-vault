@@ -2,7 +2,8 @@
 
 ## Operations & Time Complexity
 
-|
+| Operation | Time Complexity | Notes |
+| ----------|-----------------|-------| 
 
 ## Implementation
 

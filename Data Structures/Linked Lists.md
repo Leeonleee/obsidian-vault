@@ -2,6 +2,9 @@
 
 ## Operations & Time Complexity
 
+| Operation | Time Complexity | Notes |
+| ----------|-----------------|-------| 
+| access/get | $O()
 
 
 ## Implementation
