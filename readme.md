@@ -4,9 +4,7 @@ This repository contains my personal study notes on various topics related to my
 
 ## Table of Contents
 
--   [Topic 1](https://chat.openai.com/#topic-1)
--   [Topic 2](https://chat.openai.com/#topic-2)
--   [Topic 3](https://chat.openai.com/#topic-3)
+-   [Data Structures](obsidian://open?vault=obsidian-vault&file=Data%20Structures%2FArrays)
 
 ## Data Structures
 
