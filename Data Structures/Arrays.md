@@ -5,7 +5,7 @@
 | ----------|-----------------|-------| 
 | access/get | $O(1)$ | |
 | Search | $O(n)$| |
-| Search | $O(log (n))$ | |
+| Search | $O(log (n))$ | searching a sorted array|
 | insert/add | $O(n)$ | Shifts all elements after $n$ to the right by one|
 | insert/add (end of array) | $O(1)$) | No elements need to be shifted|
 | remove | $O(n)$ | Shifts all elements after $n$ to the left by one|
