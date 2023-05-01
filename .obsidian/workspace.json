@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures/Linked Lists.md",
+                "file": "Data Structures/Lists.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "39a09cbae1133db5",
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structures/Linked Lists.md",
+                "file": "Data Structures/Lists.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structures/Linked Lists.md",
+                "file": "Data Structures/Lists.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structures/Linked Lists.md"
+                "file": "Data Structures/Lists.md"
               }
             }
           }
@@ -162,7 +161,9 @@
   "active": "5ce8387d44c0175a",
   "lastOpenFiles": [
     "Data Structures/Arrays.md",
+    "Data Structures/Lists.md",
     "Data Structures/Linked Lists.md",
+    "Linked.md",
     "Templates/Data Structure Template.md",
     "Data Structures/Stack.md",
     "Data Structures/Queue.md",

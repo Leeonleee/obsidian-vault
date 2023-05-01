@@ -39,11 +39,14 @@ class Node:
 - Inserting and removing a node given it's location is $O(1)$ in a doubly linked list compared to $O(n)$ for an array
 
 ### Disadvantages
-- Accessing/getting a value is $O(n)$ because you need to 
+- Accessing/getting a value with an index is $O(n)$ because you need to start from the head
 - Searching for a value is $O(n)$ because you need to start from the head
 
 ## Edge cases
-
+- Empty linked list (head is `null`)
+- Only one node
+- Only two nodes
+- Is it a circular linked list?
 ## Question Tips
 
 ## Techniques
