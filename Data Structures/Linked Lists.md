@@ -18,10 +18,13 @@
 | search | $O(n)$ ||
 |insert first| $O(1)$||
 | remove first | $O(1)$ ||
-| insert | $O(n)/O(1)$ |insert at index/after node. $$|
+| insert | $O(n)/O(1)$ |insert after given node. $O(n)$ in singly, $O(1)$ in doubly if we have a reference to the node we want to insert after|
+| remove | $O(n)/O(1)$|$O(n)$ in singly. $O(1)$ in doubly if we have a reference to the node, else $O(n)$ as we need to find the node |
 
 
 ## Implementation
+
+
 
 ### Advantages
 
