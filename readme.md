@@ -14,3 +14,7 @@ Contains notes about data structures
 
 Contains notes about algorithms
 
+## Customisation
+Inside the .obsidian folder in the repository, you can delete some of the .json files if you don't want to use the themes/hotkeys etc
+
+
