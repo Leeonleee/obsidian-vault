@@ -36,7 +36,7 @@ class Node:
 ```
 
 ### Advantages
-- Inserting and removing a node given it's location is $O(1)$ in a doubly linked list compared to $O(n)$ for an array
+- Inserting and removing a node given it's location is $O(1)$ in a doubly linked list compared to $O(n)$ for an [[Arrays|Array]]
 
 ### Disadvantages
 - Accessing/getting a value with an index is $O(n)$ because you need to start from the head

@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5ce8387d44c0175a",
+            "id": "b861c1b79e6f4476",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,18 +20,19 @@
             }
           },
           {
-            "id": "b861c1b79e6f4476",
+            "id": "de353409fcc45669",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures/Arrays.md",
+                "file": "Data Structures/Lists.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -158,11 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5ce8387d44c0175a",
+  "active": "de353409fcc45669",
   "lastOpenFiles": [
-    "Data Structures/Arrays.md",
-    "Data Structures/Lists.md",
     "Data Structures/Linked Lists.md",
+    "Data Structures/Lists.md",
+    "Data Structures/Arrays.md",
+    "Data Structures/Stacks.md",
     "Linked.md",
     "Templates/Data Structure Template.md",
     "Data Structures/Stack.md",
