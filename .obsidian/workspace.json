@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "62e906022f1ec7ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structures/Linked Lists.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structures/Linked Lists.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structures/Linked Lists.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -160,12 +172,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c3e944e9bcb81cbb",
+  "active": "62e906022f1ec7ca",
   "lastOpenFiles": [
-    "Data Structures/Arrays.md",
-    "Data Structures/Linked Lists.md",
-    "Data Structures/Cheatsheet.md",
     "Templates/Data Structure Template.md",
+    "Non CS/Japanese/Grammar.md",
+    "conflict-files-obsidian-git.md",
+    "Data Structures/Linked Lists.md",
+    "Non CS/Japanese",
+    "Non CS",
+    "Data Structures/Arrays.md",
+    "Data Structures/Cheatsheet.md",
     "Data Structures/Stacks.md",
     "Data Structures/Lists.md",
     "readme.md",
