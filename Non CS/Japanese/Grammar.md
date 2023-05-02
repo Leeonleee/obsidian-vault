@@ -14,4 +14,6 @@
 - topic particle
 #### Example
 - XはYです: X (the topic) is Y
-- 先行
+- せんこうは日本語です: (My) major is the Japanese language
+- 私はソラキムです: I am Sora Kim
+- メアリーさんはアメリカじn
