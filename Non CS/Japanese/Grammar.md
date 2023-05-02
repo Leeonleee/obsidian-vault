@@ -303,7 +303,15 @@ If a verb ends with:
 - メアリーさんは靴を買いました：Mary bought shoes
 	- メアリーさんはかばんも買いました：Mary also bought a bag
 Other particles
-- 私は先週今日
+- 私は先週京都に行きました：I went to Kyoto last week
+	- 大阪にも行きました: I also went to Osaka
+
+### Duration
+- add 一時間 or any other duration noun before the verb
+- Not followed by any particle
+- For an approximate measurement, add ぐらい after 〜時間
+#### Examples
+- メアリーさんはそこでたけしさんを一時間待ちました：Mary waited for Takeshi there for an hour
 
 ## Lesson 5
 
