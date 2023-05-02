@@ -283,7 +283,20 @@ If a verb ends with:
 - あれは日本の映画じゃなかったです：That was not a Japanese movie
 
 ### Past Tense of Verbs
-- The past tense of verbs end with 
+- The past tense of verbs end with ました (affirmative) and ませんでした (negative)
+| Verbs   | affirmative | negative |
+| ------- | ----------- | -------- |
+| present | 〜ます      | 〜ません |
+| past    | 〜ました    | 〜ませんでした         |
+#### Examples
+- メアリーさんは9時ごろうちに帰りました：Mary returned home at about nine
+- 私はきのう日本語を勉強しませんでした：I did not study Japanese yesterday
+
+### も Particle
+- means "also"
+- replaces は、が、を particles
+#### Examples
+- 私はきのう
 ## Lesson 5
 
 
