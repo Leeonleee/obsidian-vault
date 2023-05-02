@@ -335,7 +335,7 @@ Other particles
 	- based on the last syllable when the modify nouns
 - Add です to both types of adjectives for affirmative present tense
 - In negative sentences, replace the last い of an い-adjective with くない
-- For な-adjectives
+- For な-adjectives, change です to じゃないです
 | Present                       | affirmative              | negative                                        |
 | ----------------------------- | ------------------------ | ----------------------------------------------- |
 | い-adjectives e.g. さむい     | さむいです：it is cold   | さむくないです/さむくありません：it is not cold |
