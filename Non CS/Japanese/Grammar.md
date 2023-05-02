@@ -202,7 +202,12 @@ If a verb ends with:
 - Use ませんか (present tense negative verb plus question particle) to extend an invitation
 - ますか can't be used for invitations. Will be read as a question
 #### Examples
-- 昼ごほnほん
+- 昼ご飯を食べませんか：What do you say to having lunch with me?
+	- A：いいですね：Sounds great
+- テニスをしませんか：Will you play tennis with me?
+	- A：うーん、ちょっとし：Um, It's slightly (inconvenient for me at this moment)
+
+＃＃＃
 ## Lesson 4
 
 
