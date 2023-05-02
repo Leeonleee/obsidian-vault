@@ -116,7 +116,11 @@
 - 〜ね: ... right? / ... is it?
 - 〜よ: tells the listener you are confident in what you're saying
 #### Examples
-- 
+- リイーさんのせんこうはぶんがくですね: Ms Lee, your major is literature right?
+- これはにくじゃないですね: This is not meat, is it?
+
+- とんかつはさかなじゃないですよ: Let me assure you, tonkatsu is not fish
+- スミスさんはイギリスじんですよ: (In case you're wondering) Mr Smith is British
 
 
 ## Lesson 3
