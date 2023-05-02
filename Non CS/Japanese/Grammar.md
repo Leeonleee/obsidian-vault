@@ -333,6 +333,9 @@ Other particles
 ### Adjectives
 - There are 2 types of adjective, い-adjectives and な-adjectives
 	- based on the last syllable when the modify nouns
+- Add です to both types of adjectives for affirmative present tense
+- In negative sentences, replace the last い of an い-adjective with くない
+- For な-adjectives
 | Present                       | affirmative              | negative                                        |
 | ----------------------------- | ------------------------ | ----------------------------------------------- |
 | い-adjectives e.g. さむい     | さむいです：it is cold   | さむくないです/さむくありません：it is not cold |
@@ -340,5 +343,9 @@ Other particles
 
 
 #### Examples
-- その本
+- その本はおもしろいですか：Is that book interesting?
+	- いいえ、あまりおしろくないです：No, it is not very interesting
+- 今日、ひまですか：Are you free today?
+	- いいえ、ひまじゃないです：No, I'm not
+さ
 ## Lesson 6
