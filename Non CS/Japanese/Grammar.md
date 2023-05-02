@@ -347,5 +347,5 @@ Other particles
 	- いいえ、あまりおしろくないです：No, it is not very interesting
 - 今日、ひまですか：Are you free today?
 	- いいえ、ひまじゃないです：No, I'm not
-さ
+
 ## Lesson 6
