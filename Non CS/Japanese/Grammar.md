@@ -224,7 +224,17 @@ If a verb ends with:
 - Japanese sentences are fairly flexible in word order
 - Generally, sentences are made of several noun-particle sequences followed by a verb or adjective
 - This is a typical sentence:
-	-
+
+| topic | time | place    | object   | verb       |
+| ----- | ---- | -------- | -------- | ---------- |
+| 私は  | 今日 | 図書館で | 日本語を | 勉強します |
+- I will study Japanese in the library today
+
+### 行く・来る
+- いく：movement away from speaker
+- 来る：movement towards speaker
+
+
 
 ## Lesson 4
 
