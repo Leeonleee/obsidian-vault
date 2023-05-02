@@ -330,6 +330,15 @@ Other particles
 - メアリーさんはソラさん韓国に行きます：Mary will go to Korea with Sora
 
 ## Lesson 5
+### Adjectives
+- There are 2 types of adjective, い-adjectives and な-adjectives
+	- based on the last syllable when the modify nouns
+| Present                       | affirmative              | negative                                        |
+| ----------------------------- | ------------------------ | ----------------------------------------------- |
+| い-adjectives e.g. さむい     | さむいです：it is cold   | さむくないです/さむくありません：it is not cold |
+| な-adjectives e.g. 元気（な） | 元気です：She is healthy | 元気じゃないです/元気じゃありません：she is not healthy                                                |
 
 
+#### Examples
+- その本
 ## Lesson 6
