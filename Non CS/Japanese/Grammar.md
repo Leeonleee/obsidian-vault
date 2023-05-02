@@ -53,20 +53,26 @@
 - this (unspecific) / this (specific noun) / this (place), near to the speaker
 
 ### それ・その・そこ (starts with そ)
-- this (unspecific) / this (specific noun) / this (place), near to the listener
+- that (unspecific) / that (specific noun) / that (place), near to the listener
 
 ### あれ・あの・あそこ (starts with あ)
-- this (unspecific) / this (specific noun) / this (place), far from both speaker and listener
+- that (unspecific) / that (specific noun) / that (place), far from both speaker and listener
+
+### どれ
+- which
 
 #### Summary
 - Starts with こ: near to speaker
 - Starts with そ: near to listener
 - Starts with あ：far from both speaker and listener
-- Ends with れ: this (unspecific)
-- Ends with の:
+- Ends with れ: this/that (unspecific)
+- Ends with の: this/that (specific noun)
+- Ends with こ: this/that (place)
 
 #### Example
-##### ending with 
+- これはいくらですか: How much is this?
+	- A：それはさんぜんえんです: That is 3,000 yen
+- この時計はいくらです
 
 
 
