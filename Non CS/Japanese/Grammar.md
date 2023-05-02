@@ -105,10 +105,18 @@
 ### じゃないです
 - To negate a statement in the form X は Y です where Y is a noun, replace です with じゃないです
 - じゃないです is colloquial
-- The more formal repl
+- The more formal replacement for ないです is ありません
+- じゃ is a contraction of では, which is more formal and more appropriate for writing
 #### Examples
 - やまださんはがくせいじゃないです: Mr Yamada is not a student
+- やまださんはがくせいじゃありません: (conservative speech style)
+- やまださんはがくせいではありません: (formal, appropriate for writing)
 
+### 〜ね・〜よ
+- 〜ね: ... right? / ... is it?
+- 〜よ: tells the listener you are confident in what you're saying
+#### Examples
+- 
 
 
 ## Lesson 3
