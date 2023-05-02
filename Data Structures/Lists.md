@@ -25,13 +25,8 @@
 | first        | $O(1)$          |                                                                                                                        |
 | is empty     | $O(1)$          | checks if head is `null`                                                                                                                       |
 
-
-
-
 ## Implementation
 Can be implemented using either [[Arrays]] or [[Linked Lists]]
-
-
 
 ### Advantages of [[Linked Lists|Linked List]] Implementation
 - Efficient insertion and deletion
