@@ -69,10 +69,15 @@
 - Ends with の: this/that (specific noun)
 - Ends with こ: this/that (place)
 
+
+
 #### Example
 - これはいくらですか: How much is this?
 	- A：それはさんぜんえんです: That is 3,000 yen
-- この時計はいくらです
+- このとけいはいくらです: How much is this watch?
+	- A：そのとけいはさんぜんえんです: That watch (in your hand) is 3,000 yen
+- あのがくせいはりゅうがくせいです: That student over there is an international student
+- ゆうびんきょく
 
 
 
