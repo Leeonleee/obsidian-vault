@@ -176,7 +176,16 @@ If a verb ends with:
 - テレビを見ます: I watch TV
 
 ### で particle
+- Indicates where the event described by the verb takes place
+#### Example
+- 図書館で本を読みます: I will read books at the library
 
+### に particle
+- goal towards which things move
+- the time at which an event occurs
+#### Examples
+1. Goal of movement
+	- 
 ## Lesson 4
 
 
