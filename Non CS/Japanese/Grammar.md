@@ -234,10 +234,15 @@ If a verb ends with:
 - いく：movement away from speaker
 - 来る：movement towards speaker
 
-
-
 ## Lesson 4
 
+### あります・います
+- There is/exists
+- あります：for non-living things
+- います：for living things
+- (place) に (thing)
+#### Examples
+- あそこにマクドナルドがあります：There's a McDonald's over there
 
 
 ## Lesson 5
