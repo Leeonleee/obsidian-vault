@@ -317,10 +317,18 @@ Other particles
 
 ### Quantity
 - Add the quantity work before the noun, or after the particle を
-- Also can be used in 
+- Also can be used in ある and いる sentences
 #### Examples
-- 京都で (写真をたくさん)/(たくさん写真を) 撮りました：I took many pictures In Kyoto
-- 
+- 京都で (写真をたくさん) / (たくさん写真を) 撮りました：I took many pictures In Kyoto
+- (野菜がたくさん) / (たくさん野菜が) あります：There are a lot of 
+
+### と Particle
+1. Connects 2 things in one sentence
+2. means "together with"
+#### Examples
+- 日本語と英語を話します：I speak Japanese and English
+- メアリーさんはソラさん韓国に行きます：Mary will go to Korea with Sora
+
 ## Lesson 5
 
 
