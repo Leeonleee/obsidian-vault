@@ -250,7 +250,7 @@ If a verb ends with:
 - 明日は日本語のクラスがありません：There will be no Japanese class tomorrow
 
 ### Location words
-- X は Y の __ です
+- X は Y の __ です: X is __ Y
 - Where __ is a location word
 #### Location Words
 | Word        | Meaning         |
@@ -263,8 +263,13 @@ If a verb ends with:
 | 上/うえ     | on/above        |
 | 下/した     | under/beneath   |
 | 近く/ちかく | near            |
-| 隣/となり            | next to         |
-- X は Y 
+| 隣/となり   | next to         |
+| 間/あいだ   | between                |
+- X は Y と Z の間です：X is between Y and Z
+#### Examples
+- 銀行は図書館の隣です：The bank is next to the library
+- 傘はテーブルの下です：The umbrella is under the table
+- レストランは
 ## Lesson 5
 
 
