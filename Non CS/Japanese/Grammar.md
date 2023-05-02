@@ -60,6 +60,7 @@
 
 ### どれ・どの・どこ（starts with ど)
 - which (unspecific) / which (specific noun) / where (place)
+- use が instead of は
 
 #### Summary
 - Starts with こ: near to speaker
@@ -82,10 +83,16 @@
 - このとけいはいくらです: How much is this watch?
 	- A：そのとけいはさんぜんえんです: That watch (in your hand) is 3,000 yen
 - あのがくせいはりゅうがくせいです: That student over there is an international student
+- すみません。ゆうびんきょくはどこですか: Excuse me. Where is the post office?
 
 - どれですか: Which one is it (that you are talking about)?
 - どのがくせいがにほんじんですか: Which student is Japanese?
 
+### だれ・だれの
+- who/whose
+- 谁/谁的 in Chinese
+#### Examples
+- これはだれのかばんですか
 
 
 
