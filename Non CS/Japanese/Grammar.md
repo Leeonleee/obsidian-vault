@@ -125,8 +125,19 @@
 
 ## Lesson 3
 
+### る verbs
+- replace る with ます (affirmative) or ません (negative)
+#### Examples
+| Dictionary form | Present, affirmative | Present, negative |
+| --------------- | -------------------- | ----------------- |
+| 食べる          | 食べます             | 食べません        |
+| 寝る            | 寝ます               | 寝ません          |
+| 起きる          | 起きます             | 起きません        |
+| み                |                      |                   |
+
 
 ## Lesson 4
+
 
 
 ## Lesson 5
