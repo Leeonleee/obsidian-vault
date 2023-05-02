@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "d85ddadc91ffcd56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Structures/Binary Trees.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c3e944e9bcb81cbb",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "b7d736c26665514a",
@@ -99,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 205.5,
-    "collapsed": true
+    "width": 205.5
   },
   "right": {
     "id": "39a09cbae1133db5",
@@ -116,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structures/Queue.md",
+                "file": "Data Structures/Binary Trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structures/Queue.md",
+                "file": "Data Structures/Binary Trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,15 +168,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structures/Queue.md"
+                "file": "Data Structures/Binary Trees.md"
               }
             }
+          },
+          {
+            "id": "abd56fb07560cb9b",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -178,11 +199,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "403d015adfc5a66c",
+  "active": "d85ddadc91ffcd56",
   "lastOpenFiles": [
+    "Data Structures/Queue.md",
+    "Data Structures/Binary Trees.md",
     "Data Structures/Stacks.md",
     "Data Structures/Arrays.md",
-    "Data Structures/Queue.md",
     "Data Structures/Cheatsheet.md",
     "Data Structures/Lists.md",
     "Data Structures/Linked Lists.md",

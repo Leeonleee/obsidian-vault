@@ -1,5 +1,6 @@
 # Queue
 An ADT that supports `enqueue` and `dequeue` operations
+
 ## Operations & Time Complexity
 
 | Operation | Time Complexity | Notes                                                 |
@@ -19,6 +20,9 @@ Can be implemented using [[Arrays]] or [[Linked Lists]]
 ### Disadvantages
 
 ## Edge cases
+- Empty queue
+- Queue with one element
+- Queue with two elements
 
 ## Question Tips
 
