@@ -207,7 +207,25 @@ If a verb ends with:
 - テニスをしませんか：Will you play tennis with me?
 	- A：うーん、ちょっとし：Um, It's slightly (inconvenient for me at this moment)
 
-＃＃＃
+### Frequency Adverbs
+- 毎日：everyday
+- とく： often
+- ときどき：sometimes
+
+- ぜんぜん：never, not at all
+- あまり：not often, not very much
+- Must end the sentence with the negative
+
+#### Examples
+- 私はときどき図書館に行きます：I sometimes go to a library
+- 私はぜんぜんテレビを見ません：I do not watch TV at all
+
+### Word Order
+- Japanese sentences are fairly flexible in word order
+- Generally, sentences are made of several noun-particle sequences followed by a verb or adjective
+- This is a typical sentence:
+	-
+
 ## Lesson 4
 
 
