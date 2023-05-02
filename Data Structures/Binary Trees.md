@@ -25,6 +25,8 @@
 | --------- | ---------------- | ----- |
 | access    | $O(log\space n)$ |       |
 | search    | $O(log\space n)$ |       |
+| insert    | $O(log\space n)$ |       |
+| remove    | $O(log\space n)$                 |       |
 
 ## Implementation
 
