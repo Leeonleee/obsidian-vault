@@ -272,8 +272,18 @@ If a verb ends with:
 - レストランはスーパーと病院の間です：The restaurant is between the supermarket and the hospital
 - 私はモスバーガーの前でメアリーさんを待ちました：I waited for Mary in front of the Mos Burger place
 
-### Past Tense
-- The past tense versions of "XはYです" sentences are でした (affirmative) and じゃなかつた
+### Past Tense of です
+- The past tense versions of "XはYです" sentences are でした (affirmative) and じゃなかったです (negative)
+| です    | affirmative | negeative          |
+| ------- | ----------- | ------------------ |
+| present | ~です       | 〜じゃないです     |
+| past    | 〜でした    | 〜じゃなかったです | 
+#### Examples
+- 山下先生はさくら大学の学生でした：Mr Yamashita was a student at Sakura University
+- あれは日本の映画じゃなかったです：That was not a Japanese movie
+
+### Past Tense of Verbs
+- The past tense of verbs end with 
 ## Lesson 5
 
 
