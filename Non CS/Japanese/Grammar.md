@@ -158,6 +158,24 @@
 | 勉強する        | 勉強します           | 勉強しません      |
 | くる            | きます               | きません                  |
 
+### Rules for verbs
+If a verb ends with:
+- aru or oru: definitely a u-verb
+- uru: irregular verb or a u-verb
+- iru or eru: more likely to be a ru-verb, but can be a u-verb
+
+### Present tense meaning
+- You are saying you do something often (habitual actions) or
+- When you describe what a person will do, or is planning to do an activity in the future
+
+### を particle
+- Describes direct objects, what you do to the noun
+#### Examples
+- コーヒーを飲みます: I drink coffee
+- 音楽を聞きません: I listen to music
+- テレビを見ます: I watch TV
+
+### で particle
 
 ## Lesson 4
 
