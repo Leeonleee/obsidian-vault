@@ -240,10 +240,18 @@ If a verb ends with:
 - There is/exists
 - あります：for non-living things
 - います：for living things
-- (place) に (thing)
+- (place) に (thing) が あります/います
+- place is optional, make sure to use が particle
+- あります can also be used to say that an event will take place
 #### Examples
 - あそこにマクドナルドがあります：There's a McDonald's over there
+- テレビがありません：I don't have a TV
+- 日本人の友達がいます：I have a Japanese friend
+- 明日は日本語のクラスがありません：There will be no Japanese class tomorrow
 
+### Location words
+- X は Y の __ です
+- Where __ is a loaction word
 
 ## Lesson 5
 
