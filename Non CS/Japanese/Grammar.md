@@ -310,9 +310,17 @@ Other particles
 - add 一時間 or any other duration noun before the verb
 - Not followed by any particle
 - For an approximate measurement, add ぐらい after 〜時間
+- To say ~ hour and a half, add 半 immediately after 〜時間
+- If you want to add both, add ぐらい last, e.g. 一時間半ぐらい
 #### Examples
 - メアリーさんはそこでたけしさんを一時間待ちました：Mary waited for Takeshi there for an hour
 
+### Quantity
+- Add the quantity work before the noun, or after the particle を
+- Also can be used in 
+#### Examples
+- 京都で (写真をたくさん)/(たくさん写真を) 撮りました：I took many pictures In Kyoto
+- 
 ## Lesson 5
 
 
