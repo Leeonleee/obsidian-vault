@@ -49,7 +49,24 @@
 
 ## Lesson 2
 
-### これ・それ・あれ
+### これ・この・ここ (starts with こ)
+- this (unspecific) / this (specific noun) / this (place), near to the speaker
+
+### それ・その・そこ (starts with そ)
+- this (unspecific) / this (specific noun) / this (place), near to the listener
+
+### あれ・あの・あそこ (starts with あ)
+- this (unspecific) / this (specific noun) / this (place), far from both speaker and listener
+
+#### Summary
+- Starts with こ: near to speaker
+- Starts with そ: near to listener
+- Starts with あ：far from both speaker and listener
+- Ends with れ: this (unspecific)
+- Ends with の:
+
+#### Example
+##### ending with 
 
 
 
