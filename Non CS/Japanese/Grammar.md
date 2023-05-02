@@ -69,10 +69,11 @@
 - Ends with の: this/that (specific noun)
 - Ends with こ: this/that (place)
 
-|       | こ (near to speaker)  | そ (near to listener)  | あ (far from both) | ど (question)  |
-| ----- | --- | --- | --- | --- |
-| unspecific |     |     |     |     |
-|  th     |     |     |     |     |
+|                      | こ (near to speaker) | そ (near to listener) | あ (far from both) | ど (question) |
+| -------------------- | -------------------- | --------------------- | ------------------ | ------------- |
+| 〜れ (unspecific)    |    これ                  |       それ                |   あれ                 |      どれ         |
+| 〜の (specific noun) |        この              |      その                 |      あの              |        どの       |
+| 〜こ (place)         |    ここ                  |      そこ                 |    あそこ                |      どこ         |
 
 
 #### Example
@@ -81,7 +82,10 @@
 - このとけいはいくらです: How much is this watch?
 	- A：そのとけいはさんぜんえんです: That watch (in your hand) is 3,000 yen
 - あのがくせいはりゅうがくせいです: That student over there is an international student
-- ゆうびんきょく
+
+- どれですか: Which one is it (that you are talking about)?
+- どのがくせいがにほんじんですか: Which student is Japanese?
+
 
 
 
