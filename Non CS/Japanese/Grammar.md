@@ -189,7 +189,20 @@ If a verb ends with:
 	- うちに帰ります：I will return home
 2. Time
 	- 日曜日に京都に行きます:　I will go to Kyoto on Sunday
-	-　11時
+	-　11時に寝ます：I will go to bed at eleven
+
+### へ particle
+- Indicates goal of movement. Replaces に particle when referring to movement, not time
+
+### Time references
+- Use に when referring to days of the week, or numerical time expressions
+- Don't use it for relative times, such as today, tomorrow etc or intervals such as everyday, or asking "when?"
+
+### 〜ませんか
+- Use ませんか (present tense negative verb plus question particle) to extend an invitation
+- ますか can't be used for invitations. Will be read as a question
+#### Examples
+- 昼ごほnほん
 ## Lesson 4
 
 
