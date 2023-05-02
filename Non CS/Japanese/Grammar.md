@@ -295,8 +295,16 @@ If a verb ends with:
 ### も Particle
 - means "also"
 - replaces は、が、を particles
+- For other particles such as に、で, keep them and follow them with も
 #### Examples
-- 私はきのう
+は、が、を particles
+- 私はきのう京都に行きました：I went to Kyoto yesterday
+	- 山下先生もきのう京都に行きました：Professor Yamashita also went to Kyoto yesterday
+- メアリーさんは靴を買いました：Mary bought shoes
+	- メアリーさんはかばんも買いました：Mary also bought a bag
+Other particles
+- 私は先週今日
+
 ## Lesson 5
 
 
