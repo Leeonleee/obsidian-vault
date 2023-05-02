@@ -125,7 +125,7 @@
 
 ## Lesson 3
 
-### る verbs
+### ru verbs
 - replace る with ます (affirmative) or ません (negative)
 #### Examples
 | Dictionary form | Present, affirmative | Present, negative |
@@ -133,9 +133,19 @@
 | 食べる          | 食べます             | 食べません        |
 | 寝る            | 寝ます               | 寝ません          |
 | 起きる          | 起きます             | 起きません        |
-| み                |                      |                   |
+| 見る            | 見ます               | 見ません                  |
 
+### u verbs
+- replace u with imasu and imasen
+- think of it as going up and down the same hiragana column
+	- e.g. going from み and む
+#### Examples
 
+| Dictionary forom | Present, affirmative | Present, negative |
+| ---------------- | -------------------- | ----------------- |
+| 飲む             | 飲みます             | 飲みません        |
+| 読む             | 読みます             | 読みません        |
+| 離す             | はな                     |                   |
 ## Lesson 4
 
 
