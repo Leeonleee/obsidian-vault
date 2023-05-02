@@ -92,7 +92,22 @@
 - who/whose
 - 谁/谁的 in Chinese
 #### Examples
-- これはだれのかばんですか
+- これはだれのかばんですか: Whose bag is this?
+	-  A: それはソラさんのかばんです: That is Sora's bag
+
+### も
+- too
+- In Japanese, も goes directly after the item
+#### Examples
+- たけしさんはにほんじんです:　Takeshi is a Japanese person
+- ゆいさんもにほんじんです：Yui is Japanese too
+
+### じゃないです
+- To negate a statement in the form X は Y です where Y is a noun, replace です with じゃないです
+- じゃないです is colloquial
+- The more formal repl
+#### Examples
+- やまださんはがくせいじゃないです: Mr Yamada is not a student
 
 
 
