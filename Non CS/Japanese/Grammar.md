@@ -185,7 +185,11 @@ If a verb ends with:
 - the time at which an event occurs
 #### Examples
 1. Goal of movement
-	- 
+	- 今日学校に行きません：I will not go to school today
+	- うちに帰ります：I will return home
+2. Time
+	- 日曜日に京都に行きます:　I will go to Kyoto on Sunday
+	-　11時
 ## Lesson 4
 
 
