@@ -25,5 +25,15 @@
 #### Example
 - いまなんじですか: what time is it now?
 	-  A: いまくじです: it is 9 o'clock
-- なんえんせいですか
+- なんねんせいですか: What year are you in college?
+	- A: にねんせいです: I'm a second year
+
+### の
+- Connects 2 nouns
+- Similar to 的 in Chinese
+- X の Y: X = restriction, Y = main idea
+#### Example
+- たけしさんのでんわばんごう: Takeshi's phone number
+- だいがくのせんせい: A college professor
+- 日本語のがくせい: A student of the Japanese language
 
