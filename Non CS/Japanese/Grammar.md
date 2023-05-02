@@ -251,8 +251,20 @@ If a verb ends with:
 
 ### Location words
 - X は Y の __ です
-- Where __ is a loaction word
-
+- Where __ is a location word
+#### Location Words
+| Word        | Meaning         |
+| ----------- | --------------- |
+| 右/みぎ     | to the right of |
+| 左/ひだり   | to the left of  |
+| 前/まえ     | in front of     |
+| 後ろ/うしろ | behind          |
+| 中/なか     | inside          |
+| 上/うえ     | on/above        |
+| 下/した     | under/beneath   |
+| 近く/ちかく | near            |
+| 隣/となり            | next to         |
+- X は Y 
 ## Lesson 5
 
 
