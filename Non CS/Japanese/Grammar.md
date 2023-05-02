@@ -139,13 +139,26 @@
 - replace u with imasu and imasen
 - think of it as going up and down the same hiragana column
 	- e.g. going from み and む
+- 帰る is a u verb
 #### Examples
 
-| Dictionary forom | Present, affirmative | Present, negative |
+| Dictionary form | Present, affirmative | Present, negative |
 | ---------------- | -------------------- | ----------------- |
 | 飲む             | 飲みます             | 飲みません        |
 | 読む             | 読みます             | 読みません        |
-| 離す             | はな                     |                   |
+| 離す             | 話します             | 話しません        |
+| 聞く             | 聞きます             | 聞きません        |
+| 行く             | 行きます             |                   |
+
+### Irregular verbs
+
+| Dictionary form | Present, affirmative | Present, negative |
+| --------------- | -------------------- | ----------------- |
+| する            | します               | しません          |
+| 勉強する        | 勉強します           | 勉強しません      |
+| くる            | きます               | きません                  |
+
+
 ## Lesson 4
 
 
