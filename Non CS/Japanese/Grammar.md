@@ -269,7 +269,11 @@ If a verb ends with:
 #### Examples
 - 銀行は図書館の隣です：The bank is next to the library
 - 傘はテーブルの下です：The umbrella is under the table
-- レストランは
+- レストランはスーパーと病院の間です：The restaurant is between the supermarket and the hospital
+- 私はモスバーガーの前でメアリーさんを待ちました：I waited for Mary in front of the Mos Burger place
+
+### Past Tense
+- The past tense versions of "XはYです" sentences are でした (affirmative) and じゃなかつた
 ## Lesson 5
 
 
