@@ -58,8 +58,8 @@
 ### あれ・あの・あそこ (starts with あ)
 - that (unspecific) / that (specific noun) / that (place), far from both speaker and listener
 
-### どれ
-- which
+### どれ・どの・どこ（starts with ど)
+- which (unspecific) / which (specific noun) / where (place)
 
 #### Summary
 - Starts with こ: near to speaker
@@ -69,6 +69,10 @@
 - Ends with の: this/that (specific noun)
 - Ends with こ: this/that (place)
 
+|       | こ (near to speaker)  | そ (near to listener)  | あ (far from both) | ど (question)  |
+| ----- | --- | --- | --- | --- |
+| unspecific |     |     |     |     |
+|  th     |     |     |     |     |
 
 
 #### Example
