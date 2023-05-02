@@ -1,5 +1,10 @@
 # Grammar
 
+## Table of Contents
+### [[Grammar#Lesson 1 |Lesson 1]]
+
+
+
 ## Lesson 1
 
 ### です
@@ -32,8 +37,11 @@
 - Connects 2 nouns
 - Similar to 的 in Chinese
 - X の Y: X = restriction, Y = main idea
+- X の Y acts as one big noun
 #### Example
 - たけしさんのでんわばんごう: Takeshi's phone number
 - だいがくのせんせい: A college professor
 - 日本語のがくせい: A student of the Japanese language
+- たけしさんのおかあさんはこうこうのせんせいです: Takeshi's mother is a high school teacher
 
+## Lesson 2

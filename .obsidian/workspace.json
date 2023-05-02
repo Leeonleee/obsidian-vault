@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "39a09cbae1133db5",
@@ -172,7 +173,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b3e5fe78fc3dd711",
+  "active": "56b6f0868eec3789",
   "lastOpenFiles": [
     "Non CS/Japanese/Grammar/Grammar.md",
     "Non CS/Japanese/Grammar.md",
