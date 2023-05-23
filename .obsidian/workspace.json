@@ -23,8 +23,12 @@
             "id": "b3e5fe78fc3dd711",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Data Structures/Cheatsheet.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -102,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Data Structures/Cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,6 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Data Structures/Cheatsheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +145,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Data Structures/Cheatsheet.md"
+              }
             }
           }
         ]
@@ -162,6 +170,8 @@
   },
   "active": "b3e5fe78fc3dd711",
   "lastOpenFiles": [
+    "Data Structures/Lists.md",
+    "Data Structures/Arrays.md",
     "Non CS/Japanese/Grammar.md",
     "Data Structures/Queue.md",
     "Data Structures/Binary Trees.md",
@@ -170,13 +180,11 @@
     "Non CS/Japanese/Grammar",
     "Non CS/Untitled.md",
     "Non CS/Japanese",
-    "Data Structures/Lists.md",
     "Security",
     "Non CS",
     "Test.md",
     "Data Structures/Stacks.md",
     "Data Structures/Linked Lists.md",
-    "Data Structures/Arrays.md",
     "Linked.md",
     "Templates/Data Structure Template.md",
     "Data Structures/Stack.md",
