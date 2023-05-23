@@ -26,31 +26,9 @@
               "type": "graph",
               "state": {}
             }
-          },
-          {
-            "id": "3809624dd3590999",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Non CS/Japanese/Grammar.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a24d76850f081eb0",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.2.7"
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,8 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "39a09cbae1133db5",
@@ -125,7 +102,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Non CS/Japanese/Grammar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +118,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Non CS/Japanese/Grammar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,9 +139,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Non CS/Japanese/Grammar.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -187,12 +160,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a24d76850f081eb0",
+  "active": "b3e5fe78fc3dd711",
   "lastOpenFiles": [
+    "Non CS/Japanese/Grammar.md",
     "Data Structures/Queue.md",
     "Data Structures/Binary Trees.md",
     "Data Structures/Cheatsheet.md",
-    "Non CS/Japanese/Grammar.md",
     "Non CS/Japanese/Grammar/Grammar.md",
     "Non CS/Japanese/Grammar",
     "Non CS/Untitled.md",
