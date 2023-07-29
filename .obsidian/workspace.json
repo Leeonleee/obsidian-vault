@@ -30,31 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f2583bbb5f9e7ee2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Non CS/Japanese/Grammar.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0607fb448a9e7b26",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.3.5"
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -128,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Non CS/Japanese/Grammar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +122,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Non CS/Japanese/Grammar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Non CS/Japanese/Grammar.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -190,8 +164,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0607fb448a9e7b26",
+  "active": "56b6f0868eec3789",
   "lastOpenFiles": [
+    "Agile",
+    "SQL",
+    "Models of Computation",
     "Data Structures/Lists.md",
     "Data Structures/Arrays.md",
     "Non CS/Japanese/Grammar.md",
