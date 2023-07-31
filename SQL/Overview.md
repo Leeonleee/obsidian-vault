@@ -96,4 +96,23 @@ Software package designed to store and manage databases
 - Used to access the data
 - Includes commands to update the contents of the database and to retrieve information from the database
 
-- For a relational database, both 
+- For a relational database, both DML and DDL are in SQL
+	- SQL is declarative in style (programmer describes what is needed, not how to find it)
+	- SQL is a standard, but each vendor has variations
+	- Applications are written to call the DBMS through SQL commands
+## SQL Example
+### Select-From-Where
+- Retrieves data (rows) from one or more tables of a relational database that fulfil a search condition
+- e.g.1 "What is SuppID and Phone of the supplier named Heinz?"
+```
+SELECT SuppID, Phone
+FROM Supplier
+WHERE SName='Heinz'
+```
+- e.g.2 "How many products come from supplier whose SuppID is 8703?"
+```
+SELECT Count(*)
+FROM Product
+WHERE SuppID=8703
+```
+- Can also connect data from several tables
