@@ -144,12 +144,41 @@ Many views, single logical schema and physical schema
 - One of the important benefits of using a DBMS
 
 # Career and People
+- End users
+- DB application programmers
+- Database administration (DBA)
+- DBMS vendor staff
 ## End Users
 People who do something that advances the organisation's purpose
 - Often unaware they are dealing with data in a DBMS
 	- They simply run applications that present data to them and make controlled changes
 - Categories:
 	- Off-line naive users who get reports
-		- e.g. store manager gets weekly profit report
+		- e.g. manager gets weekly profit report
 	- Parametric naive users who execute pre-written applications
-		- 
+		- e.g. manager runs application to reorder item
+	- Ad hoc users who explore data
+		- e.g. manager looking for trends
+## Application Programmers
+Produces the applications that end users can run
+- Need to understand how to create an application that access data through a DBMS
+## Database Administration (DBA)
+Responsible for effective and efficient use of resources in providing access to data
+- Example tasks:
+	- Design logical/physical schema
+	- Handle security and authorisation
+	- Data availability, crash recovery
+	- Database tuning
+## DBMS Vendor Staff
+Each vendor (Oracle, IBM, Microsoft etc) employ staff to help sell more installations, helping organisations that have bought the software
+- DBMS implementors
+- Tools development
+- Training staff
+- Sales support staff
+- Operational support staff
+-
+# Big Ideas
+## Metadata as Data
+- The schema and other metadata is essential to working with data
+	- Data is useless if one can't interpret it
+	- Over time, pe
