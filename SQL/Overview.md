@@ -1,3 +1,7 @@
+# Table of Contents
+- [#SQL](Terminology)
+
+
 # Terminology
 ## Data
 Facts that can be recorded
@@ -181,4 +185,14 @@ Each vendor (Oracle, IBM, Microsoft etc) employ staff to help sell more installa
 ## Metadata as Data
 - The schema and other metadata is essential to working with data
 	- Data is useless if one can't interpret it
-	- Over time, pe
+	- Over time, the people who know what a value/string is may leave the organisation
+- Metadata should be stored with the data it describes
+## "What" not "How"
+- Convenient to indicate *what* info is needed, and let the system work out *how* to process the data and retrieve what you need
+- Users should be offered a way to express requests declaratively
+	- Query language can be based on logic
+	- Select...Where...
+## Administrative Services
+- A system should offer administrators an interface to adjust parameters, choose structure, set permissions, etc
+# DBMS vs Others
+- You an have a database without a DBMS to store it

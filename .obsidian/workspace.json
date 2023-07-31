@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/Overview.md",
+                "file": "readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/Overview.md",
+                "file": "readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/Overview.md",
+                "file": "readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/Overview.md"
+                "file": "readme.md"
               }
             }
           }
@@ -170,16 +170,18 @@
   },
   "active": "b3e5fe78fc3dd711",
   "lastOpenFiles": [
+    "Templates/Data Structure Template.md",
+    "Data Structures/Linked Lists.md",
+    "Data Structures/Cheatsheet.md",
+    "Data Structures/Arrays.md",
+    "SQL/Overview.md",
+    "Terminology.md",
     "SQL/Assessment.md",
     "readme.md",
-    "SQL/Overview.md",
-    "Templates/Data Structure Template.md",
-    "Data Structures/Cheatsheet.md",
     "Agile",
     "SQL",
     "Models of Computation",
     "Data Structures/Lists.md",
-    "Data Structures/Arrays.md",
     "Non CS/Japanese/Grammar.md",
     "Data Structures/Queue.md",
     "Data Structures/Binary Trees.md",
@@ -191,7 +193,6 @@
     "Non CS",
     "Test.md",
     "Data Structures/Stacks.md",
-    "Data Structures/Linked Lists.md",
     "Linked.md",
     "Data Structures/Stack.md",
     "Data Structures/LinkedList.md",
