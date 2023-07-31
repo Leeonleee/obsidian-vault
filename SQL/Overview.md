@@ -80,4 +80,20 @@ Software package designed to store and manage databases
 - The instance at anytime must fit the scheme
 	- Scheme rarely changes
 - e.g. Supplier(SuppID: int, SName: string, Phone: string)
-- Can also include 
+- Can also include *integrity constraints* to restrict the possible instances
+	- e.g. each supplier has a different SuppID
+## Data Design
+- The process of deciding on the scheme that will be sued for the data
+- Stages:
+	1. produce a conceptual/semantic model
+	2. translate into a relational schema
+	3. evaluate the schema for quality and improve if needed
+## Languages
+### DDL (Data Definition Language)
+- Used to define the schema
+- Tells the DBMS what tables exist, and their structure
+### DML (Data Manipulation Language)
+- Used to access the data
+- Includes commands to update the contents of the database and to retrieve information from the database
+
+- For a relational database, both 
