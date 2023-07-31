@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures/Cheatsheet.md",
+                "file": "SQL/Assessment.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "SQL/Assessment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "SQL/Assessment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +145,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "SQL/Assessment.md"
+              }
             }
           }
         ]
@@ -164,8 +168,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "56b6f0868eec3789",
+  "active": "b3e5fe78fc3dd711",
   "lastOpenFiles": [
+    "Data Structures/Cheatsheet.md",
+    "SQL/Assessment.md",
     "Agile",
     "SQL",
     "Models of Computation",
@@ -174,7 +180,6 @@
     "Non CS/Japanese/Grammar.md",
     "Data Structures/Queue.md",
     "Data Structures/Binary Trees.md",
-    "Data Structures/Cheatsheet.md",
     "Non CS/Japanese/Grammar/Grammar.md",
     "Non CS/Japanese/Grammar",
     "Non CS/Untitled.md",
@@ -194,7 +199,6 @@
     "Algorithms/Sorting/Bubble Sort.md",
     "Algorithms/Sorting",
     "Algorithms",
-    "Data.md",
-    "Data Structures"
+    "Data.md"
   ]
 }
