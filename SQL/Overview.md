@@ -43,7 +43,7 @@ Software package designed to store and manage databases
 	- What helps one may be bad for others
 # Structure of Data
 - In DBMSs, the database stores <mark>descriptions of the format of the data</mark>
-	- This is called the "<mark>System Catalogue</mark>" or "<mark>Data Dictionary </mark>""
+	- This is called the "<mark>System Catalogue</mark>" or "<mark>Data Dictionary </mark>"
 - e.g. you can find that each employee has:
 	- Identifier: Integer
 	- Name: String up to 30 char
@@ -57,6 +57,27 @@ Software package designed to store and manage databases
 	- Each entry is simple: integer, string, etc
 	- Matching values in different tables indicate connections
 
-| SuppID | SName | Phone |
-| ------ | ----- | ----- |
-| ------ | ----- |       | 
+| SuppID | SName  | Phone      |
+| ------ | ------ | ---------- |
+| 8703   | Heinz  | 0293513287 |
+| 8731   | Edgell | 0378301293 |
+| 8927   | Kraft  | 0299412020 |
+|        |        |            |
+
+| ProdID | Description            | SuppID |
+| ------ | ---------------------- | ------ |
+| 29012  | Peas with Mint, 400g   | 8731   |
+| 30086  | Peas and Carrots, 450g | 8703   |
+| 31773  | Salted Peanuts, 500g   | 8731   |
+
+## Instance
+- The contents of the database at a single time
+	- Every update changes the instance
+## Schema
+- Describes the structure of data in a particular database
+	- What tables exist
+	- What the columns are called, the type of each
+- The instance at anytime must fit the scheme
+	- Scheme rarely changes
+- e.g. Supplier(SuppID: int, SName: string, Phone: string)
+- Can also include 
