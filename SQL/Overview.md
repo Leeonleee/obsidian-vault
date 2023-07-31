@@ -132,4 +132,24 @@ Considering the above query, which shows the ProdID of any product which is supp
 	- There are more possibilities
 - Given a user provided query, DBMS should find a computation that is correct and fast, then give the user the answer
 ## Levels of Abstraction
-- Many views, single logical scheme and physical schema
+Many views, single logical schema and physical schema
+- View: how a user sees the data
+- Logical schema: structure of data as it is shared among users
+- Physical schema: files and indexes used for storage on disk
+## Data Independence
+- Applications are insulated from how data is structured and stored
+- Logical data independence: Protection from changes in logical schema
+	- e.g. from introducing an extra column in a table
+- Physical data independence: Protection from changes in physical structure and location of data
+- One of the important benefits of using a DBMS
+
+# Career and People
+## End Users
+People who do something that advances the organisation's purpose
+- Often unaware they are dealing with data in a DBMS
+	- They simply run applications that present data to them and make controlled changes
+- Categories:
+	- Off-line naive users who get reports
+		- e.g. store manager gets weekly profit report
+	- Parametric naive users who execute pre-written applications
+		- 
