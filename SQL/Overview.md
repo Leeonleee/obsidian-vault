@@ -40,4 +40,23 @@ Software package designed to store and manage databases
 - Ensuring efficient use of the data
 ## Data Management Decisions
 - Performance users get, and the security of the whole system affects the way data is stored and the system configuration settings
-- 
+	- What helps one may be bad for others
+# Structure of Data
+- In DBMSs, the database stores <mark>descriptions of the format of the data</mark>
+	- This is called the "<mark>System Catalogue</mark>" or "<mark>Data Dictionary </mark>""
+- e.g. you can find that each employee has:
+	- Identifier: Integer
+	- Name: String up to 30 char
+	- Address: String up to 60 char
+	- Salary: Integer
+- This info is called metadata
+
+# Relational DBMSs
+- All data is seen by users as tables of related, uniformly structured information
+	- No duplicate rows, order not important
+	- Each entry is simple: integer, string, etc
+	- Matching values in different tables indicate connections
+
+| SuppID | SName | Phone |
+| ------ | ----- | ----- |
+| ------ | ----- |       | 
