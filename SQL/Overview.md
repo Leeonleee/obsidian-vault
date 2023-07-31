@@ -103,16 +103,33 @@ Software package designed to store and manage databases
 ## SQL Example
 ### Select-From-Where
 - Retrieves data (rows) from one or more tables of a relational database that fulfil a search condition
-- e.g.1 "What is SuppID and Phone of the supplier named Heinz?"
+e.g.1 "What is SuppID and Phone of the supplier named Heinz?"
 ```
 SELECT SuppID, Phone
 FROM Supplier
 WHERE SName='Heinz'
 ```
-- e.g.2 "How many products come from supplier whose SuppID is 8703?"
+e.g.2 "How many products come from supplier whose SuppID is 8703?"
 ```
 SELECT Count(*)
 FROM Product
 WHERE SuppID=8703
 ```
 - Can also connect data from several tables
+e.g. "Show the ProdID of any product which is supplied by Heinz"
+```
+SELECT ProdID
+FROM Supplier, Product
+WHERE Product.SuppID = Supplier.SuppID and Supplier.SName='Heinz'
+```
+## Declarative Query
+Considering the above query, which shows the ProdID of any product which is supplied by Heinz
+- There are many ways for the system to calculate the output for this
+	- Look through Product table row by row
+		- For each product take the SuppID, then find it in the Supplier table and check if SName is correct. If it is, output
+	- Look through Supplier table row by row
+		- Check SName, if it is correct, take the SuppID then go through Product table checking each row to see if the SuppID is there
+	- There are more possibilities
+- Given a user provided query, DBMS should find a computation that is correct and fast, then give the user the answer
+## Levels of Abstraction
+- Many views, single logical scheme and physical schema
