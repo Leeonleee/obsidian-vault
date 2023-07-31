@@ -204,4 +204,26 @@ Each vendor (Oracle, IBM, Microsoft etc) employ staff to help sell more installa
 - The information can be stored in files, which are accessed directly by programs that need to use the data
 ## File vs DBMS
 ### Drawbacks of using files
-- Data redundancy and inconsis
+- Data redundancy and inconsistency
+	- Multiple file formats, duplicate info in different files
+- Difficulty in accessing data
+	- Need to write new program to carry out each new task
+- No central authority
+	- Programmers may want different files and formats
+- Integrity problems
+	- constraints (e.g. account balance > 0) become part of program code
+	- Hard to add new constraints or change existing ones
+- Atomicity of updates
+	- Either all occur, or nothing occurs
+	- Failures may leave database in an inconsistent state with partial updates carried out
+	- e.g. transfer of funds from one account to another should either complete or not happen at all
+- Concurrent access by multiple users
+	- Needed for performance
+	- Uncontrolled concurrent accesses can lead to inconsistencies
+Database systems solve all these problems
+- But have lower performance for simple processing
+- Also cost money (licence fee for software, salaries for admins)
+- DBMSs are targeted at common types of information; they don't work well on specialised data
+## Relational Data Model
+- Good for representing typical organisational data
+- Not great for richer information (images, designs, time )
