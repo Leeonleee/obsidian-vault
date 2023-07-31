@@ -226,4 +226,4 @@ Database systems solve all these problems
 - DBMSs are targeted at common types of information; they don't work well on specialised data
 ## Relational Data Model
 - Good for representing typical organisational data
-- Not great for richer information (images, designs, time )
+- Not great for richer information (images, designs, time series, instructions, etc)
