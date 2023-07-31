@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures/Cheatsheet.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b3e5fe78fc3dd711",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "readme.md",
+                "file": "SQL/Overview.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "readme.md",
+                "file": "SQL/Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "readme.md",
+                "file": "SQL/Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "readme.md"
+                "file": "SQL/Overview.md"
               }
             }
           }
@@ -168,16 +155,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b3e5fe78fc3dd711",
+  "active": "b861c1b79e6f4476",
   "lastOpenFiles": [
+    "Data Structures/Cheatsheet.md",
+    "<.md",
+    "SQL/Overview.md",
+    "readme.md",
     "Templates/Data Structure Template.md",
     "Data Structures/Linked Lists.md",
-    "Data Structures/Cheatsheet.md",
     "Data Structures/Arrays.md",
-    "SQL/Overview.md",
     "Terminology.md",
     "SQL/Assessment.md",
-    "readme.md",
     "Agile",
     "SQL",
     "Models of Computation",

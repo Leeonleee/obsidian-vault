@@ -1,29 +1,34 @@
 # Table of Contents
-- [#SQL](Terminology)
+- [Data and DBMS](<#Data and DBMS>)
+- [Relational DBMSs](<#Relational DBMSs>)
+- [Careers and People](<# Careers and People>)
+- [Big Ideas](<# Big Ideas>)
+- [DBMS vs Others](<# DBMS vs Others>)
 
+# Data and DBMS
 
-# Terminology
-## Data
+## Terminology
+### Data
 Facts that can be recorded
 - Important for users
 - Persistent (unchanging)
-## Database
+### Database
 A collection of data
 - Usually large
 - Usually contains all data needed to operate an organisation
-## Database Management System (DBMS)
+### Database Management System (DBMS)
 Software package designed to store and manage databases
 - Allows shared access from many programs
-# Importance of Data
+## Importance of Data
 - Day to day operation of an organisation relies on accurate data
 - Long term planning in an organisation relies on accurate data
 - Data is a major asset for an organisation
-# Importance of a Database
+## Importance of a Database
 - It is an asset
 	- Historical data can guide enterprise strategy
 	- It's of interest to other enterprises
 - State of the database mirrors the state of the enterprise
-# How to Store and Use Data
+## How to Store and Use Data
 - Write many application programs which all use a shared collection of data, and that data is stored in a DBMS
 - In large organisations, the DBMS is usually commercial
 	- Oracle, MS SQLServer, IBM DB2, etc
@@ -33,19 +38,19 @@ Software package designed to store and manage databases
 - Users run application programs which access the data through the DBMS
 	- Programs get the DBMS to retrieve data and return it to the application
 	- Programs also can get the DBMS to update data based on user input
-# Managing the Data
+## Managing the Data
 - Typically, data management is divided to achieve the goals:
 	- High-level goals ("policy") set by organisational leaders
 	- Settings, processes, etc ("mechanisms") determined by technical people
-## Data Management Concerns
+### Data Management Concerns
 - Deciding what data to hold and remove
 - Ensuring accuracy of the data
 - Ensuring proper use of the data
 - Ensuring efficient use of the data
-## Data Management Decisions
+### Data Management Decisions
 - Performance users get, and the security of the whole system affects the way data is stored and the system configuration settings
 	- What helps one may be bad for others
-# Structure of Data
+## Structure of Data
 - In DBMSs, the database stores <mark>descriptions of the format of the data</mark>
 	- This is called the "<mark>System Catalogue</mark>" or "<mark>Data Dictionary </mark>"
 - e.g. you can find that each employee has:
@@ -147,7 +152,7 @@ Many views, single logical schema and physical schema
 - Physical data independence: Protection from changes in physical structure and location of data
 - One of the important benefits of using a DBMS
 
-# Career and People
+# Careers and People
 - End users
 - DB application programmers
 - Database administration (DBA)
@@ -196,3 +201,7 @@ Each vendor (Oracle, IBM, Microsoft etc) employ staff to help sell more installa
 - A system should offer administrators an interface to adjust parameters, choose structure, set permissions, etc
 # DBMS vs Others
 - You an have a database without a DBMS to store it
+- The information can be stored in files, which are accessed directly by programs that need to use the data
+## File vs DBMS
+### Drawbacks of using files
+- Data redundancy and inconsis
