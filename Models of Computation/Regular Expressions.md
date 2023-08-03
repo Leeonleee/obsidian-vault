@@ -28,7 +28,8 @@ An alphabet $\Sigma$ is a non-empty finite set chose elements are called symbols
 - $\Sigma=\lbrace 0,1,2,+,-,\div,\times,(,)\rbrace$: arithmetic expression alphabet for base 3
 - $\Sigma=$ ASCII characters
 ## String over $\Sigma$
-A finite sequence of symbols from $\Sigma$
+A finite sequence of symbols from $\Sigma$ 
+
 The set of all strings over $\Sigma$ is denoted as $\Sigma^*$ ('Sigma star')
 ### Examples
 - Python's `str` object
