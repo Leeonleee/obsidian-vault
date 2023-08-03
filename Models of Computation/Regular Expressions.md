@@ -1,5 +1,10 @@
 # Table of Contents
+- [Decision Problems](<# Decision Problems>)
 - [Terminology](<#Terminology>)
+
+
+# Decision Problems
+A decision problem only allows Yes (1) or No (0) outputs
 
 # Terminology
 ## Alphabet
@@ -43,6 +48,16 @@ A set $L\subseteq \Sigma^*$ of strings is called a *language over $\Sigma$*
 The empty set $\emptyset$, also written {} is a language with no elements in it
 - However, the set $\{\epsilon\}$ is a language with one element in it, the empty string
 - The languages $\{0,1\}$ and $\{1,0\}$ are equal, but the strings $01$ and $10$ are not
-
-
+### Problems and Languages
+Every decision problem on strings can be viewed as a language
+- A set of strings for which the answer is "Yes"
+Decision problem:
+```
+Input: string P
+Output: "Yes" if P is a legal Python program, and "No" otherwise
+```
+has a corresponding language:
+$$
+L_{\text{Python}}=\{P|P\text{ is a legal Python program}\}
+$$
 
