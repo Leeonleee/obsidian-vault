@@ -87,3 +87,5 @@ $$A\cup B=\lbrace x\in\Sigma^*:x\in A\text{ or }x\in B\rbrace$$
 
 ### $A\cap B$
 - The language of strings that are in both $A$ and $B$
+$$A\cap B=\lbrace x\in \Sigma^*:x\in A\text{ and }x\in B\rbrace$$
+### $A
