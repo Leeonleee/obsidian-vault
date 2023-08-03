@@ -83,9 +83,21 @@ The new languages will also be over $\Sigma$
 
 ### $A\cup B$
 - The language of strings that are in $A$ or $B$ or both
-$$A\cup B=\lbrace x\in\Sigma^*:x\in A\text{ or }x\in B\rbrace$$
+$$A\cup B=\lbrace x\in\Sigma^*:x\in A,x\in B\rbrace$$
 
 ### $A\cap B$
 - The language of strings that are in both $A$ and $B$
-$$A\cap B=\lbrace x\in \Sigma^*:x\in A\text{ and }x\in B\rbrace$$
-### $A
+$$A\cap B=\lbrace x\in \Sigma^*:x\in A,x\in B\rbrace$$
+
+### $A\backslash B$
+- The language of strings that are in $A$ but not $B$
+$$A\backslash B=\lbrace x\in \Sigma^*:x\in A,x\notin B\rbrace$$
+
+### $AB$
+- Read "$A$ concatenate $B$ " or "$A$ cat $B$ "
+- The language of strings formed by concatenating a string from $A$ with a string from $B$
+$$AB=\lbrace xy\in \Sigma^*:x\in A,y\in B\rbrace$$
+
+- Exponential notation $A^k$ means to concatenate $A$ with itself $k$ times
+	- For $k\in\mathbb{Z}^+$, define $A^k$ to be $\overbrace{your-formula}^\text{your comment}$
+	- 
