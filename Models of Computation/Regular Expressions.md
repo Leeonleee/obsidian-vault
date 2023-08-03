@@ -3,6 +3,8 @@
 - [Decision Problems](<# Decision Problems>)
 - [Terminology](<#Terminology>)
 - [Summary](<#Summary>)
+- [Syntax](#Syntax)
+- [Semantics](#Semantics)
 
 # Three Abstractions
 Computational problem:  
@@ -140,5 +142,18 @@ Let $\Sigma=\lbrace a,b,c\rbrace$
 - $(a|\emptyset)$
 - $(a\epsilon)$
 - $(b^*)$
-- $(())$
+- $((a^*|b^*)(ac))^*$
+
+## Notation
+You can drop the outermost brackets to improve readability
+- $a|\emptyset$ instead of $(a|\emptyset)$
+- $ab^*$ instead of $(ab^*)$, which is NOT $(ab)^*$
+
+# Semantics
+A string *matches* a regular expressions according to these rules:
+1. No string matches the regex $\emptyset$
+2. Only the empty string matches the regex $\epsilon$
+3. 
+
+
 
