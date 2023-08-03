@@ -112,6 +112,7 @@ $$A^*=\lbrace x_1x_2\cdots x_k\in\Sigma^*:k\geq0,\text{ each }x_i\in A\rbrace$$
 
 Also written as 
 $$A^*=\bigcup_{n\in\mathbb{Z}^+_0}A^n$$
+
 $$=A^0\cup A^1\cup A^2\cup A^3\cup\dots$$
 
 We define $A^+$ ("A plus") to be $A^1\cup A^2\cup A^3\cup\dots$
@@ -147,7 +148,6 @@ Let $\Sigma=\lbrace a,b,c\rbrace$
 ## Notation
 You can drop the outermost brackets to improve readability
 - $a|\emptyset$ instead of $(a|\emptyset)$  
-
 - $ab^*$ instead of $(ab^*)$, which is NOT $(ab)^*$
 
 # Semantics
