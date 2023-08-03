@@ -10,8 +10,8 @@ A decision problem only allows Yes (1) or No (0) outputs
 ## Alphabet
 An alphabet $\Sigma$ is a non-empty finite set chose elements are called symbols
 ### Examples
-- $\Sigma = \\{0,1\\}$ : binary alphabet
-- $\Sigma = \{a,b,c,\dots,z\}$: lower-case English alphabet
+- $\Sigma = \lbrace0,1\rbrace$ : binary alphabet
+- $\Sigma = \lbrace a,b,c,\dots,z\rbrace$: lower-case English alphabet
 - $\Sigma=\{0,1,2,+,-,\div,\times,(,)\}$: arithmetic expression alphabet for base 3
 - $\Sigma=$ ASCII characters
 ## String over $\Sigma$
