@@ -7,9 +7,11 @@
 Computational problem:  
 - defines a computational task
 - specifies what the input is, and what the output should be
+
 Algorithm:
 - step by step instructions to go from input to output
 - different from implementation
+
 Correctness and complexity analysis:
 - A formal proof that the algorithm solves the problem
 - Establish bounds on the resources it uses
