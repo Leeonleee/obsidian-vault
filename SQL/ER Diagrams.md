@@ -2,3 +2,48 @@
 - [Graphical Notation for Relational Schema](<# Graphical Notation for Relational Schema>)
 
 # Graphical Notation for Relational Schema
+For each table: TableName, open bracket, columns names in order each with type separated by comma, closing bracket
+```
+Supplier(SuppID: int, SName: string, Phone: string);
+Product(ProdID: int, Descr: string, SuppID: int);
+```
+
+- Sometimes you can leave out the data type information (implicit)
+## Constraints
+- Show a column that is unique among rows of a table by underlining the column name
+	- Can serve as an identifier
+	- Called the *primary key* of the table
+- Other tables can include this identifier as a column to make connections to the given table
+e.g. Product(<u>ProdID</u>: int, Descr: string, SuppID: int)
+- ProdID is the identifier column for Product table
+## Relational Schema Diagrams
+- Can include types or leave them out
+- Can list column information horizontally or vertically
+- Underline primary key (identifier)
+- Show an arrow from the referring column/table it the one where the values are found as identifier
+## Composite Primary Key
+- In some tables, no single column can serve as identifier because repeat values are possible
+- A combination of columns may be suitable
+	- Not allowed for 2 rows to match values in every one of the columns involved
+- A combination of columns makes a composite primary key
+	- Shown in schema/diagram by underlining all column names involved
+e.g. SupplierCountryOffice(<u>SuppID</u>, <u>CountryCode</u>, StreetAddress, Postcode)
+
+| SuppID | CountryCode | StreetAddress                   | Postcode |
+| ------ | ----------- | ------------------------------- | -------- |
+| 8703   | AUS         | 271 George Street, Sydney       | 2000     |
+| 8703   | USA         | 56 Fifth Avenue, New York       | 10001    |
+| 8731   | AUS         | 300 Elizabeth Street, Melbourne | 3000     |
+| 8731   | NZL         | 21 Queen Street, Auckland       | 0600     |
+| 8731   | USA         | 401 Broadway, New York          | 10001    |
+| 9031   | KOR         | 40 Dongdaemun Plaza, Seoul      | 01000    |
+- This ensures that no 2 rows have the same SuppID and the same CountryCode so (SuppID, CountryCode) can be a composite primary key
+## Data Model
+2 meanings
+1. A model of the structure of a database
+	- Schema for that database
+2. The modelling approach that is used for the schema
+	- relational model, document model, etc
+
+
+
