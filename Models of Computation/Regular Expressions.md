@@ -166,6 +166,14 @@ Recursive procedures are used for defining many objects and properties
 - Precise, unambiguous
 - Can be implemented as is as a recursive algorithm
 
-
-
-
+# Notation
+- The set of all strings that match a regex $R$ is written $L(R)$, and is called
+	- The *language specified* by $R$, 
+	- The *language represented* by $R$, or
+	- The *language of* $R$
+- We can drop brackets for associative operations
+	- $(R_1|R_2|R_3)$ instead of $((R_1|R_2)R_3)$
+	- $(R_1|R_2|R_3)$ instead of $((R_1R_2)R_3)$
+- If $A=\lbrace{a,b,c}\rbrace$, we can write $A$ instead of $(a|b|c)$
+	- e.g. $A^*$ instead of $(a|b|c)^*$
+	- We can do this for any finite set $A$ of strings
