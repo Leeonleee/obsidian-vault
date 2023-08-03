@@ -57,7 +57,5 @@ Input: string P
 Output: "Yes" if P is a legal Python program, and "No" otherwise
 ```
 has a corresponding language:
-$$
-L_{\text{Python}}=\{P|P\text{ is a legal Python program}\}
-$$
+$$L_{\text{Python}}=\{P|P\text{ is a legal Python program}\}$$
 
