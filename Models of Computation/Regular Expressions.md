@@ -99,5 +99,14 @@ $$A\backslash B=\lbrace x\in \Sigma^*:x\in A,x\notin B\rbrace$$
 $$AB=\lbrace xy\in \Sigma^*:x\in A,y\in B\rbrace$$
 
 - Exponential notation $A^k$ means to concatenate $A$ with itself $k$ times
-	- For $k\in\mathbb{Z}^+$, define $A^k$ to be $\overbrace{your-formula}^\text{your comment}$
-	- 
+	- For $k\in\mathbb{Z}^+$, define $A^k$ to be $\overbrace{AA\cdots A}^\text{k}$
+	- $A^0=\lbrace\epsilon\rbrace$
+	- $A^{n+m}=A^nA^m$ (even if $n$ or $m$ is zero)
+
+### $A^*$
+- The language of strings that includes the empty string and all strings of the form $x_1x_2\cdots x_k$ where $k\geq 1$ and each $x_i\in A$
+$$A^*=\lbrace x_1x_2\cdots x_k\in\Sigma^*:k\geq0,\text{ each }x_i\in A\rbrace$$
+
+Also written as 
+$$A^*=\bigcup_{n\in\mathbb{Z}^+_0}A^n$$
+$$=A$$
