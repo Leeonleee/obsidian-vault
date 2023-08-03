@@ -147,6 +147,7 @@ Let $\Sigma=\lbrace a,b,c\rbrace$
 ## Notation
 You can drop the outermost brackets to improve readability
 - $a|\emptyset$ instead of $(a|\emptyset)$  
+
 - $ab^*$ instead of $(ab^*)$, which is NOT $(ab)^*$
 
 # Semantics
