@@ -139,14 +139,14 @@ Let $\Sigma$ be an alphabet
 	5. If $R$ is a regular expression, then so is $R^*$
 ## Examples
 Let $\Sigma=\lbrace a,b,c\rbrace$  
-- $(a|\emptyset)$
-- $(a\epsilon)$
-- $(b^*)$
+- $(a|\emptyset)$ 
+- $(a\epsilon)$ 
+- $(b^*)$ 
 - $((a^*|b^*)(ac))^*$
 
 ## Notation
 You can drop the outermost brackets to improve readability
-- $a|\emptyset$ instead of $(a|\emptyset)$
+- $a|\emptyset$ instead of $(a|\emptyset)$  
 - $ab^*$ instead of $(ab^*)$, which is NOT $(ab)^*$
 
 # Semantics
