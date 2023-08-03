@@ -2,6 +2,7 @@
 - [Three Abstractions](<# Three Abstractions>)
 - [Decision Problems](<# Decision Problems>)
 - [Terminology](<#Terminology>)
+- [Regular Expressions Summary](<# Regular Expressions Summary>)
 
 # Three Abstractions
 Computational problem:  
@@ -109,4 +110,16 @@ $$A^*=\lbrace x_1x_2\cdots x_k\in\Sigma^*:k\geq0,\text{ each }x_i\in A\rbrace$$
 
 Also written as 
 $$A^*=\bigcup_{n\in\mathbb{Z}^+_0}A^n$$
-$$=A$$
+$$=A^0\cup A^1\cup A^2\cup A^3\cup\dots$$
+
+We define $A^+$ ("A plus") to be $A^1\cup A^2\cup A^3\cup\dots$
+
+# Regular Expressions Summary
+1. Expressions that describe "simple" languages
+2. Extremely useful
+	- Text processing, e.g. pattern matching
+	- In Natural Language Processing as features in (machine learning) classifiers
+	- Scanners (aka Lexical analysers, Tokenisers)
+	- Specification of data formats
+	- Foundations of query languages for graph databases
+3. Based o
