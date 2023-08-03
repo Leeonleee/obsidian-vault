@@ -2,6 +2,10 @@
 
 This repository contains my personal study notes on various topics related to my academic pursuits. The purpose of these notes is to aid in my own learning process, but I have made them available publicly in the hope that they may be helpful to others as well.
 
+## Disclaimer
+- The formatting and LaTeX symbols may not render correctly on Github or may have incorrect formatting
+- For the best viewing experience, clone this repository and view in Obsidian
+
 ## Table of Contents
 
 -   [Data Structures](obsidian://open?vault=obsidian-vault&file=Data%20Structures%2FArrays)

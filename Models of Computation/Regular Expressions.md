@@ -154,7 +154,8 @@ You can drop the outermost brackets to improve readability
 A string *matches* a regular expressions according to these rules:
 1. No string matches the regex $\emptyset$
 2. Only the empty string matches the regex $\epsilon$
-3. 
+3. For alphabet symbol $a\in\Sigma$, only the string $a$ matches the regex $a$
+4. 
 
 
 
