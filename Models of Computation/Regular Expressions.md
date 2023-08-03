@@ -1,7 +1,18 @@
 # Table of Contents
+- [Three Abstractions](<# Three Abstractions>)
 - [Decision Problems](<# Decision Problems>)
 - [Terminology](<#Terminology>)
 
+# Three Abstractions
+Computational problem:  
+- defines a computational task
+- specifies what the input is, and what the output should be
+Algorithm:
+- step by step instructions to go from input to output
+- different from implementation
+Correctness and complexity analysis:
+- A formal proof that the algorithm solves the problem
+- Establish bounds on the resources it uses
 
 # Decision Problems
 A decision problem only allows Yes (1) or No (0) outputs
@@ -72,3 +83,5 @@ The new languages will also be over $\Sigma$
 - The language of strings that are in $A$ or $B$ or both
 $$A\cup B=\lbrace x\in\Sigma^*:x\in A\text{ or }x\in B\rbrace$$
 
+### $A\cap B$
+- The language of strings that are in both $A$ and $B$
