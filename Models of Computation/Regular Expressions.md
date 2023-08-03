@@ -28,5 +28,14 @@ The concatenation of string $u,v$ is the string $uv$
 - Formed by appending $v$ to the end of $u$
 ### Examples
 - `u+v` in Python
-- $u=010,
+- $u=010,v=01,uv=01001$
+- Concatenating empty string does not change the word
+- Exponential notation $w^k$ means "concatenate $w$ with itself $k$ times"
+## Language over $\Sigma$
+A set $L\subseteq \Sigma^*$ of strings is called a *language over $\Sigma$*
+### Examples
+- $L=$ the set of all strings representing legal Python programs
+- $L=$ the set of all binary strings representing prime numbers
+
+
 
