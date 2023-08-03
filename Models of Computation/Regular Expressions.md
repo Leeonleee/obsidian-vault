@@ -12,7 +12,7 @@ An alphabet $\Sigma$ is a non-empty finite set chose elements are called symbols
 ### Examples
 - $\Sigma = \lbrace0,1\rbrace$ : binary alphabet
 - $\Sigma = \lbrace a,b,c,\dots,z\rbrace$: lower-case English alphabet
-- $\Sigma=\{0,1,2,+,-,\div,\times,(,)\}$: arithmetic expression alphabet for base 3
+- $\Sigma=\lbrace 0,1,2,+,-,\div,\times,(,)\rbrace$: arithmetic expression alphabet for base 3
 - $\Sigma=$ ASCII characters
 ## String over $\Sigma$
 A finite sequence of symbols from $\Sigma$
@@ -46,8 +46,8 @@ A set $L\subseteq \Sigma^*$ of strings is called a *language over $\Sigma$*
 - $L=$ the set of all English sentences (in a given book)
 ### Note
 The empty set $\emptyset$, also written {} is a language with no elements in it
-- However, the set $\{\epsilon\}$ is a language with one element in it, the empty string
-- The languages $\{0,1\}$ and $\{1,0\}$ are equal, but the strings $01$ and $10$ are not
+- However, the set $\lbrace\epsilon\rbrace$ is a language with one element in it, the empty string
+- The languages $\lbrace0,1\rbrace$ and $\lbrace1,0\rbrace$ are equal, but the strings $01$ and $10$ are not
 ### Problems and Languages
 Every decision problem on strings can be viewed as a language
 - A set of strings for which the answer is "Yes"
@@ -57,5 +57,5 @@ Input: string P
 Output: "Yes" if P is a legal Python program, and "No" otherwise
 ```
 has a corresponding language:
-$L_{\text{Python}}=\{P|P\text{ is a legal Python program}\}$
+$$L_{\text{Python}}=\lbrace P|P\text{ is a legal Python program}\rbrace$$
 
