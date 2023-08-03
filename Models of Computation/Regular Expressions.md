@@ -56,12 +56,10 @@ Decision problem:
 
 Input: string P
 Output: "Yes" if P is a legal Python program, and "No" otherwise
-$$
-\begin{flalign}
-\text{Input: string }P\\
-\text{Output: "Yes" if P is a legal Python program, and "No" otherwise}
-\end{flalign}
-$$
+$$\begin{align}
+&\text{Input: string }P\\
+&\text{Output: "Yes" if P is a legal Python program, and "No" otherwise}
+\end{align}$$
 
 has a corresponding language:
 L_{\text{Python}}=\lbrace P|P\text{ is a legal Python program}\rbrace$$
