@@ -177,3 +177,13 @@ Recursive procedures are used for defining many objects and properties
 - If $A=\lbrace{a,b,c}\rbrace$, we can write $A$ instead of $(a|b|c)$
 	- e.g. $A^*$ instead of $(a|b|c)^*$
 	- We can do this for any finite set $A$ of strings
+***
+- $\emptyset$ : symbol used in regexes and the empty set of strings
+- $\epsilon$ : symbol used in regexes and a string
+- $a\in\Sigma$ : symbol used in regexes, an alphabet symbol and a string of length 1
+- * : symbol used in regexes, and an operation on sets of strings
+
+Some places uses $+$ or $\cup$ instead of $|$
+
+# Languages that are specified using regexes
+- Regexes can be used to specify keywords and identifiers in p
