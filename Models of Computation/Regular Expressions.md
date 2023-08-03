@@ -180,7 +180,13 @@ Recursive procedures are used for defining many objects and properties
 	- We can do this for any finite set $A$ of strings
 ## Recursive definition of $L(R)$
 Let $\Sigma$ be an alphabet 
-The language $L(R)$ of a regex $R$ is defined by the following recursive proce
+The language $L(R)$ of a regex $R$ is defined by the following recursive procedure:
+1. $L(\emptyset)=\lbrace\rbrace$ and $L(\epsilon)=\lbrace\epsilon\rbrace$
+2. $L(a)=\lbrace a\rbrace$ for $a\in\Sigma$
+3. $L(R_1|R_2)=L(R_1)\cup L(R_2)$
+4. $L(R_1R_2)=L(R_1)L(R_2)$
+5. $L(R^*)=L(R)^*$
+
 ***
 - $\emptyset$ : symbol used in regexes and the empty set of strings
 - $\epsilon$ : symbol used in regexes and a string
