@@ -69,3 +69,7 @@ Let $A,B$ be languages over $\Sigma$
 The new languages will also be over $\Sigma$
 
 ### $A\cup B$
+- The language of strings that are in $A$ or $B$ or both
+
+$$A\cup B=\lbrace x\in\Sigma^*:x\in A\text{ or }x\in B\rbrace$$
+
