@@ -52,17 +52,10 @@ The empty set $\emptyset$, also written {} is a language with no elements in it
 Every decision problem on strings can be viewed as a language
 - A set of strings for which the answer is "Yes"
 Decision problem:
-
-
-Input: string P
-Output: "Yes" if P is a legal Python program, and "No" otherwise
-$$\begin{align}
-&\text{Input: string }P\\
-&\text{Output: "Yes" if P is a legal Python program, and "No" otherwise}
-\end{align}$$
+$$\begin{align}&\text{Input: string }P\\&\text{Output: "Yes" if P is a legal Python program, and "No" otherwise}\end{align}$$
 
 has a corresponding language:
-L_{\text{Python}}=\lbrace P|P\text{ is a legal Python program}\rbrace$$
+$$L_{\text{Python}}=\lbrace P|P\text{ is a legal Python program}\rbrace$$
 
 The generic problem is parameterised by a language $L$, called the *membership problem in* $L$
 ```
