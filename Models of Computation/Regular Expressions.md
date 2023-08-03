@@ -5,6 +5,7 @@
 - [Summary](<#Summary>)
 - [Syntax](#Syntax)
 - [Semantics](#Semantics)
+- [Recursion](#Recursion)
 
 # Three Abstractions
 Computational problem:  
@@ -155,7 +156,16 @@ A string *matches* a regular expressions according to these rules:
 1. No string matches the regex $\emptyset$
 2. Only the empty string matches the regex $\epsilon$
 3. For alphabet symbol $a\in\Sigma$, only the string $a$ matches the regex $a$
-4. 
+4. A string $x$ matches $(R_1|R_2)$ means $x$ matches $R_1$ or $x$ matches $R_2$
+5. A string $x$ matches $(R_1R_2)$ means $x$ can be written as $x=u_1u_2$ where $u_1,u_2$ are strings, and $u_1$ matches $R_1$ and $u_2$ matches $R_2$
+6. A string $x$ matches $R^*$ means either $x$ is the empty string, or it can be written as $x=u_1u_2\cdots u_k$ (for $k\ge 1$) where each $u_i$ is a string that matches $R$
+- These rules are recursive
+
+# Recursion
+Recursive procedures are used for defining many objects and properties
+- Precise, unambiguous
+- Can be implemented as is as a recursive algorithm
+
 
 
 
