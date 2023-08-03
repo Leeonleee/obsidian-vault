@@ -36,6 +36,13 @@ A set $L\subseteq \Sigma^*$ of strings is called a *language over $\Sigma$*
 ### Examples
 - $L=$ the set of all strings representing legal Python programs
 - $L=$ the set of all binary strings representing prime numbers
+- $L=$ the set of all true statements about arithmetic
+- $L=$ the set of all English words (in a given dictionary)
+- $L=$ the set of all English sentences (in a given book)
+### Note
+The empty set $\emptyset$, also written {} is a language with no elements in it
+- However, the set $\{\epsilon\}$ is a language with one element in it, the empty string
+- The languages $\{0,1\}$ and $\{1,0\}$ are equal, but the strings $01$ and $10$ are not
 
 
 
