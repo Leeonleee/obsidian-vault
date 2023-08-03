@@ -65,7 +65,7 @@ The generic problem is parameterised by a language $L$, called the *membership p
 ## Operations
 - Ways to form new languages from old ones
 
-Let $A,B$ be languages over $\Sigma$
+Let $A,B$ be languages over $\Sigma$  
 The new languages will also be over $\Sigma$
 
 ### $A\cup B$
