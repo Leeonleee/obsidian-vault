@@ -2,7 +2,7 @@
 - [Three Abstractions](<# Three Abstractions>)
 - [Decision Problems](<# Decision Problems>)
 - [Terminology](<#Terminology>)
-- [Regular Expressions Summary](<# Regular Expressions Summary>)
+- [Summary](<#Summary>)
 
 # Three Abstractions
 Computational problem:  
@@ -114,7 +114,7 @@ $$=A^0\cup A^1\cup A^2\cup A^3\cup\dots$$
 
 We define $A^+$ ("A plus") to be $A^1\cup A^2\cup A^3\cup\dots$
 
-# Regular Expressions Summary
+# Summary
 1. Expressions that describe "simple" languages
 2. Extremely useful
 	- Text processing, e.g. pattern matching
@@ -122,4 +122,23 @@ We define $A^+$ ("A plus") to be $A^1\cup A^2\cup A^3\cup\dots$
 	- Scanners (aka Lexical analysers, Tokenisers)
 	- Specification of data formats
 	- Foundations of query languages for graph databases
-3. Based o
+3. Based on 3 language operations
+	1. Union
+	2. Cat
+	3. Star
+
+# Syntax
+Let $\Sigma$ be an alphabet
+- The *regular expressions over* $\Sigma$ are strings defined by the following recursive process
+	1. The symbols $\emptyset$ and $\epsilon$ are regular expressions
+	2. Each symbol $a$ from $\Sigma$ is a regular expression
+	3. If $R_1,R_2$ are regular expressions, then so is $(R_1|R_2)$
+	4. If $R_1,R_2$ are regular expressions, then so is $(R_1R_2)$
+	5. If $R$ is a regular expression, then so is $R^*$
+## Examples
+Let $\Sigma=\lbrace a,b,c\rbrace$  
+- $(a|\emptyset)$
+- $(a\epsilon)$
+- $(b^*)$
+- $(())$
+
