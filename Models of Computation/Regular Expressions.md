@@ -10,7 +10,7 @@ A decision problem only allows Yes (1) or No (0) outputs
 ## Alphabet
 An alphabet $\Sigma$ is a non-empty finite set chose elements are called symbols
 ### Examples
-- $\Sigma = \{0,1\}$ : binary alphabet
+- $\Sigma = \\{0,1\\}$ : binary alphabet
 - $\Sigma = \{a,b,c,\dots,z\}$: lower-case English alphabet
 - $\Sigma=\{0,1,2,+,-,\div,\times,(,)\}$: arithmetic expression alphabet for base 3
 - $\Sigma=$ ASCII characters
@@ -57,5 +57,5 @@ Input: string P
 Output: "Yes" if P is a legal Python program, and "No" otherwise
 ```
 has a corresponding language:
-$$L_{\text{Python}}=\{P|P\text{ is a legal Python program}\}$$
+$L_{\text{Python}}=\{P|P\text{ is a legal Python program}\}$
 
