@@ -155,10 +155,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "56b6f0868eec3789",
+  "active": "b861c1b79e6f4476",
   "lastOpenFiles": [
-    "readme.md",
+    "Models of Computation/Context-free Grammars.md",
     "Models of Computation/Regular Expressions.md",
+    "readme.md",
     "$Syntax.md",
     "SQL/Overview.md",
     "SQL/ER Diagrams.md",
@@ -191,7 +192,6 @@
     "Templates",
     "Algorithms/Sorting/Bubble Sort.md",
     "Algorithms/Sorting",
-    "Algorithms",
-    "Data.md"
+    "Algorithms"
   ]
 }

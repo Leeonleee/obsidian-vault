@@ -6,6 +6,7 @@
 - [Syntax](#Syntax)
 - [Semantics](#Semantics)
 - [Recursion](#Recursion)
+- [Languages that are specified using regexes](<# Languages that are specified using regexes>)
 
 # Three Abstractions
 Computational problem:  
@@ -177,6 +178,9 @@ Recursive procedures are used for defining many objects and properties
 - If $A=\lbrace{a,b,c}\rbrace$, we can write $A$ instead of $(a|b|c)$
 	- e.g. $A^*$ instead of $(a|b|c)^*$
 	- We can do this for any finite set $A$ of strings
+## Recursive definition of $L(R)$
+Let $\Sigma$ be an alphabet 
+The language $L(R)$ of a regex $R$ is defined by the following recursive proce
 ***
 - $\emptyset$ : symbol used in regexes and the empty set of strings
 - $\epsilon$ : symbol used in regexes and a string
@@ -186,4 +190,8 @@ Recursive procedures are used for defining many objects and properties
 Some places uses $+$ or $\cup$ instead of $|$
 
 # Languages that are specified using regexes
-- Regexes can be used to specify keywords and identifiers in p
+Regexes can be used to specify keywords and identifiers in programming languages
+- Set of identifiers in Python
+- Signed and unsigned integers
+- Hexadecimal numbers prefixed with '0x'
+For specifier expressions and statements, we will need a more powerful model ([context-free grammars](<Context-free Grammars>))
