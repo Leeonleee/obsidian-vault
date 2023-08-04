@@ -121,4 +121,15 @@ Possible values of an attribute
 - Lines connect the involved entity types to the relationship type
 
 ### WARNINGS
-- A relationship in an ER conceptual model is NOT a relation
+- A relationship in an ER conceptual model is **NOT** a relation in the relational model (which is a set of tuples)
+	- The info about a relationship and entity type may be captured in a relation in a relational schema
+## Relationship Attributes & Roles
+- **Relationship-Attribute:** relationships can have additional properties
+	- e.g. John enrols in ISYS2120 as an elective
+		- John and ISYS2120 are related
+			- Elective is the value of the degree_role attribute for this relationship
+		- Jane enrolles in ISYS2120 as a core unit
+		- EnrolledIn relationship type has a degree_role attribute
+- **Relationship-Role:** each participating entity can be named with an explicit role
+	- e.g. John is a value of Student role, ISYS2120 is a value of Subject
+		- You can use the name of the Entity type as the role name
