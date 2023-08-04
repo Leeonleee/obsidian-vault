@@ -82,4 +82,19 @@ e.g. SupplierCountryOffice(<u>SuppID</u>, <u>CountryCode</u>, StreetAddress, Pos
 	- represented by an *ellipse* that is connected to the entity type rectangle
 ### Entity Type
 - Described by a set of attributes
-	- e.g. Person 
+	- e.g. Person has ID, Name, Address, Hobbies
+#### Domain
+Possible values of an attribute
+- Unlike relational model, values can be complex/set-oriented
+- *Simple* and *composite* attributes
+	- A composite attribute is where the value for an entity has distinct parts
+	- e.g. Address has parts: housenumber, streetname, suburb
+- *Single-valued* and *multi-valued* attributes
+	- A multivalued attribute is where an entity might have more than one value associated to it
+	- e.g. a person might have several hobbies
+#### Primary Key
+- The primary key (PK) for an entity type is an attribute/combination of attributes that uniquely identifies an entity
+	- Every entity in the set has a different value for that attribute
+	- Depicted by underlining that attribute
+- There may be more than one attribute that distinguishes the entities
+	- Any attribute that d
