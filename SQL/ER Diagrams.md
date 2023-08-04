@@ -64,4 +64,22 @@ e.g. SupplierCountryOffice(<u>SuppID</u>, <u>CountryCode</u>, StreetAddress, Pos
 # Entity Relationship Model
 - Data model for conceptual database design
 	- High-level graphical representation of what data needs to be contained in the system
-- Data modeling approach that 
+- Data modelling approach that depicts the association among different categories of data within a business/information system
+	- What are the *entities* and *relationships* in the enterprise?
+	- What info about these entities and relationships should we store?
+	- What integrity constraints/business rules are there?
+- A database schema is represented by ER diagrams
+- It is about what data needs to be stored
+	- does *not* tell how data is implemented, created, modified, used or deleted
+
+## Entities
+- **Entity:** a person, place, object, event or concept about which you want to gather and store data
+- **Entity Type (aka Entity Set):** a collection of entities that share common properties or characteristics
+	- e.g. students, courses, accounts
+	- represented by a *rectangle*
+- **Attribute:** describes one aspect of an entity type
+	- e.g. people have *names* and *addresses*
+	- represented by an *ellipse* that is connected to the entity type rectangle
+### Entity Type
+- Described by a set of attributes
+	- e.g. Person 
