@@ -113,4 +113,12 @@ Possible values of an attribute
 		- *"is enrolled in"* is a relationship between Student and Subject
 		- degree is 2
 - **Relationship Type (aka Relationship Set):** is a set of similar relationships (entities are from the same type)
-	- e.g. Student (entity type) related to Subject (entity type) by EnrolledIn()
+	- e.g. Student (entity type) related to Subject (entity type) by EnrolledIn(relationship type)
+		- EnrolledIn relationship type involves 2 entity types, so its a binary relationship type
+### ER Diagram
+- **Relationship Type:** diamond
+	- Labelled with the name of the relationship
+- Lines connect the involved entity types to the relationship type
+
+### WARNINGS
+- A relationship in an ER conceptual model is NOT a relation
