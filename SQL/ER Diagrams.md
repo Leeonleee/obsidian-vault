@@ -143,4 +143,9 @@ Possible values of an attribute
 	- Role label is often omitted when same as entity name
 ## Relationship Degree
 - **Degree:** number of entity types involved
-- 
+	- Unary relationship (recursive)
+	- Binary relationship (most common type)
+	- Ternary relationship (3 entity types involved)
+## Multiplicity of a Relationship
+- **Many-to-many Relationship:** the number of instances of the other entity set to which one instance is connected to is unrestricted
+- **Many
