@@ -148,4 +148,10 @@ Possible values of an attribute
 	- Ternary relationship (3 entity types involved)
 ## Multiplicity of a Relationship
 - **Many-to-many Relationship:** the number of instances of the other entity set to which one instance is connected to is unrestricted
-- **Many
+- **Many-to-one Relationship:** the number of instances of one entity set to which one instance of the other entity set is connected to can be many, but each instance in the first entity set can only be connected to one instance in the second entity set
+	- **Many to one from A to B:** each A is related to at most 1 of B
+	- **Many B to one A:** One A to many B, or One-to-many from A to B
+- **Total participation:** Every entity in one entity set must participate in at least one instance of a relationship
+	- e.g. every Employee must be in exactly one Department
+		- Some departments can be empty
+
