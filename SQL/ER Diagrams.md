@@ -97,4 +97,20 @@ Possible values of an attribute
 	- Every entity in the set has a different value for that attribute
 	- Depicted by underlining that attribute
 - There may be more than one attribute that distinguishes the entities
-	- Any attribute that d
+	- Any attribute that does this is called a **key**
+- **Entity Schema:** entity type name, attributes (+domains), PK
+## Entity Types and Attributes in ER Diagram
+### Symbols
+- **Entity Type:** rectangle
+- **Attribute:** ellipse
+	- **Multi-valued Attribute:** double ellipse
+	- **Keys:** underlined
+	- High-level description may leave out attributes or show them elsewhere
+## Relationships
+- Related or connects 2 or more entities (often from different entity types)
+	- **Degree:** number of entities in the relationship
+	- e.g. John *is enrolled in* ISYS2120
+		- *"is enrolled in"* is a relationship between Student and Subject
+		- degree is 2
+- **Relationship Type (aka Relationship Set):** is a set of similar relationships (entities are from the same type)
+	- e.g. Student (entity type) related to Subject (entity type) by EnrolledIn()
