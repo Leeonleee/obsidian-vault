@@ -155,3 +155,13 @@ Possible values of an attribute
 	- e.g. every Employee must be in exactly one Department
 		- Some departments can be empty
 
+### Constraints on the Diagram
+- If, for a particular entity type, each entity participates in *at most one* relationship instance, the corresponding role is a *key of the relationship type*
+	- e.g. a Subject instance is in at most one WhereExamHeld relationship instance
+		- There is at most one room where the subject has an exam
+		- There may be many subjects who have exam in a particular room
+		- Many-to-one or N:1 relationship from Subject to Room
+	- ER Diagram Representation:
+		- Arrow from the key side rectangle to the relationship diamond
+		- Many-to-many or one-to-many has no constraint, so no arrow
+- If every entity participates in exactly one relationship, both
