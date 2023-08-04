@@ -175,4 +175,16 @@ Possible values of an attribute
 		- Annotate edge between an entity type E and relationship R with min...max
 		- If no maximum cardinality is specified, use * as max number
 
-
+## Weak Entities
+- **Weak entity type:** an entity type that has no primary key among its attributes
+	- Instances need more than the attributes of the entity to distinguish them
+- Distinguished in part by which entity of another type they are in a total M:1 relationship with
+	- This is the *identifying relationship*
+	- Other type is called *identifying entity type*
+	- aka *owning relationship and owning type*
+- Among instances related to a particular instance of the identifying type, we can distinguish them by an attribute or combination of attributes
+	- Called the *discriminator
+	- e.g. *dependent* from staff_member, *payment* of a loan
+### ER Diagram Representation
+- **Weak entity type:** double rectangles
+- 
