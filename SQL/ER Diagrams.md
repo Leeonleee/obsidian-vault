@@ -156,12 +156,23 @@ Possible values of an attribute
 		- Some departments can be empty
 
 ### Constraints on the Diagram
-- If, for a particular entity type, each entity participates in *at most one* relationship instance, the corresponding role is a *key of the relationship type*
+- **Participation Constraint:** if, for a particular entity type, each entity participates in *at most one* relationship instance, the corresponding role is a *key of the relationship type*
 	- e.g. a Subject instance is in at most one WhereExamHeld relationship instance
 		- There is at most one room where the subject has an exam
 		- There may be many subjects who have exam in a particular room
 		- Many-to-one or N:1 relationship from Subject to Room
-	- ER Diagram Representation:
+	- ER Diagram representation:
 		- Arrow from the key side rectangle to the relationship diamond
 		- Many-to-many or one-to-many has no constraint, so no arrow
-- If every entity participates in exactly one relationship, both
+- **Participation and Key Constraint:** If every entity participates in exactly one relationship, both a participation and key constraint hold
+	- e.g. every employee works in exactly one factory
+	- ER Diagram representation:
+		- Thick arrow
+- **Cardinality Constraint**
+	- A cardinality constraint for the participation of entity set E in a relationship R specifies how often an entity of set E participates in R giving a lower limit ("at least", minimum cardinality) and upper limit ("at most", maximum cardinality)
+	- e.g. every student studies 1 to 2 degrees
+	- ER Diagram representation:
+		- Annotate edge between an entity type E and relationship R with min...max
+		- If no maximum cardinality is specified, use * as max number
+
+
