@@ -47,4 +47,21 @@ e.g. SupplierCountryOffice(<u>SuppID</u>, <u>CountryCode</u>, StreetAddress, Pos
 
 
 # Conceptual Data Model
-
+## Conceptual Design
+- A technique for understanding and capturing business information requirements
+***
+- *Conceptual database design* does not tell how data is implemented, created, modified, used or deleted
+	- Facilitates planning, operations & maintenance of various data resources
+## Types of Conceptual Data Models
+- Entity-Relationship Model (ERM)
+- Object-oriented Data Models
+	- Unified Modelling Language (UML)
+- Other approaches
+	- Object Role Modelling (ORM)
+	- Semantic Object Model (SOM)
+	- Semantic Data Models (SDM)
+	- KL-ONE etc
+# Entity Relationship Model
+- Data model for conceptual database design
+	- High-level graphical representation of what data needs to be contained in the system
+- Data modeling approach that 
