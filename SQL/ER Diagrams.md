@@ -187,4 +187,24 @@ Possible values of an attribute
 	- e.g. *dependent* from staff_member, *payment* of a loan
 ### ER Diagram Representation
 - **Weak entity type:** double rectangles
-- 
+- **Identifying relationship:** double diamond
+- **Discriminator:** underline with dashed line
+
+# Enhanced ER Model
+- The original ER model doesn't support:
+	- Specialisation/generalisation
+	- Abstractions
+- The enhanced ER model:
+	- Includes all modelling concepts of the original ER
+	- Adds object-oriented concepts
+		- subclasses/superclasses
+		- specialisation/generalisation
+		- categories
+		- attribute inheritance
+	- This model is called the enhanced-ER or Extended ER (E2R or EER) model
+- If we talk about ER model or diagram, its about the EER model
+
+## Generalisation/Specialisation
+- Arranging of entity types in a type hierarchy
+- 2 entity types E and F are in an ISA-relationship if
+	1. the set of attributes of F is a superset
