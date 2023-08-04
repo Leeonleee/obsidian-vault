@@ -46,4 +46,5 @@ e.g. SupplierCountryOffice(<u>SuppID</u>, <u>CountryCode</u>, StreetAddress, Pos
 	- relational model, document model, etc
 
 
+# Conceptual Data Model
 
