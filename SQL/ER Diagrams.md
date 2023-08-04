@@ -218,3 +218,18 @@ Possible values of an attribute
 - A subclass entity type inherits all attributes of its superclass
 - A subclass entity type inherits all the relationship participations of its superclass
 	- We only show on a rectangle the attributes and relations it has not inherited (not found in the superclass)
+### Constraints
+- **Overlap Constraints**
+	- **Disjoint:** a higher-level entity instance can belong to at most one lower-level entity set
+		- Denoted in the ER diagram by writing *disjoint* next to the ISA triangle
+	- **Overlapping (default):** a higher-level entity instance can belong to more than one lower-level entity set
+		- It's best to state this clearly on the diagram like disjoint
+- **Covering Constraints**
+	- **Total:** a higher-level entity instance must belong to at least one of the lower-level entity sets
+		- Denoted with a thick line between the IsA triangle and the superclass
+	- **Partial (default):** a higher-level entity instance does not need to belong to one of the lower-level entity sets
+
+## Aggregation
+- Allows a relationship t be treated as an (abstract) entity set for the purpose of participating in another relationship
+- Allows relationships between relationships
+- Abstraction of relationship into new entity
