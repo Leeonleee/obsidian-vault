@@ -207,4 +207,14 @@ Possible values of an attribute
 ## Generalisation/Specialisation
 - Arranging of entity types in a type hierarchy
 - 2 entity types E and F are in an ISA-relationship if
-	1. the set of attributes of F is a superset
+	1. the set of attributes of F is a superset of the set of attributes of E
+	2. the entity set F is a subset of the entity set of E
+		- each f is an e
+- F is a specialisation of E (F is a subclass) and E is a generalisation of F (E is a superclass)
+### ER Diagram Representation
+- Depicted by a triangle labelled IsA with lines to superclass and subclass
+	- By convention, superclass should be above the triangle, and subclass below the triangle in the diagram
+### Attribute and Relationship Inheritance
+- A subclass entity type inherits all attributes of its superclass
+- A subclass entity type inherits all the relationship participations of its superclass
+	- We only show on a rectangle the attributes and relations it has not inherited (not found in the superclass)
