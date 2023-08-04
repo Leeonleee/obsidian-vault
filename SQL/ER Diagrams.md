@@ -132,4 +132,15 @@ Possible values of an attribute
 		- EnrolledIn relationship type has a degree_role attribute
 - **Relationship-Role:** each participating entity can be named with an explicit role
 	- e.g. John is a value of Student role, ISYS2120 is a value of Subject
-		- You can use the name of the Entity type as the role name
+		- You can use the name of the Entity type as the role name (optional, but common)
+	- Explicit names for roles are useful for a relationship that related elements of the same entity type
+		- e.g. Supervises is a relationship type between 2 employees, one with role Manager, and the other with Subordinate role
+## Graphical Representation of Relationships in ER Diagrams
+- **Relationship Type:** diamond
+- **Attribute of Relationship Type:** ellipse
+- **Connecting involved entity types to relationship type:** lines
+- **Roles:** edges labelled with role names
+	- Role label is often omitted when same as entity name
+## Relationship Degree
+- **Degree:** number of entity types involved
+- 
