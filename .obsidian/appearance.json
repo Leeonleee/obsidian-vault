@@ -2,5 +2,6 @@
   "accentColor": "#cf66ff",
   "translucency": false,
   "cssTheme": "Royal Velvet",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "baseFontSize": 10
 }
