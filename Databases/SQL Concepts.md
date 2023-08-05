@@ -61,4 +61,28 @@ SELECT ALL country
 FROM Student
 ```
 ### Alternatives to Column Name
--
+- An asterisk in the `SELECT` clause denotes "all attributes"
+```
+SELECT *
+FROM Student
+```
+- The `SELECT` clause can use arithmetic expressions involving operations +,-,\*,/ and operating on constants/numeric-valued attributes
+```
+SELECT uos_code, title, credit_points*2, lecturer
+FROM UnitOfStudy
+```
+
+### Renaming
+- Rename relations and attributes using `AS`
+```
+old_name AS new_name
+```
+- Helps give result columns of expressions a meaningful name
+- e.g. find the student ID, grade, and lecturer of all assessments for PHYS1001 and rename the column name empid as lecturer
+```
+SELECT sid, empid AS lecturer, grade
+FROM Assessment
+WHERE uos_code='PHYS1001'
+```
+
+## WHERE
