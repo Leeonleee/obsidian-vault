@@ -14,6 +14,9 @@
 - Commands that control a database, including administering privileges and users
 
 # Data Manipulation Language
+## Comments
+- One line comment: from `--` till end of line
+- Multi line comment: from /* to \*\/ 
 ## SELECT
 - Used for queries on single or multiple tables 
 - Clauses of the SELECT statement
@@ -104,6 +107,29 @@ WHERE lecturer = 1011 AND credit_points > 4
 ```
 SELECT sid
 FROM Assessment
-WHERE uos_code
+WHERE uos_code = 'COMP5138' AND mark BETWEEN 65 AND 74
 ```
+
+## String Operations
+- String-matching operator for comparisons on character strings
+	- `LIKE` is used for string matching
+- Patterns are described using 2 special characters
+	- %: matches any substring
+	- \_: matches any character
+- e.g. list the titles of all "COMP" units
+```
+SELECT title
+FROM UnitOfStudy
+WHERE uos_code LIKE 'COMP%'
+```
+- SQL also has:
+	- ||: concatenation
+	- converting from upper to lower case (vice versa)
+	- finding string length, extracting substrings, etc
+
+## String Constants
+- SQL uses single quotes
+
+## R
+
 
