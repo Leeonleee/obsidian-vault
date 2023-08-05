@@ -222,3 +222,19 @@ SELECT A.name, M.name
 FROM Academic A, Academic M
 WHERE A.manager = M.empid
 ```
+
+## Joins
+- **Join:** one of the relational operations that cause 2 or more tables to be combined into a single table of view
+- **Equi-join:** joining condition is based on equality between values in the common-named columns; matched columns appear redundantly in the results table
+- **Natural join:** like equi-join, but only one of the duplicate-named columns is kept in the result table
+- **Outer join:** rows that don't have matching values in common columns are included in the result table
+- **Inner join:** rows must have matching values to appear in the result table
+- **Union join:** includes all columns from each table in the join, and an instance for each row of each table
+### Join Operators
+- `R NATURAL JOIN S`
+	- put together rows, one from each table, in which the same-named columsn have the same values
+- `R INNER JOIN S ON <join condition>`
+- `R INNER JOIN S USING (<list of attributes>)`
+- the keyword `INNER` can be left out, as its the default
+- `ON` or `USING` are needed with `INNER JOIN`
+- These are often used as expressoins 
