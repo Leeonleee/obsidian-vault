@@ -157,6 +157,24 @@ WHERE REGEXP_LIKE(uos_code, '^COMP[:digit:"]{4}')
 | --------- | --------------------- | -------- | ---------------------------------- |
 | DATE      | '2012-03-26'          | 1 day    | a date (some systems include time) |
 | TIME      | '16:12:05'            | 1 ms     | a time, often down to nanoseconds  |
-| TIMESTAMP | '2012-03-26 16:12:05' |          |                                    |
-| INTERVAL  |                       |          |                                    |
+| TIMESTAMP | '2012-03-26 16:12:05' | 1 sec    | time at a certain date             |
+| INTERVAL  | '5 DAY'               | years-ms | a time duration                    | 
 
+### Comparisons
+- normal time-order comparisons with =,>,<,<=,>=,...
+### Constants
+- `CURRENT_DATE`: database system's current date
+- `CURRENT_TIME`: database system's current timestamp
+### Example
+```
+SELECT name
+FROM Student
+WHERE enroldate < CURRENT_DATE
+```
+### Operations
+- Unfortunately they're not very standardised
+- Main operations
+	- `EXTRACT(component FROM date)`
+		- e.g. `EXTRACT(year FROM enroldate)`
+	- `DATE string` (Or)
+	- 
