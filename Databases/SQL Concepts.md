@@ -14,6 +14,7 @@
 - Commands that control a database, including administering privileges and users
 
 # Data Manipulation Language
+## SELECT
 - Used for queries on single or multiple tables 
 - Clauses of the SELECT statement
 	- **SELECT:** lists the columns (and expressions) that should be returned from the query
@@ -23,8 +24,6 @@
 	- **HAVING:** indicate the conditions to include a category
 	- **ORDER BY:** sorts the result according to specified criteria
 - A result of an SQL `SELECT` command is a single relation
-
-## SELECT
 ### Examples
 #### One table query
 - List the names of all Australian students
@@ -86,3 +85,25 @@ WHERE uos_code='PHYS1001'
 ```
 
 ## WHERE
+- Specifies the condition that rows must satisfy, to be part of the result
+	- similar to Boolean logic in maths, and Boolean conditions in programming
+- Comparison operations in SQL (between values, either constant, or coming from columns of the database): =, >, >=, <, <=, !=, <>
+- Comparison results can be combined using **and**, **or**, and **not**
+- Comparisons can be applied to results of arithmetic expressions
+- e.g. find all UoS codes for units taught by employee 1011 that are worth more than 4 credit points
+```
+SELECT uos_code
+FROM UnitOfStudy
+WHERE lecturer = 1011 AND credit_points > 4
+```
+### BETWEEN
+- Called "range queries"
+	- The range-ends are included in the range
+	- The range ends must be from a data type with an order
+- e.g. find all students (by SID) who gained marks in the credit range in a task of COMP5138
+```
+SELECT sid
+FROM Assessment
+WHERE uos_code
+```
+
