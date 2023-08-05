@@ -113,7 +113,14 @@ WHERE uos_code = 'COMP5138' AND mark BETWEEN 65 AND 74
 ### Connecting Multiple Tables
 - Limit the results to pairs which match up properly
 	- Put a matching condition (join-predicate) in the where clause
-	- If the same column name appears in multiple tables used, you need to qualify it in a `WHERE` conditions
+	- If the same column name appears in multiple tables used, you need to qualify it in a `WHERE` conditions or in a `SELECT` lists by preceding with the relation name, then fullstop
+		- e.g. `Student.sid` is the sid value from the Student table
+- e.g. Find the student ID, name, and gender of all students enrolled in ISYS2120
+```
+SELECT Student.sid, name, gender
+FROM Student, Enrolled
+WHERE Student.sid = Enrolled.sid AND uos_code = 'ISYS2120'
+```
 
 ## String Operations
 - String-matching operator for comparisons on character strings
@@ -198,3 +205,20 @@ WHERE enroldate < CURRENT_DATE
 		FROM Student, UnitOfStudy
 		```
 	- This is very rarely what the user wants
+### Aliases
+- Aliases can be given to the relation name in the `FROM` clause
+- Ailias follows the relation name
+```
+SELECT S.sid, S.name, S.gender
+FROM Student S, Enrolled
+WHERE S.sid = Enrolled.sid AND uos_codee = 'ISYS2120'
+```
+- Why?
+	- Some queries need to refer to the same relation twice
+	- Makes reading/typing easier
+- e.g. with same table used twice: For each academic, retrieve the academic's name, and the name of his or her's immediate supervisor
+```
+SELECT A.name, M.name
+FROM Academic A, Academic M
+WHERE A.manager = M.empid
+```
