@@ -13,5 +13,15 @@
 ## Data Control Language
 - Commands that control a database, including administering privileges and users
 
-# Learning SQL
-## Essential Concepts
+# Data Manipulation Language
+- Used for queries on single or multiple tables 
+- Clauses of the SELECT statement
+	- **SELECT:** lists the columns (and expressions) that should be returned from the query
+	- **FROM:** indicate the table(s) from which data will be obtained
+	- **WHERE:** indicate the conditions to include a tuple in the result
+	- **GROUP BY:** indicate the categorisation of tuples
+	- **HAVING:** indicate the conditions to include a category
+	- **ORDER BY:** sorts the result according to specified criteria
+- A result of an SQL SELECT command is a single relation
+
+
