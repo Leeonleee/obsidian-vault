@@ -268,5 +268,7 @@ WHERE uos_code='ISYS2120'
 - e.g. How many Australian students are enrolled (in any class)?
 	- We don't want to count the same student repeatedly
 ```
-SELECT COUNT(DISTINCT)
+SELECT COUNT(DISTINCT sid)
+FROM Student NATURAL JOIN Enrolled
+WHERE country='AUS'
 ```
