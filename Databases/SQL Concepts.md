@@ -130,6 +130,33 @@ WHERE uos_code LIKE 'COMP%'
 ## String Constants
 - SQL uses single quotes
 
-## R
+## Regular Expression Matches
+- Implemented as set of SQL functions
+	- e.g. `REGEXP_LIKE(...)`
+- What are regular expressions?
+	- pattern consisting of character literals and/or metacharacters
+	- metacharacters specify how to process a regular expression
+		- () grouping
+		- | alternative
+		- \[] character list
+		- . matches any character
+		- * repeat preceding pattern 0, 1 or more times
+		- + repeat preceding pattern 1 or more times
+		- ^ start of a line
+		- $ end of a line
+e.g.
+```
+SELECT title
+FROM UnitOfStudy
+WHERE REGEXP_LIKE(uos_code, '^COMP[:digit:"]{4}')
+```
 
+## Date and Time in SQL
+
+| SQL Type  | Example               | Accuracy | Description                        |
+| --------- | --------------------- | -------- | ---------------------------------- |
+| DATE      | '2012-03-26'          | 1 day    | a date (some systems include time) |
+| TIME      | '16:12:05'            | 1 ms     | a time, often down to nanoseconds  |
+| TIMESTAMP | '2012-03-26 16:12:05' |          |                                    |
+| INTERVAL  |                       |          |                                    |
 
