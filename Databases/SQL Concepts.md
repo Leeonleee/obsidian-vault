@@ -24,4 +24,14 @@
 	- **ORDER BY:** sorts the result according to specified criteria
 - A result of an SQL SELECT command is a single relation
 
+## Example
+### One table query
+- List the names of all Australian students
+```
+SELECT name FROM Student WHERE country='AUS'
+```
+- SQL doesn't allow '-' in identifiers (e.g. table or column names)
+- SQL identifiers and keywords are case sensitive
+### Order-by
+- List all students (name) from Australia in alphabetical order
 
