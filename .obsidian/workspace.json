@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/ER Diagrams.md",
+                "file": "Databases/SQL Concepts.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/ER Diagrams.md",
+                "file": "Databases/SQL Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/ER Diagrams.md",
+                "file": "Databases/SQL Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/ER Diagrams.md"
+                "file": "Databases/SQL Concepts.md"
               }
             }
           }
@@ -157,21 +157,22 @@
   },
   "active": "b861c1b79e6f4476",
   "lastOpenFiles": [
-    "SQL/ER Diagrams.md",
+    "Databases/ER Diagrams.md",
+    "Databases/SQL Concepts.md",
     "Models of Computation/Regular Expressions.md",
     "Models of Computation/Context-free Grammars.md",
     "readme.md",
     "$Syntax.md",
-    "SQL/Overview.md",
+    "Databases/Overview.md",
     "Data Structures/Cheatsheet.md",
     "<.md",
     "Templates/Data Structure Template.md",
     "Data Structures/Linked Lists.md",
     "Data Structures/Arrays.md",
     "Terminology.md",
-    "SQL/Assessment.md",
+    "Databases/Assessment.md",
     "Agile",
-    "SQL",
+    "Databases",
     "Models of Computation",
     "Data Structures/Lists.md",
     "Non CS/Japanese/Grammar.md",
@@ -190,7 +191,6 @@
     "Data Structures/LinkedList.md",
     "Untitled.md",
     "Templates",
-    "Algorithms/Sorting/Bubble Sort.md",
     "Algorithms/Sorting",
     "Algorithms"
   ]
