@@ -237,4 +237,36 @@ WHERE A.manager = M.empid
 - `R INNER JOIN S USING (<list of attributes>)`
 - the keyword `INNER` can be left out, as its the default
 - `ON` or `USING` are needed with `INNER JOIN`
-- These are often used as expressoins 
+- These are often used as expressions in the `FROM` clause
+### Examples
+1. List all students and in which courses they enrolled
+```
+SELECT name, uos_code, semester
+FROM Student NATURAL JOIN Enrolled
+```
+2. Who is teaching "ISYS2120"?
+```
+SELECT name
+FROM UnitOfStudy JOIN Academic on lecturer=empid
+WHERE uos_code='ISYS2120'
+```
+
+## Aggregate functions
+- Operate on the multi-set of values of a column of a relation, and return a value
+	- `AVG`: average value
+	- `MIN`: minimum value
+	- `MAX`: maximum value
+	- `SUM`: sum of values
+	- `COUNT`: number of values
+- These combine data from many rows into a single row
+- Each one operates on a single column of values
+	- Except `COUNT(*)` which counts how many rows meet the `WHERE` condition
+### Aggregates and Duplicates
+- Often use `DISTINCT` to ensure the aggregate is over a set
+	- eliminates duplicates among the values being aggregated
+	- no difference between multi-set and set for `MAX`, `MIN`
+- e.g. How many Australian students are enrolled (in any class)?
+	- We don't want to count the same student repeatedly
+```
+SELECT COUNT(DISTINCT)
+```
