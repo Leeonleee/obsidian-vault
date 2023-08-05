@@ -110,6 +110,11 @@ FROM Assessment
 WHERE uos_code = 'COMP5138' AND mark BETWEEN 65 AND 74
 ```
 
+### Connecting Multiple Tables
+- Limit the results to pairs which match up properly
+	- Put a matching condition (join-predicate) in the where clause
+	- If the same column name appears in multiple tables used, you need to qualify it in a `WHERE` conditions
+
 ## String Operations
 - String-matching operator for comparisons on character strings
 	- `LIKE` is used for string matching
@@ -176,5 +181,20 @@ WHERE enroldate < CURRENT_DATE
 - Main operations
 	- `EXTRACT(component FROM date)`
 		- e.g. `EXTRACT(year FROM enroldate)`
-	- `DATE string` (Or)
-	- 
+	- `DATE string` (Oracle syntax: `TO_DATE(string,template)`)
+		- e.g. `DATE '2012-03-01'`
+		- Some systems allow templates on how to interpret string
+		- Oracle syntax: `TO_DATE('01-03-2012', 'DD-Mon-YYYY')`
+	- `+/- INTERVAL`
+		- e.g. `'2012-04-01' + INTERVAL '36 HOUR'`
+- Check database system's manual for more operations
+
+## FROM
+- Lists the relations involved in the query
+	- If there's more than 1 table, it is the Cartesian product (all pairs, one from each table) of discrete maths
+	- Find the Cartesian product Student x UnitOfStudy
+		```
+		SELECT *
+		FROM Student, UnitOfStudy
+		```
+	- This is very rarely what the user wants
