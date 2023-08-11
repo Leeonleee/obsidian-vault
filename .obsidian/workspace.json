@@ -157,8 +157,9 @@
   },
   "active": "b861c1b79e6f4476",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Models of Computation/Questions.md",
     "Models of Computation/Automata.md",
+    "Untitled.md",
     "Models of Computation/Regular Expressions.md",
     "Models of Computation/Nondeterministic Finite Automata.md",
     "Models of Computation/Context-free Grammars.md",
@@ -189,7 +190,6 @@
     "Non CS",
     "Test.md",
     "Data Structures/Stacks.md",
-    "Linked.md",
     "Templates",
     "Algorithms/Sorting",
     "Algorithms"

@@ -105,3 +105,10 @@ Formalises the idea that an NFA $M$ describes the language $L(M)$ of all strings
 - The run is **accepting** if $q_m\in F$
 - If $w$ has at least one accepting run, then $w$ is **accepted** by $M$
 - The language **recognised** by $M$ is $L(M)=\lbrace w\in\Sigma^*:w\text{ is accepted by }M\rbrace$
+
+# Comparing NFAs and DFAs
+1. In a DFA, every input has exactly one run. The input string is accepted if this run is accepting
+	- an input of a DFA may have no runs, but we don't draw rejecting
+2. In an NFA, an input may have zero, one or more runs. The input string is accepted if at least one of its runs is accepting
+3. For every DFA $M$, there is an NFA $N$ such that $L(M) = L(N)$
+	- $q'=\delta(q,a)$ in $M$ becomes
