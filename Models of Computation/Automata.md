@@ -43,3 +43,8 @@ where:
 ## Regular Languages
 - A language $L\subseteq\Sigma^*$ is called **regular** if $L = L(M)$ for some DFA $M$
 	- $M$ must accept all strings in $L$ and reject all strings (in $\Sigma^*$) that are not in $L$
+
+## Designing Automata Tips
+- Build automata out of other automata using closure properties of regular languages
+- If you have DFA for $L_1,L_2$ then you can get DFA for
+	1. $
