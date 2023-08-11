@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Models of Computation/Regular Expressions.md",
+                "file": "Models of Computation/Automata.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 276.5026054382324
   },
   "right": {
     "id": "39a09cbae1133db5",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Models of Computation/Regular Expressions.md",
+                "file": "Models of Computation/Automata.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Models of Computation/Regular Expressions.md",
+                "file": "Models of Computation/Automata.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Models of Computation/Regular Expressions.md"
+                "file": "Models of Computation/Automata.md"
               }
             }
           }
@@ -157,10 +157,12 @@
   },
   "active": "b861c1b79e6f4476",
   "lastOpenFiles": [
+    "Models of Computation/Regular Expressions.md",
+    "Models of Computation/Automata.md",
+    "Models of Computation/Nondeterministic Finite Automata.md",
     "Models of Computation/Context-free Grammars.md",
     "Databases/ER Diagrams.md",
     "Databases/SQL Concepts.md",
-    "Models of Computation/Regular Expressions.md",
     "readme.md",
     "$Syntax.md",
     "Databases/Overview.md",
@@ -188,8 +190,6 @@
     "Data Structures/Stacks.md",
     "Linked.md",
     "Data Structures/Stack.md",
-    "Data Structures/LinkedList.md",
-    "Untitled.md",
     "Templates",
     "Algorithms/Sorting",
     "Algorithms"
