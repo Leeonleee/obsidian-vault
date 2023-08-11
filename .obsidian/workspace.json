@@ -155,11 +155,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b861c1b79e6f4476",
+  "active": "56b6f0868eec3789",
   "lastOpenFiles": [
-    "Pasted image 20230811230058.png",
-    "Models of Computation/Questions.md",
+    "Models of Computation/images/hi.png",
+    "Models of Computation%2Fimages%2FPasted image 20230811230058.png.md",
     "Models of Computation/Automata.md",
+    "Models of Computation/images/Pasted image 20230811230058.png",
+    "Models of Computation/images",
+    "Models of Computation/Questions.md",
     "Untitled.md",
     "Models of Computation/Regular Expressions.md",
     "Models of Computation/Nondeterministic Finite Automata.md",
@@ -189,9 +192,7 @@
     "Non CS/Japanese",
     "Security",
     "Non CS",
-    "Test.md",
     "Templates",
-    "Algorithms/Sorting",
-    "Algorithms"
+    "Algorithms/Sorting"
   ]
 }
