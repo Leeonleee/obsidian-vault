@@ -89,6 +89,16 @@ else:
 - A **nondeterministic finite automaton (NFA)** is like a DFA, except that states can have *zero*, *one*, or *more* outgoing transitions on the same input symbol
 - A string is *accepted by an NFA* if it labels some path from the start state to a final state
 - In an NFA, a string can label 0, 1, or more paths
----
 - NFAs are good for specifying languages in the form "the string has $x$ as a substring"
+
 ## Definition
+A nondeterministic finite automaton (NFA) $M=(Q\Sigma,\delta,q_0,F)$ is the same as a DFA, except that
+$$\delta:Q\times\Sigma_\epsilon\rightarrow P(Q)$$
+called the **transition relation**
+- If $q'\in\delta(q,a)$ we write $q\xrightarrow a q'$, called a **transition**
+- Here $\Sigma_\epsilon=\Sigma\cup\lbrace\epsilon\rbrace$ 
+- We allow **epsilon-transitions**
+	- This amounts to transitions that don't consume the next input symbol
+### Maths definition
+Formalises the idea that an NFA $M$ describes the language $L(M)$ of all strings that label paths from the start state to a final state
+- A **run** (computation) of an NFA $M$ on string $w$ is a sequence of transitions $q_0\xrightarrow y_1$
