@@ -23,5 +23,14 @@ It's like a symbol processing program that:
 A deterministic finite automaton (DFA) $M$ consists of 5 items
 $$(Q,\Sigma,\delta,q_0,F)$$
 
+where:
+1. $Q$ is a finite set of *states*
+2. $\Sigma$ is the *alphabet* (input alphabet)
+3. $\delta:Q\times\Sigma\rightarrow Q$ is the *transition function*
+	- if $\delta(q,a)=q'$ we write $q\xrightarrow a q'$ , called a *transition*
+4. $q_0\in Q$ is the *start state* (initial state)
+5. $F\subseteq Q$ is the set of *final states* (accepting states)
 
+## Languages Recognised by $M$
+- The automaton accepts the 
 
