@@ -38,5 +38,8 @@ where:
 - A **run** (aka computation) of $M$ on $w=w_1w_2\cdots w_n$ is a sequence of transitions $q_0\xrightarrow w_1 q_1\xrightarrow w_2 q_2\xrightarrow w_3\cdots\xrightarrow {w_n} q_n$ where $q_0$ is the starting state
 - The run is **accepting** if $q_n\in F$
 - If $w$ has an accepting run, then we say $M$ **accepts** $w$
-- 
+- The set $L(M) = \lbrace w\in\Sigma^*:M\text{ accepts } w\rbrace$ is the **language recognised by** $\textbf M$ ( the language of $M$)
 
+## Regular Languages
+- A language $L\subseteq\Sigma^*$ is called **regular** if $L = L(M)$ for some DFA $M$
+	- $M$ must accept all strings in $L$ and reject all strings (in $\Sigma^*$) that are not in $L$
