@@ -66,4 +66,14 @@ where:
 	- Output: decide if $w\in L(M)$
 2. **Non-emptiness problem**
 	- Input: DFA $M$
-	- Output: decide if $L()
+	- Output: decide if $L(M)\neq\emptyset$
+3. **Equivalence problem**
+	- Input: DFAs $M_1,M_2$
+	- Output: decide if $L(M_1)=L(M_2)$
+### Membership problem
+```
+def membership(M,w):
+state = q_0
+while not end_of_input(w):
+	x = get_char()
+```
