@@ -2,6 +2,7 @@
 [What is an Automata?](<# What is an Automata?>)
 - [Graphical Representation of Automata](<## Graphical Representation of Automata>)
 [Deterministic Finite Automata](<# Deterministic Finite Automata (DFA)>)
+[Nondeterministic Finite Automata](<# Nondeterministic Finite Automata>)
 
 # What is an Automata?
 It's like a symbol processing program that:
@@ -75,5 +76,19 @@ where:
 def membership(M,w):
 state = q_0
 while not end_of_input(w):
-	x = get_char()
+	x = get_char(w)
+	state = δ(state,x)
+if state in F:
+	return "Yes" # M accepts x
+else:
+	return "No" # M does not accept x
 ```
+
+# Nondeterministic Finite Automata
+- Nondeterminism: situations where the next state of a computation is not uniquely determined by the current state and current input
+- A **nondeterministic finite automaton (NFA)** is like a DFA, except that states can have *zero*, *one*, or *more* outgoing transitions on the same input symbol
+- A string is *accepted by an NFA* if it labels some path from the start state to a final state
+- In an NFA, a string can label 0, 1, or more paths
+---
+- NFAs are good for specifying languages in the form "the string has $x$ as a substring"
+## Definition
