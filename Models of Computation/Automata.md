@@ -56,5 +56,8 @@ where:
 **Theorem**
 - If $L$ is regular, then $\Sigma^*\backslash L$ is regular
 **Idea**
-- Swap accept and reject states in a DFA for $L$
-	- Given DFA $M=(Q,\Sigma,\delta,q_0,F)$ recog
+- Swap final and non-final states in a DFA for $L$
+	- Given DFA $M=(Q,\Sigma,\delta,q_0,F)$ recognising $L$
+	- We build a DFA $M'$ recognising $\Sigma^*\backslash L$ as follows:
+		- Define $M'=(Q,\Sigma,\delta,q_0,F')$ where $F'=Q\backslash F$
+## Important Questions about DFA
