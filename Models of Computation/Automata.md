@@ -126,7 +126,14 @@ For every regex $R$ there is an NFA $N$ such that $L(R)=L(N)$
 		- We must show that if $N_1, N_2$ are NFAs, then there are NFAs recognising $L(N_1\cup N_2), L(N_1)L(N_2)$ and $L(N_1)^*$
 ### Base cases
 1. $L(\emptyset)=\emptyset$
-	![NFA|100](images/hi.png) 
+	![NFA Base Case 1 Diagram|100](NFA_base_case_1.png) 
 2. $L(\epsilon)={\epsilon}$
-2. $L(a) ={a}$
- 
+![NFA Base Case 2 Diagram|100](NFA_base_case_2.png)
+
+
+3. $L(a) ={a}$
+ ![NFA Base Case 3|100](NFA_base_case_3.png)
+### NFAs are closed under union
+#### Lemma
+If $N_1, N_2$ are NFAs, there is an NFA $N$ recognising $L(n_1)\cup L(n_2)$
+- Given NFAs $N_i=(Q_i,\Sigma,\delta_i,q_i,F_)
