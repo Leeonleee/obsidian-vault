@@ -123,4 +123,9 @@ For every regex $R$ there is an NFA $N$ such that $L(R)=L(N)$
 	- Base cases: $R=\emptyset, R=\epsilon, R=a$ for $a\in\Sigma$
 		- We must show that each of these languages is recognised by some NFA
 	- Recursive cases: $R=(R_1|R_2), R=(R_1R_2)$ and $R=R_1^*$
-		- We must show that if $N_1, N_2$ are NFAs, then teh
+		- We must show that if $N_1, N_2$ are NFAs, then there are NFAs recognising $L(N_1\cup N_2), L(N_1)L(N_2)$ and $L(N_1)^*$
+### Base cases
+1. $L(\emptyset)=\emptyset$
+	![](Pasted%20image%2020230811230058.png) $L(\epsilon)={\epsilon}$
+2. $L(a) ={a}$
+3. 
