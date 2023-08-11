@@ -136,4 +136,18 @@ For every regex $R$ there is an NFA $N$ such that $L(R)=L(N)$
 ### NFAs are closed under union
 #### Lemma
 If $N_1, N_2$ are NFAs, there is an NFA $N$ recognising $L(n_1)\cup L(n_2)$
-- Given NFAs $N_i=(Q_i,\Sigma,\delta_i,q_i,F_)
+
+**Simulate $N_1$ or $N_2$**
+- Given NFAs $N_i=(Q_i,\Sigma,\delta_i,q_i,F_i)$ construct NFA $N$ that guessing which of $N_1$ or $N_2$ to simulate
+- $N$ has states $Q_1\cup Q_2\cup \lbrace q_0\rbrace$ so that it can simulate $N_1, N_2$
+- $N$ guesses from $q_0$ whether to go to the start state of $N_1$ or $N_2$
+
+**Simulate $N_1$ followed by $N_2$**
+- Given NFAs $N_i=(Q_i,\Sigma,\delta_i,q_i,F_i)$ construct NFA $N$ that guesses how to break the input into 2 pieces, the first accepted by $N_1$ and the second by $N_2$
+- $N$ has states $Q_1\cup Q_2$ so that it can simulate $N_1$ and $N_2$
+- At some point when $N_1$ is in a final state, guess that it is time to move to the start state of $N_2$
+
+**Repeatedly simulate $N_1$**
+- Given NFAs $N_i=(Q_i,\Sigma,\delta_i,q_i,F_i)$ construct NFA $N$ that guesses how to break the input into pieces, each of which is accepted by $N_1$
+- $N$ has states $Q\cup\lbrace q_0 \rbrace$ and extra transitions from final states of $N_1$ to the initial state of $N_1$
+- The new state $q_0$ is ensured that $\epsilon$ is accepted
