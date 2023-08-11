@@ -61,3 +61,9 @@ where:
 	- We build a DFA $M'$ recognising $\Sigma^*\backslash L$ as follows:
 		- Define $M'=(Q,\Sigma,\delta,q_0,F')$ where $F'=Q\backslash F$
 ## Important Questions about DFA
+1. **Membership problem**
+	- Input: DFA $M$, string $w$
+	- Output: decide if $w\in L(M)$
+2. **Non-emptiness problem**
+	- Input: DFA $M$
+	- Output: decide if $L()
