@@ -3,6 +3,8 @@
 - [Graphical Representation of Automata](<## Graphical Representation of Automata>)
 [Deterministic Finite Automata](<# Deterministic Finite Automata (DFA)>)
 [Nondeterministic Finite Automata](<# Nondeterministic Finite Automata>)
+[Comparing NFAs and DFAs](<# Comparing NFAs and DFAs>)
+[Regular Expressions to NFAs](<# Regular Expressions to NFAs>)
 
 # What is an Automata?
 It's like a symbol processing program that:
@@ -111,4 +113,14 @@ Formalises the idea that an NFA $M$ describes the language $L(M)$ of all strings
 	- an input of a DFA may have no runs, but we don't draw rejecting
 2. In an NFA, an input may have zero, one or more runs. The input string is accepted if at least one of its runs is accepting
 3. For every DFA $M$, there is an NFA $N$ such that $L(M) = L(N)$
-	- $q'=\delta(q,a)$ in $M$ becomes
+	- $q'=\delta(q,a)$ in $M$ becomes $\lbrace q'\rbrace=\delta(q,a)$ in $N$
+	- DFA is an NFA where there is no nondeterminism
+
+# Regular Expressions to NFAs
+## Theorem
+For every regex $R$ there is an NFA $N$ such that $L(R)=L(N)$
+- Since regexes are built recursively, this construction is also recursive
+	- Base cases: $R=\emptyset, R=\epsilon, R=a$ for $a\in\Sigma$
+		- We must show that each of these languages is recognised by some NFA
+	- Recursive cases: $R=(R_1|R_2), R=(R_1R_2)$ and $R=R_1^*$
+		- We must show that if $N_1, N_2$ are NFAs, then teh
