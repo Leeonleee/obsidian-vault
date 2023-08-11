@@ -36,7 +36,7 @@ where:
 - The automaton accepts the strings that label a path from the start state to a final state
 - The **language recognised by** $\textbf{M}$ (the language of $M$) written $L(M)$ is the set of strings the automaton accepts
 ### Math definition
-- A **run** (aka computation) of $M$ on $w=w_1w_2\cdots w_n$ is a sequence of transitions $q_0\xrightarrow w_1 q_1\xrightarrow w_2 q_2\xrightarrow w_3\cdots\xrightarrow {w_n} q_n$ where $q_0$ is the starting state
+- A **run** (aka computation) of $M$ on $w=w_1w_2\cdots w_n$ is a sequence of transitions $q_0\xrightarrow {w_1} q_1\xrightarrow {w_2} q_2\xrightarrow {w_3}\cdots\xrightarrow {w_n} q_n$ where $q_0$ is the starting state
 - The run is **accepting** if $q_n\in F$
 - If $w$ has an accepting run, then we say $M$ **accepts** $w$
 - The set $L(M) = \lbrace w\in\Sigma^*:M\text{ accepts } w\rbrace$ is the **language recognised by** $\textbf M$ ( the language of $M$)
@@ -101,4 +101,7 @@ called the **transition relation**
 	- This amounts to transitions that don't consume the next input symbol
 ### Maths definition
 Formalises the idea that an NFA $M$ describes the language $L(M)$ of all strings that label paths from the start state to a final state
-- A **run** (computation) of an NFA $M$ on string $w$ is a sequence of transitions $q_0\xrightarrow y_1$
+- A **run** (computation) of an NFA $M$ on string $w$ is a sequence of transitions $q_0\xrightarrow {y_1}q_1\xrightarrow {y_2} q_2\cdots\xrightarrow {y_m} q_m$ such $q_0$ is the start state, each $y_i\in\Sigma_\epsilon$ and $w=y_1y_2\cdots y_m$
+- The run is **accepting** if $q_m\in F$
+- If $w$ has at least one accepting run, then $w$ is **accepted** by $M$
+- The language **recognised** by $M$ is $L(M)=\lbrace w\in\Sigma^*:w\text{ is accepted by }M\rbrace$
