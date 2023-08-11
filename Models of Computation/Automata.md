@@ -47,4 +47,14 @@ where:
 ## Designing Automata Tips
 - Build automata out of other automata using closure properties of regular languages
 - If you have DFA for $L_1,L_2$ then you can get DFA for
-	1. $
+	1. $\Sigma^*\backslash L_1$ 
+	2. $L_1\cup L_2$
+	3. $L_1L_2$
+	4. $(L_1)^*$
+
+### Regular Languages Closed Under Complementation
+**Theorem**
+- If $L$ is regular, then $\Sigma^*\backslash L$ is regular
+**Idea**
+- Swap accept and reject states in a DFA for $L$
+	- Given DFA $M=(Q,\Sigma,\delta,q_0,F)$ recog
