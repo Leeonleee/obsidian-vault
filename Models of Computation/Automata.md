@@ -126,7 +126,7 @@ For every regex $R$ there is an NFA $N$ such that $L(R)=L(N)$
 		- We must show that if $N_1, N_2$ are NFAs, then there are NFAs recognising $L(N_1\cup N_2), L(N_1)L(N_2)$ and $L(N_1)^*$
 ### Base cases
 1. $L(\emptyset)=\emptyset$
-	![|100](images/hi.png) 
-1. $L(\epsilon)={\epsilon}$
+	![NFA|100](images/hi.png) 
+2. $L(\epsilon)={\epsilon}$
 2. $L(a) ={a}$
  
