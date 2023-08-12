@@ -39,6 +39,21 @@ There are many software development processes, but all include common activities
 ## Models
 ### Waterfall Model
 - Development process activities as process phases
+
+| Development Activities                                              | Teams                                                           |
+| ------------------------------------------------------------------- | --------------------------------------------------------------- |
+| Divide the work into stages                                         | A separate team of specialists for each stage                   |
+| At each stage, the work is passed from one team to another          | Some coordination is required for the handoff using "documents" |
+| At the end of all stages, you have a software product ready to ship | As each team finishes, they are assigned to a new product       |
+
+#### Phases
+- Requirements definition
+	- Requirements document
+- System and software design
+	- Design document based on requirements document
+- Implementation and unit testing
+	- Code and test it for system components (using de)
+
 ### Spiral Model
 - Incremental development, risk driven
 ### Agile Model
