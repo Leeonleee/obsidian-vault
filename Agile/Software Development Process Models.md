@@ -43,4 +43,6 @@ There are many software development processes, but all include common activities
 - Incremental development, risk driven
 ### Agile Model
 - Iterative incremental process for rapid software development
-### 
+### Rational Unified Process (RUP/UP)
+- Brings together elements of different models
+- Phases of the model in timer, process activities, good practises
