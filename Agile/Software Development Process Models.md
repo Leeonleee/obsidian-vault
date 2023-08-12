@@ -1,6 +1,7 @@
 # Table of Contents
 [Why Software Engineering?](<# Why Software Engineering?>)
-
+[What is Software Engineering?](<# What is Software Engineering?>)
+[Agile Process](<# Agile Process>)
 
 # Why Software Engineering?
 We need to build high quality software systems under resource constraints
@@ -63,7 +64,8 @@ There are many software development processes, but all include common activities
 - Discovering issues in earlier phases should lead to returning to an earlier phase
 #### Issues
 - Difficult to make changes after the process is underway
-- Inflexible partitioning of the project into distinct stages makes it hard to respond to changing customer requir
+- Inflexible partitioning of the project into distinct stages makes it hard to respond to changing customer requirements
+- Mostly used for long systems engineering projects where a system is developed at several sites
 
 ### Spiral Model
 - Incremental development, risk driven
@@ -72,3 +74,12 @@ There are many software development processes, but all include common activities
 ### Rational Unified Process (RUP/UP)
 - Brings together elements of different models
 - Phases of the model in timer, process activities, good practises
+- Uses iterative and risk-driver approach to develop object-oriented software systems
+- Iterative incremental development
+- Iterative evolutionary development
+
+
+# Agile Process
+## Principles
+1. Highest priority is to **satisfy the customer** through **early** and **continuous delivery of valuable software**
+2. **Welcome changing requirements**, even late in development. Agile processes
