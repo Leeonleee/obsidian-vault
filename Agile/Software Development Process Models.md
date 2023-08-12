@@ -20,4 +20,27 @@ We need to build high quality software systems under resource constraints
 # What is Software Engineering?
 "*An engineering discipline that is concerned with all aspects of software production, from the early states of system specification through to maintaining it after it has gone into use*"
 - Not just programming/coding
-- Theori
+- Theories, methods, tools for cost-effective software production
+- Technical process, project management, development of tools, methods to support software production
+- System engineering (hardware & software)
+	- software often dominates costs
+# Software Process
+## Software Development Process
+- Set of activities required to develop a software
+- Activities to be done, and in what order
+- Lifecycle for a software development project
+- Processes, a set of tools, definitions of the artefacts, etc
+
+There are many software development processes, but all include common activities
+- Specification (software/system requirements)
+- Design and implementation
+- Validation (testing)
+- Evolution
+## Models
+### Waterfall Model
+- Development process activities as process phases
+### Spiral Model
+- Incremental development, risk driven
+### Agile Model
+- Iterative incremental process for rapid software development
+### 
