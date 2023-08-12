@@ -52,7 +52,18 @@ There are many software development processes, but all include common activities
 - System and software design
 	- Design document based on requirements document
 - Implementation and unit testing
-	- Code and test it for system components (using de)
+	- Code and test it for system components (using design document)
+- Integration and system testing
+	- Software components are integrated and the resulting system is tested
+- Operation and maintenance
+---
+- Intensive documenting and planning
+- Easy to understand and implement
+- Identified deliverables and milestones
+- Discovering issues in earlier phases should lead to returning to an earlier phase
+#### Issues
+- Difficult to make changes after the process is underway
+- Inflexible partitioning of the project into distinct stages makes it hard to respond to changing customer requir
 
 ### Spiral Model
 - Incremental development, risk driven
