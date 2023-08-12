@@ -88,3 +88,6 @@ There are many software development processes, but all include common activities
 5. Build projects around **motivated individuals**. Give them the environment and support they need, and trust them to get the job done
 6. The most efficient and effective method of conveying information to and within a development team is **face-to-face conversation** 
 7. **Working software** is the primary measure of progress
+8. Agile processes promote **sustainable development**. The sponsors, developers, and users should be able to maintain a constant pace indefinitely
+9. **Continuous attention** to technical excellence and good design enhances agility
+10. **Simplicity**: the art of maximising the amount of work not done is essential
