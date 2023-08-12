@@ -86,4 +86,5 @@ There are many software development processes, but all include common activities
 3. **Deliver working software frequently**, from a couple of weeks to a couple of months, with preference to the shorter timescale
 4. Business people and developers must **work together daily** throughout the project
 5. Build projects around **motivated individuals**. Give them the environment and support they need, and trust them to get the job done
-6. 
+6. The most efficient and effective method of conveying information to and within a development team is **face-to-face conversation** 
+7. **Working software** is the primary measure of progress
