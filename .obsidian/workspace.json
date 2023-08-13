@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Models of Computation/Automata.md",
+                "file": "Models of Computation/Regular Expressions.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Models of Computation/Automata.md",
+                "file": "Models of Computation/Regular Expressions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Models of Computation/Automata.md",
+                "file": "Models of Computation/Regular Expressions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Models of Computation/Automata.md"
+                "file": "Models of Computation/Regular Expressions.md"
               }
             }
           }
@@ -157,10 +157,10 @@
   },
   "active": "536e217f1858c485",
   "lastOpenFiles": [
+    "Models of Computation/Automata.md",
     "Models of Computation/Questions.md",
     "Agile/Software Development Process Models.md",
     "Untitled",
-    "Models of Computation/Automata.md",
     "Models of Computation/Context-free Grammars.md",
     "Models of Computation/images/NFA_base_case_3.png",
     "Models of Computation/images/NFA_base_case_2.png",
