@@ -141,6 +141,7 @@ If $N_1, N_2$ are NFAs, there is an NFA $N$ recognising $L(n_1)\cup L(n_2)$
 - Given NFAs $N_i=(Q_i,\Sigma,\delta_i,q_i,F_i)$ construct NFA $N$ that guessing which of $N_1$ or $N_2$ to simulate
 - $N$ has states $Q_1\cup Q_2\cup \lbrace q_0\rbrace$ so that it can simulate $N_1, N_2$
 - $N$ guesses from $q_0$ whether to go to the start state of $N_1$ or $N_2$
+	- $q_0$ is just a state that will guess between $N_1$ or $N_2$
 
 **Simulate $N_1$ followed by $N_2$**
 - Given NFAs $N_i=(Q_i,\Sigma,\delta_i,q_i,F_i)$ construct NFA $N$ that guesses how to break the input into 2 pieces, the first accepted by $N_1$ and the second by $N_2$
