@@ -147,6 +147,7 @@ If $N_1, N_2$ are NFAs, there is an NFA $N$ recognising $L(n_1)\cup L(n_2)$
 - Given NFAs $N_i=(Q_i,\Sigma,\delta_i,q_i,F_i)$ construct NFA $N$ that guesses how to break the input into 2 pieces, the first accepted by $N_1$ and the second by $N_2$
 - $N$ has states $Q_1\cup Q_2$ so that it can simulate $N_1$ and $N_2$
 - At some point when $N_1$ is in a final state, guess that it is time to move to the start state of $N_2$
+	- Final states in $N_1$ are no longer final, but rather go to the initial states of $N_2$
 
 **Repeatedly simulate $N_1$**
 - Given NFAs $N_i=(Q_i,\Sigma,\delta_i,q_i,F_i)$ construct NFA $N$ that guesses how to break the input into pieces, each of which is accepted by $N_1$
