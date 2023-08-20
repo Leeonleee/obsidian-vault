@@ -52,5 +52,6 @@ $M$ **skips over $\epsilon$ transitions of $N$**
 	- if $q\rightsquigarrow r$ and $r\xrightarrow a s$
 	- Basically if $q$ takes $\epsilon$-transitions to $r$, but $r$ takes $a$ to $s$, then its a transition on $M$
 # NFA without $\epsilon$ Transitions to DFA
+For every NFA $N$ without $\epsilon$-transitions, there is a DFA $M$ such that $L(M)=L(N)$
 
 # DFA to Regular Expressions
