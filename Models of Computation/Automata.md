@@ -155,3 +155,16 @@ If $N_1, N_2$ are NFAs, there is an NFA $N$ recognising $L(n_1)\cup L(n_2)$
 - The new state $q_0$ is ensured that $\epsilon$ is accepted (language always contains the empty string)
 	- $q_0$ is before the initial state
 	- Final states go back to the initial state
+
+# Proving a Language is not Regular
+- Need to show that there is no DFA that recognises it
+- We will use 2 facts
+	1. If $M$ is a DFA, then every string $x$ goes to one state of $M$
+	2. If $M$ has $N$ states, then in any set of $N+1$ strings, at least 2 strings must go to the same state
+## Template of Proof
+- Let $M$ be any DFA, we will show that $L(M)\neq L$
+- Let $N$ be the number of states in $M$
+- Look at the string $x_n=[\dots]$  for $1\leq n\leq N+1$
+- At least 2 of them, say $x_i$ and $x_j$ go to the same state
+- Let $z=[\dots]$ and note that $x_iz\in L$ and $x_jz\notin L$. Why?
+	- 
