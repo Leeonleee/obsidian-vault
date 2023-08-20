@@ -65,5 +65,6 @@ For every NFA $N$ without $\epsilon$-transitions, there is a DFA $M$ such that $
 	- for a state $X\subseteq Q$ of $M$, define $\delta'(X,a)=\bigcup_{q\in X}\delta(q,a)$ 
 	- the initial state of $M$ is the set $\lbrace q_0\rbrace$
 	- for a state $X\subseteq Q$ of $M$, put $X$ into $F'$ if $X$ contains an accepting state of $N$
+		- all sets that contain a final state of the NFA
 
 # DFA to Regular Expressions
