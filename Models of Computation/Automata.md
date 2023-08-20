@@ -167,4 +167,12 @@ If $N_1, N_2$ are NFAs, there is an NFA $N$ recognising $L(n_1)\cup L(n_2)$
 - Look at the string $x_n=[\dots]$  for $1\leq n\leq N+1$
 - At least 2 of them, say $x_i$ and $x_j$ go to the same state
 - Let $z=[\dots]$ and note that $x_iz\in L$ and $x_jz\notin L$. Why?
-	- 
+	- $x_iz$ is in $L$ because $[\dots]$
+	- $x_jz$ is not in $L$ because $[\dots]$
+- Let $q$ be the state that $M$ sends the string $x_iz$ to
+- Since this string is in $L$, the state $q$ must be final
+- But then $M$ will also accept $x_jz$ even though the string is not in $L$
+- So $L(M)\neq L$
+## Summary of the Approach
+To show that $L$ is not regular, you need to show that the following statement about $L$ is true
+- For every $N\geq 1$ there exists $N+1$ strings $x_1,x_2,\dots,x_{N+1}$, such that for every $i,j$ with $i\neq j$ there exists a string $z$ such that $x_iz\in L$ and $x_j,z\notin L$
