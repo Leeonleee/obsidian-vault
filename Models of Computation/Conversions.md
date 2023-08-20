@@ -48,6 +48,7 @@ $M$ **skips over $\epsilon$ transitions of $N$**
 - When is $q$ a final state of $M$?
 	- if $q\rightsquigarrow r$ and $r$ is a final state of $M$
 - When is $q\xrightarrow a s$ a transition of $M$?
+	- if $q\rightsquigarrow r$ and $r\xrightarrow a s$
 	- 
 # NFA without $\epsilon$ Transitions to DFA
 
