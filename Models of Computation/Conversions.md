@@ -70,4 +70,17 @@ For every NFA $N$ without $\epsilon$-transitions, there is a DFA $M$ such that $
 # DFA to Regular Expressions
 For every DFA $M$ there is a regular expression $R$ such that $L(M)=L(R)$
 
-- Convert $M$ into a *generalised nondeterministic f*
+- Convert $M$ into a **generalised nondeterministic finite automaton (GNFA)**
+	- Like an NFA, except it can have regular expressions to label transitions
+- Successively remove states from the automaton, until there is just one transition (from start state to final state)
+- Return the regular expression on this last transition
+## GNFA
+- A **run (aka computation)** of a GNFA $N$ on string $w$ is a sequence of transitions
+$$q_0\xrightarrow{R_1}q_1\xrightarrow{R_2}q_2\xrightarrow{R_3}\dots\xrightarrow{R_m}q_m$$
+- The run is **accepting** if $q_m\in F$
+- The language **recognised** by $N$ is
+$$L(N)=\lbrace w\in\Sigma^*:w\text{ is accepted by }N\rbrace$$
+- In the construction, we make sure the GNFA always follows this form:
+	1. The initial state has no incoming edges
+	2. There is one final state, and it has no outgoing edges
+	3. There are edges from every state (that is not final) to every state (that is not initial)
