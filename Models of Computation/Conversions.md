@@ -68,3 +68,6 @@ For every NFA $N$ without $\epsilon$-transitions, there is a DFA $M$ such that $
 		- all sets that contain a final state of the NFA
 
 # DFA to Regular Expressions
+For every DFA $M$ there is a regular expression $R$ such that $L(M)=L(R)$
+
+- Convert $M$ into a *generalised nondeterministic f*
