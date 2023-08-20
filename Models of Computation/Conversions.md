@@ -56,6 +56,14 @@ For every NFA $N$ without $\epsilon$-transitions, there is a DFA $M$ such that $
 
 **Subset construction**
 - How do you simulate the NFA if you are pretending to be a DFA?
-	- Keep track of the s
+	- Keep track of the set of possible states that the NFA is in
+- When do you accept?
+	- If at least one state you're tracking is an accepting state of the NFA
+- Given NFA $N=(Q,\Sigma,\delta,q_0,F)$ without $\epsilon$-transitions, the subset construction builds a DFA $M$:
+	- every set $X\subseteq Q$ is a state of $M$
+	- the alphabet is $\Sigma$
+	- for a state $X\subseteq Q$ of $M$, define $\delta'(X,a)=\bigcup_{q\in X}\delta(q,a)$ 
+	- the initial state of $M$ is the set $\lbrace q_0\rbrace$
+	- for a state $X\subseteq Q$ of $M$, put $X$ into $F'$ if $X$ contains an accepting state of $N$
 
 # DFA to Regular Expressions
