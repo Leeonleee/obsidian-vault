@@ -47,9 +47,10 @@ $M$ **skips over $\epsilon$ transitions of $N$**
 - Write $q\rightsquigarrow r$  to mean that $N$ can go from $q$ to $r$ using zero or more $\epsilon$-transitions
 - When is $q$ a final state of $M$?
 	- if $q\rightsquigarrow r$ and $r$ is a final state of $M$
+	- Basically a state can transition to a final state using only $\epsilon$-transitions, it also becomes a final state
 - When is $q\xrightarrow a s$ a transition of $M$?
 	- if $q\rightsquigarrow r$ and $r\xrightarrow a s$
-	- 
+	- Basically if $q$ takes $\epsilon$-transitions to $r$, but $r$ takes $a$ to $s$, then its a transition on $M$
 # NFA without $\epsilon$ Transitions to DFA
 
 # DFA to Regular Expressions
