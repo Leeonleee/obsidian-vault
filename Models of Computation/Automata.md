@@ -177,7 +177,7 @@ If $N_1, N_2$ are NFAs, there is an NFA $N$ recognising $L(n_1)\cup L(n_2)$
 To show that $L$ is not regular, you need to show that the following statement about $L$ is true
 - For every $N\geq 1$ there exists $N+1$ strings $x_1,x_2,\dots,x_{N+1}$, such that for every $i,j$ with $i\neq j$ there exists a string $z$ such that $x_iz\in L$ and $x_j,z\notin L$
 
-# Proof of Negation
+# Proof of Negation/by Contradiction
 - Any language that is a Boolean combination of regular languages is regular
 	1. The union of 2 regular languages is regular
 	2. The intersection of 2 regular languages is regular
@@ -187,3 +187,8 @@ We want to prove that a statement $P$ is false
 1. We assume that $P$ is true
 2. We arrive at an impossible situation (incorrect conclusion)
 3. Conclude that statement $P$ must in face be false
+
+We want to prove that a particular language $L$ is not regular
+1. Assume $L$ is regular
+2. Express some other language $L'$ that we know is not regular (already proved) as a Boolean combination of regular languages (including $L$)
+3. Conclude that $L$ cannot be regular
