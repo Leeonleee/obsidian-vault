@@ -84,3 +84,9 @@ $$L(N)=\lbrace w\in\Sigma^*:w\text{ is accepted by }N\rbrace$$
 	1. The initial state has no incoming edges
 	2. There is one final state, and it has no outgoing edges
 	3. There are edges from every state (that is not final) to every state (that is not initial)
+## DFA to GNFA
+For every DFA $M$ there is a GNFA $N$ such that $L(M)=L(N)$
+1. Add an initial state and $\epsilon$-transition to the old state
+2. Add a final state and $\epsilon$-transitions to it from all the old final states
+3. Add transitions for every pair of states, including from a state to itself
+	- Except leaving the final, or entering the initial
