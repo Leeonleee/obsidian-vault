@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Models of Computation/Automata.md",
+                "file": "Models of Computation/Conversions.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Models of Computation/Automata.md",
+                "file": "Models of Computation/Conversions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Models of Computation/Automata.md",
+                "file": "Models of Computation/Conversions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Models of Computation/Automata.md"
+                "file": "Models of Computation/Conversions.md"
               }
             }
           }
@@ -157,8 +157,8 @@
   },
   "active": "536e217f1858c485",
   "lastOpenFiles": [
-    "Models of Computation/Conversions.md",
     "Models of Computation/Automata.md",
+    "Models of Computation/Conversions.md",
     "Models of Computation/Regular Expressions.md",
     "Models of Computation/Questions.md",
     "Agile/Software Development Process Models.md",
