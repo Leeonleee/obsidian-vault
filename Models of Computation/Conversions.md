@@ -54,4 +54,8 @@ $M$ **skips over $\epsilon$ transitions of $N$**
 # NFA without $\epsilon$ Transitions to DFA
 For every NFA $N$ without $\epsilon$-transitions, there is a DFA $M$ such that $L(M)=L(N)$
 
+**Subset construction**
+- How do you simulate the NFA if you are pretending to be a DFA?
+	- Keep track of the s
+
 # DFA to Regular Expressions
