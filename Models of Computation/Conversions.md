@@ -96,4 +96,4 @@ For every GNFA $N$ with $>2$ states, there is a GNFA $N'$ with one less state su
 1. Pick a state $q$ to eliminate
 2. For every pair of remaining states $(s,t)$, replace the label from $s$ to $t$ by the regular expression
 $$R_{s,t}|(R_{s,q}R^*_{q,q}R_{q,t})$$
-where $R_{x,y}$ is the regular expression labellng the transition from state $x$ to state $y$
+where $R_{x,y}$ is the regular expression labelling the transition from state $x$ to state $y$
