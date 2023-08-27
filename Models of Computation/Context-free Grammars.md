@@ -119,3 +119,7 @@ For a grammar $G$:
 ### Removing Ambiguity
 - We want to change the grammar so that $x-y-z$ always means $(x-y)-z$ but we don't want to add parentheses to the strings
 - Introduce a new **non-terminal** symbol $T$
+$$E\rightarrow E-T|T$$
+$$T\rightarrow x|y|z$$
+- $E$ is pretty much $S$
+- 
