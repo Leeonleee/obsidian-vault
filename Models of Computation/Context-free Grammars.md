@@ -107,4 +107,14 @@ A parse tree of a string $w$ is a tree labeled by variables and terminal symbols
 - $w$ reads off leaves from left to right
 ## Ambiguous Grammars
 For a grammar $G$:
-- A string is **ambiguous** if it has $\ge 2$ 
+- A string is **ambiguous** if it has $\ge 2$ parse trees in $G$
+- The grammar $G$ is **ambiguous** if it generates at least one ambiguous string
+
+### Determining if a String is Ambiguous without Parse Tree
+- A derivation is called **leftmost** if it always derives the leftmost symbol first
+	- One can pair left most derivations and parse trees
+- So, a string is ambiguous if it has at least 2 leftmost derivations
+- Also holds true with "rightmost" instead of "leftmost"
+
+### Removing Ambiguity
+- We want to change th
