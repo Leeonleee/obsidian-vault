@@ -4,3 +4,22 @@
 - Can't handle arbitrary nesting (), (()), etc
 - The language of balanced parentheses is not regular
 
+# Context Free Grammars
+- Naturally describe the hierarchical structure of most programming languages
+- A **grammar** is a set of rules which describes a language
+	- The rules are used to **generate (derive)** strings by rewriting
+	- The rules can be thought of as a recursive description of the set of strings
+## Example
+$$S\rightarrow aSb$$
+$$S\rightarrow T$$
+$$T\rightarrow c$$
+- A grammar is made up of
+	- **Variables** $S,T$
+	- **Terminals (input symbols):** $a,b,c$
+	- **Rules:** 3 in this example
+	- **Start Variable:** $S$
+- The arrow $\rightarrow$ can be read as "produced" or "rewrites to"
+- To generate/derive a string:
+	1. Write the start variable
+	2. Repeat the following until no variables are written down:
+		1. Pick a variable $X$ that is writte
