@@ -99,4 +99,9 @@ statement: compount_stmt | simple_stmt
 
 # Parse Tree
 $$S\rightarrow S-S|x|y|z$$
-A parse tree of a string $w$ is a tree labeled by variables and te
+A parse tree of a string $w$ is a tree labeled by variables and terminal symbols
+- The root is labeled by the start variable
+- Interior node is labeled by a variable
+- Children of a node labeled $X$ are labeled by the right hand side of a rule $X\rightarrow u$, in order
+- Leaf node is labeled by a terminal or $\epsilon$
+- $w$ reads off leaves from left to right
