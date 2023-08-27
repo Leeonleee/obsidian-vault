@@ -117,4 +117,5 @@ For a grammar $G$:
 - Also holds true with "rightmost" instead of "leftmost"
 
 ### Removing Ambiguity
-- We want to change th
+- We want to change the grammar so that $x-y-z$ always means $(x-y)-z$ but we don't want to add parentheses to the strings
+- Introduce a new **non-terminal** symbol $T$
