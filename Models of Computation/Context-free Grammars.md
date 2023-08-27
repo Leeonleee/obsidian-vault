@@ -56,9 +56,18 @@ $$S\rightarrow aSb | T$$
 2. Think recursively
 	- How can a string in the language be built from smaller strings in the language?
 
-### Design CFG for Palindrome
-- Design a grammar that generates the language of binary strings that are palindromes
+## Examples
+Design a grammar that generates the language of binary strings that are palindromes
 - **Think recursively**
 	1. Base cases: $0,1,\epsilon$ are palindromes
 	2. Recursive cases: if $u$ is a palindrome, $0u0$ and $1u$ are palindromes
 $$S\rightarrow 0|1|\epsilon$$
+$$S\rightarrow 0S0|1S1$$
+
+Design a grammar that generates the language of binary strings with the same number of 0's and 1's
+- Base case: $\epsilon$ has the same number of 0's and 1's
+- Recursive case: if $u$ has the same number of 0's and 1's, and also $v$, then $0u1v$ and $1u0v$
+$$S\rightarrow \epsilon$$
+$$S\rightarrow 0S1S|1S0S$$
+
+# Context-Free Languages
