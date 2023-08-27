@@ -105,3 +105,6 @@ A parse tree of a string $w$ is a tree labeled by variables and terminal symbols
 - Children of a node labeled $X$ are labeled by the right hand side of a rule $X\rightarrow u$, in order
 - Leaf node is labeled by a terminal or $\epsilon$
 - $w$ reads off leaves from left to right
+## Ambiguous Grammars
+For a grammar $G$:
+- A string is **ambiguous** if it has $\ge 2$ 
