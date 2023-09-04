@@ -29,4 +29,9 @@ Transforming a grammar $G$ into an equivalent grammar $G'$ such that:
 #### Pseudocode
 Given $G=(V,\Sigma,R,S):$
 1. Let $R'=\emptyset$
-2. 
+2. Put all the non epsilon rules from $R$ into $R'$
+3. Repeat the following until $R'$ doesn't change:
+	- If $A\xRightarrow +\epsilon$  in $R$, and $B\rightarrow \alpha$ is a rule in $R'$ where $A$ occurs in $\alpha$
+	- Then add to $R'$ all the rules in which some occurrence of $A$ in $\alpha$ are removed but don't add $B\rightarrow \epsilon$
+4. If $S\xRightarrow+\epsilon$ in $R$ then add $S\rightarrow\epsilon$ to $R'$
+Return $G'=(V,\Sigma, R', S)$
