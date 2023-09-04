@@ -33,5 +33,10 @@ def parse(var, i, j):
 		return epsilon in grammar[var]
 	if j == j + 1:
 		return w[i] in grammar[var]
-	for 
+	for k in range(i + 1, j):
+		for rhs in grammar[var]:
+			B,C = rhs
+			if parse(B,i,k) and parse(C,k,j):
+				return True
+	return False
 ```
