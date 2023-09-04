@@ -37,3 +37,7 @@ Given $G=(V,\Sigma,R,S):$
 Return $G'=(V,\Sigma, R', S)$
 
 ### Removing Unit Rules
+1. Find all pairs $A,B$ such that $A\xRightarrow + B$
+2. If $A\xRightarrow + B$ and $B\rightarrow aBcD$ then add $A\rightarrow aBcD$
+#### Pseudocode
+Given $G = (V,\Sigma,R,s)
