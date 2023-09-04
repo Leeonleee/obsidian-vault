@@ -66,4 +66,15 @@ $$A\rightarrow DA_1$$
 $$A_1\rightarrow EA_2$$
 $$A_2\rightarrow FA_3$$
 $$A_3\rightarrow GH$$
+
 **EPSILON**
+- Use the procedure from before
+- It doesn't mess up START, TERM, BIN because it only removes symbols from the RHS of some rules
+	- It won't add a start variable to the RHS
+	- It won't add rules with terminals (the only rules with terminals are $A\rightarrow a$)
+	- It won't add rules with more than 2 variables
+- May introduce unit rules
+**UNIT**
+- Use procedure from before
+- Won't mess up START, TERM, BIN since it only adds rules that change the LHS of some rules
+- Also doesn't add epsilon rules because to add $A\rightarrow\epsilon$, we need $S\rightarrow \epsilon$ and $A\xRightarrow + S$ but because of START, $S$ can't occur on the RHS
