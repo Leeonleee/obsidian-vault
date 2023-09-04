@@ -60,6 +60,7 @@ Return $G'=(V,\Sigma,R',S)$
 **TERM**
 - Replace every terminal $a$ on the RHS of a rule (that is not of form $A\rightarrow a$) by the new variable $N_a$
 - For each such terminal $a$, create the new rule $N_a\rightarrow a$
+	- Basically, replace $a$ with $A$ and make the rule $A\rightarrow a$
 **BIN**
 - For every rule of the form $A\rightarrow DEFGH$, delete it and create new variables $A_1,A_2,A_3$ and add rules:
 $$A\rightarrow DA_1$$
