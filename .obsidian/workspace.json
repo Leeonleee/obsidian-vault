@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Models of Computation/Context-Free Grammars/Chomsky Normal Form.md",
+                "file": "Models of Computation/Context-Free Grammars/Parsing CFGs in CNF.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Models of Computation/Context-Free Grammars/Chomsky Normal Form.md",
+                "file": "Models of Computation/Context-Free Grammars/Parsing CFGs in CNF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Models of Computation/Context-Free Grammars/Chomsky Normal Form.md",
+                "file": "Models of Computation/Context-Free Grammars/Parsing CFGs in CNF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Models of Computation/Context-Free Grammars/Chomsky Normal Form.md"
+                "file": "Models of Computation/Context-Free Grammars/Parsing CFGs in CNF.md"
               }
             }
           }
@@ -157,8 +157,9 @@
   },
   "active": "536e217f1858c485",
   "lastOpenFiles": [
-    "Models of Computation/Regular Languages/Conversions.md",
     "Models of Computation/Context-Free Grammars/Chomsky Normal Form.md",
+    "Models of Computation/Context-Free Grammars/Parsing CFGs in CNF.md",
+    "Models of Computation/Regular Languages/Conversions.md",
     "Models of Computation/Regular Languages",
     "Models of Computation/Untitled.md",
     "Models of Computation/Context-Free Grammars",
