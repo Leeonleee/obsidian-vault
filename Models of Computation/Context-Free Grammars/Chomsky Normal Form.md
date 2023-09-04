@@ -26,4 +26,7 @@ Transforming a grammar $G$ into an equivalent grammar $G'$ such that:
 ### Removing Epsilon Rules
 1. Find all variables $A^+\xRightarrow + \epsilon$ ('nullable variable')
 2. if $B\rightarrow AcA$ is in $R$, and $A\xRightarrow + \epsilon$, then add the rules $B\rightarrow cA|Ac|c$
-3. 
+#### Pseudocode
+Given $G=(V,\Sigma,R,S):$
+1. Let $R'=\emptyset$
+2. 
