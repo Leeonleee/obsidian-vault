@@ -35,3 +35,5 @@ Given $G=(V,\Sigma,R,S):$
 	- Then add to $R'$ all the rules in which some occurrence of $A$ in $\alpha$ are removed but don't add $B\rightarrow \epsilon$
 4. If $S\xRightarrow+\epsilon$ in $R$ then add $S\rightarrow\epsilon$ to $R'$
 Return $G'=(V,\Sigma, R', S)$
+
+### Removing Unit Rules
