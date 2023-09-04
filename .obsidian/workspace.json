@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Models of Computation/Context-free Grammars.md",
+                "file": "Models of Computation/Context-Free Grammars/Chomsky Normal Form.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Models of Computation/Context-free Grammars.md",
+                "file": "Models of Computation/Context-Free Grammars/Chomsky Normal Form.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Models of Computation/Context-free Grammars.md",
+                "file": "Models of Computation/Context-Free Grammars/Chomsky Normal Form.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Models of Computation/Context-free Grammars.md"
+                "file": "Models of Computation/Context-Free Grammars/Chomsky Normal Form.md"
               }
             }
           }
@@ -155,15 +155,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "536e217f1858c485",
+  "active": "56b6f0868eec3789",
   "lastOpenFiles": [
-    "Models of Computation/Conversions.md",
-    "Models of Computation/Automata.md",
-    "Models of Computation/Regular Expressions.md",
+    "Models of Computation/Regular Languages",
+    "Models of Computation/Untitled.md",
+    "Models of Computation/Context-Free Grammars/Chomsky Normal Form.md",
+    "Models of Computation/Context-Free Grammars",
+    "Models of Computation/Context-Free Grammars/Context-free Grammars.md",
+    "Models of Computation/Regular Languages/Conversions.md",
+    "Models of Computation/Regular Languages/Automata.md",
+    "Models of Computation/Regular Languages/Regular Expressions.md",
     "Models of Computation/Questions.md",
     "Agile/Software Development Process Models.md",
     "Untitled",
-    "Models of Computation/Context-free Grammars.md",
     "Models of Computation/images/NFA_base_case_3.png",
     "Models of Computation/images/NFA_base_case_2.png",
     "Models of Computation/images/NFA_base_case_1.png",
@@ -189,13 +193,9 @@
     "Models of Computation",
     "Data Structures/Lists.md",
     "Non CS/Japanese/Grammar.md",
-    "Data Structures/Queue.md",
-    "Data Structures/Binary Trees.md",
-    "Non CS/Japanese/Grammar/Grammar.md",
     "Non CS/Japanese/Grammar",
     "Non CS/Japanese",
     "Security",
-    "Non CS",
-    "Templates"
+    "Non CS"
   ]
 }
