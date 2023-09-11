@@ -90,3 +90,15 @@ q3 1 1 * halt-reject
 - A DFA is a TM that cannot right on its tape, can only move right and must enter a halting state when it first reaches a blank symbol (read the entire input)
 - A TN can write on the tape, move left, go past the original input and also run forever
 
+# Level of Detail for Describing TMs
+1. Formal description
+	- Lowest level of detail
+	- Specifies the states and transitions in a table/diagram
+2. Implementation description
+	- English description of the way the TM moves its head and stores data on the tape
+3. High-level description
+	- English description describing an algorithm
+	- No mention of the TM's tape or head
+
+# Tips for Designing TMs
+
