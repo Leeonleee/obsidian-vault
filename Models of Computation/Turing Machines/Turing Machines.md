@@ -113,3 +113,19 @@ q3 1 1 * halt-reject
 - We view the tape as having 2 tracks, first for input and the second for marking the midpoint
 
 # Turing-Recognisable Languages
+1. A language is **Turing-recognisable (aka recognisable)** if some TM recognises it
+2. A TM that halts on all inputs is called a **decider**
+3. A language is **Turing-decidable (aka decidable)** if some decider recognises it
+
+# Configurations
+A **configuration** for a TM is a string $uqv\in\Gamma^*Q\Gamma^*$ 
+- Think of it as a "snapshot in time" of an execution of the TM
+- It represents the situation in which
+	1. $q$ is the current state
+	2. the tape content is $uv$ (the infinite string of blanks to the left and right are not written)
+	3. the head is at the first symbol of $v$
+e.g. The configuration $XXXq_1Y11$ represents the situation where the machine is in state $q_1$, the tape stores $XXXY11$ and the head is over the fourth cell (that stores a $Y$)
+# Summary
+- TMs are a machine model of computation, equivalent to many other models of computation
+- They are different from simpler models (e.g. DFA) because they have unrestricted access to unlimited memory
+- The Church-Turing thesis says that the induitive idea of an algorithm equals Turing machine algorithms
