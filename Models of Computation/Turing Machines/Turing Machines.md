@@ -54,3 +54,39 @@ q2 a a * halt-reject
 - Match leftmost 0 with leftmost 1, replace 0 with X and 1 with Y and repeat
 - If a 1 cannot be found this way, reject (more 0s than 1s)
 - If a 0 cannot be found this way, go to the end and check there are no more characters
+```
+; replace 0 by X and look for matching 1 
+; but if Y is seen, go for endgame
+q0 0 X R q1
+q0 Y Y R q3
+
+; skip over 0's and Y's until 1 is found 
+; replace it by Y and start heading back to left
+q1 0 0 R q1
+q1 Y Y R q1
+q1 1 Y L q2
+
+; move left skipping 0's and Y's until the first X is found
+; move right to look for leftmost 0
+q2 Y Y L q2
+q2 0 0 L q2
+q2 X X R q0
+
+; endgame
+; make sure there are no extra 1's or 0's
+q3 Y Y R q3
+q3 _ _ * halt-accept
+q3 0 0 * halt-reject 
+q3 1 1 * halt-reject
+```
+
+# Notation
+- $Q=$ set of states
+- $\Sigma=$ input alphabet
+- $\Gamma=$ tape alphabet, includes $\Sigma$ and the blank symbol $\_$
+- $\delta:Q\times \Gamma\rightarrow\Gamma\times\lbrace L,R,S\rbrace \times Q$ is the transition function
+
+# Relationship between TMs and DFAs
+- A DFA is a TM that cannot right on its tape, can only move right and must enter a halting state when it first reaches a blank symbol (read the entire input)
+- A TN can write on the tape, move left, go past the original input and also run forever
+
