@@ -101,4 +101,15 @@ q3 1 1 * halt-reject
 	- No mention of the TM's tape or head
 
 # Tips for Designing TMs
+## Use subroutines
+- Blocks of code are repeatedly called
+## Use informative names for states
+- A TM for $\lbrace ww^R:w\in\lbrace a,b\rbrace^*\rbrace$ ($w^R$ is the reverse of $w$) could match the leftmost symbol with the rightmost symbol, erasing both
+- The state name can store the leftmost symbol while heading right to find the rightmost symbol
+	- $q_a$ means the leftmost symbol was an $a$
+	- $q_b$ means the leftmost symbol was a $b$
+## View the tape as having multiple tracks, and the tape alphabet as having composite symbols
+- A TM for $\lbrace ww:w\in\lbrace a,b\rbrace^+\rbrace$ could first find and mark the midpoint of the input, and the use a matching process like before
+- We view the tape as having 2 tracks, first for input and the second for marking the midpoint
 
+# Turing-Recognisable Languages
