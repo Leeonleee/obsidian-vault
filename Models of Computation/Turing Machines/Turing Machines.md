@@ -31,3 +31,26 @@ Each instruction is in the form
 
 # TM recognising the language of a\*b\*
 Idea: scan the tape, do not write anything but keep track that once you see a $b$, you don't see an $a$ again
+```
+; Checks of the input string matches a*b*
+; q0 is the initial state
+q0 _ _ * halt-accept
+q0 a a * q1
+q0 b b * q2
+
+; q1 represents that only a's have been seen
+q1 a a R q1
+q1 b b R q2
+q1 _ _ * halt-accept
+
+; q2 represents that a's have been seen, followed by b's
+q2 b b R q2
+
+q2 _ _ * halt-accept
+q2 a a * halt-reject
+```
+
+# TM recognising $\lbrace0^n1^n:n\ge 1\rbrace$
+- Match leftmost 0 with leftmost 1, replace 0 with X and 1 with Y and repeat
+- If a 1 cannot be found this way, reject (more 0s than 1s)
+- If a 0 cannot be found this way, go to the end and check there are no more characters
