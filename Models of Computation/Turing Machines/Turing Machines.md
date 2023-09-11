@@ -21,5 +21,13 @@ Each instruction is in the form
 <current state> <current symbol> <new symbol> <direction> <new state>
 ```
 - The instruction "q1 a b R q2" tells the machine that "if it is in state $q1$ and sees the symbol $a$ under the head, it should write the symbol $b$ under the head, move one cell to the right, and change to state $q2$"
-- Symbols are from the tape alphabet $\Gamma$, which includes the input alphabet $\Sigma$ and '_'
+- Symbols are from the tape alphabet $\Gamma$, which includes the input alphabet $\Sigma$ and '\_\' 
+- Directions:
+	- Move one cell to the left $'L'$
+	- Move one cell to the right $'R'$
+	- Do not move $'*'$ (aka $S$)
+- The machine stops running when it reaches any state starting with 'halt'
+	- e.g. halt, halt-accept, halt-reject
 
+# TM recognising the language of a\*b\*
+Idea: scan the tape, do not write anything but keep track that once you see a $b$, you don't see an $a$ again
