@@ -63,4 +63,12 @@ $$\delta:Q\times\Gamma^k\rightarrow\Gamma^k\times\lbrace L,R,S\rbrace^k\times Q$
 The union of decidable languages is decidable
 **Proof:**
 Let $L_1$ and $L_2$ be languages that are decided by TMs $M_1$ and $M_2$ respectively
-We construct a TM
+We construct a TM that decides $L_1\cup L_2$ as follows:
+```
+def L1_union_L2(x):
+	if M1(x):
+		return 1
+	if M2(x):
+		return 1
+	return 0
+```
