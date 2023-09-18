@@ -51,3 +51,16 @@ $$\delta:Q\times\Gamma^k\rightarrow\Gamma^k\times\lbrace L,R,S\rbrace^k\times Q$
 - Split the tape into $2k$-many tracks of the single tape of $B$
 - For each tape of $M$, use one track to store tape contents, and one track to mark head position on that tape
 - Each transition of $M$ is simulated by a series of transitions of $B$
+# Summary
+1. The set of recognisable languages doesn't change if one makes certain variations
+	- e.g. more tapes
+2. The set of decidable languages doesn't change if one makes certain variations
+	- e.g. more tapes
+	- This is because the simulations do not introduce diverging computations
+
+# Closure Properties
+## Union
+The union of decidable languages is decidable
+**Proof:**
+Let $L_1$ and $L_2$ be languages that are decided by TMs $M_1$ and $M_2$ respectively
+We construct a TM
