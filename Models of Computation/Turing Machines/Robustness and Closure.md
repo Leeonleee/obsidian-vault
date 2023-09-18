@@ -40,4 +40,14 @@ q_i ** L q_j
 
 # Multitape TM
 - Has multiple tapes, each with its own head for reading and writing
-- Initially the input appears on 
+- Initially the input appears on tape 1, and the others start out blank
+- The heads move simultaneously
+- The type of the transition function of a $k$-tape TM becomes
+$$\delta:Q\times\Gamma^k\rightarrow\Gamma^k\times\lbrace L,R,S\rbrace^k\times Q$$
+- Every basic TM is a multi-tape TM ($k=1$)
+- Is every multi-tape TM equivalent to a basic TM?
+**Theorem:** Every multitape TM $M$ has an equivalent basic TM $B$
+**Proof idea:**
+- Split the tape into $2k$-many tracks of the single tape of $B$
+- For each tape of $M$, use one track to store tape contents, and one track to mark head position on that tape
+- Each transition of $M$ is simulated by a series of transitions of $B$
