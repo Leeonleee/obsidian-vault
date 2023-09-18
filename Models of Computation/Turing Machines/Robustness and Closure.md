@@ -33,4 +33,11 @@ q_i ** L q_j
 - If the transition function suggests to move left when the head is already at the left=most position, the head stays
 **Theorem:** Every basic TM is equivalent to a left-bounded TM
 **Proof idea:** simulate a basic TM by a left-bounded one
-- Split the left-bounded tape into 2 tracks
+- Split the left-bounded tape into 2 tracks: upper and lower
+- Upper track represents the right half of the tape (from the initial head position)
+- Lower track represents the left half of the tape
+- An extra state component keeps track of the half in which the head currently is in
+
+# Multitape TM
+- Has multiple tapes, each with its own head for reading and writing
+- Initially the input appears on 
