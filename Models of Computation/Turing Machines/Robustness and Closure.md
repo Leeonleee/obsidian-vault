@@ -61,8 +61,7 @@ $$\delta:Q\times\Gamma^k\rightarrow\Gamma^k\times\lbrace L,R,S\rbrace^k\times Q$
 # Closure Properties
 ## Union
 The union of decidable languages is decidable
-**Proof:**
-Let $L_1$ and $L_2$ be languages that are decided by TMs $M_1$ and $M_2$ respectively
+**Proof:** Let $L_1$ and $L_2$ be languages that are decided by TMs $M_1$ and $M_2$ respectively
 We construct a TM that decides $L_1\cup L_2$ as follows:
 ```
 def L1_union_L2(x):
@@ -71,4 +70,12 @@ def L1_union_L2(x):
 	if M2(x):
 		return 1
 	return 0
+```
+
+## Complement
+The complement of a decidable language is decidable
+**Proof:** Suppose that TM $M$ decides language $L$. Build a TM from $M$ as follows
+```
+def Complement_M(X):
+return not M(x)
 ```
