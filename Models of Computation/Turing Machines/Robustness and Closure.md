@@ -79,3 +79,15 @@ The complement of a decidable language is decidable
 def Complement_M(X):
 return not M(x)
 ```
+
+A language is decidable exactly when it and its complements are recognisable
+**Proof:**
+- Follows from the closure properties of decidable languages
+- If $M_1$ recognises $L$ and $M_2$ recognises $\Sigma^*\backslash L$ , we construct a decider for $L$ as follows:
+	- On input $w$
+	- Run $M_1$ and $M_2$ on parallel on $w$
+		- Use one tape for each machine
+		- At each step, simulate $M_1$ on tape 1, and $M_2$ on tape 2
+	- If $M_1$ ever accepts, then accept; and if $M_2$ ever accepts, the reject
+- Exactly one of $M_1$ or $M_2$ must eventually accept $w$, we we have built a decider for $L$
+- 
