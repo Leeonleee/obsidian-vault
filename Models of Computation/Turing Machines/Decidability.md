@@ -33,5 +33,23 @@ Let $Source_M$ denote the string encoding of a TM $M$
 You can think that it is the source code in any general purpose programming language
 
 # Encoding graphs
-Use things like adjacen
+Use things like adjacency lists
 
+# Decidability
+- If you run a TM on an input, one of three things can occur
+	1. The TM eventually halts in an accept state
+	2. The TM eventually halts in a reject state
+	3. The TM doesn't enter a halting state (it **diverges**)
+- A TM is a decider if it halts on every input
+- A language $L$ is called **Turing-decidable** if $L=L(M)$ for a decider $M$
+
+# Decidable problems about automata
+## Membership problem for DFAs
+The problem is the language
+$$L_\text{DFA-acceptance}=\lbrace D,w | D\text{ is a DFA that accepts }w\rbrace$$
+$$L(D)=\lbrace w:w\in L(D)\rbrace$$
+- $w$ is the input string
+- This problem is decidable
+- This is a high level description of a decider for this language
+	1. Simulate $D$ on word $w$
+	2. If $D$ ends in an accepting state, 
