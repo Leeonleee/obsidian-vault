@@ -47,3 +47,8 @@ High level description of $D$:
 - An NTM $N$ is a **decider** if on every input, every branch of its computation tree halts
 - The **time-complexity** of $N$ is the function $f:\mathbb{N}\rightarrow\mathbb{N}$ where $f(n)$ is the max number of steps that $N$ uses on any branch of its computation on any input length $n$
 - If $f(n)=O(p(n))$ for some polynomial $p$, then $N$ runs in polynomial time
+
+# Second most important class of languages
+Define NP to be the collection of languages $L$ that are decidable in polynomial time on **nondeterministic** Turing machines
+- Read as "NP" or "Nondeterministic Polynomial Time"
+- All languages in P are in NP
