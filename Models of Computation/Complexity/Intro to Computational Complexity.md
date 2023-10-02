@@ -66,5 +66,9 @@ To show that CLIQUE is in NP, we need a polynomial time NTM that decides it
 High level description of the TM
 On input $(V,E),K$
 1. Nondeterministically select a subset $C\subseteq V$ of $K$ vertices
+	- Explores all $C$ simultaneously
 2. Test whether every pair of different nodes in $C$ is connected by an edge
 3. If yes, accept, else reject
+
+# P=NP
+We know that every problem P is in NP, $P\subseteq NP$, however, we don't know if they are equal
