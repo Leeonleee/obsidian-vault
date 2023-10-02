@@ -52,3 +52,17 @@ High level description of $D$:
 Define NP to be the collection of languages $L$ that are decidable in polynomial time on **nondeterministic** Turing machines
 - Read as "NP" or "Nondeterministic Polynomial Time"
 - All languages in P are in NP
+
+# Graphs
+A graph $G$ is a pair $(V,E)$ where $V$ is a set of vertices, and $E\subseteq V\times V$  is a set of edges
+- A non-empty graph is called a **clique (completely connected)** if every pair of different nodes is connected by an edge
+
+## CLIQUE is in NP
+The CLIQUE problem:
+**Input:** graph $(V,E)$ and $K\in\mathbb{Z}^+$
+**Output:** "yes" if the graph contains $K$ vertices that form a clique, "no" otherwise
+To show that CLIQUE is in NP, we need a polynomial time NTM that decides it
+
+High level description of the TM
+On input $(V,E),K$
+1. Nondeterministically 
