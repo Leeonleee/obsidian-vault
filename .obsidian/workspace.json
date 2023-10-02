@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Models of Computation/Turing Machines/Decidability.md",
+                "file": "Models of Computation/Complexity/Intro to Computational Complexity.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Models of Computation/Turing Machines/Decidability.md",
+                "file": "Models of Computation/Complexity/Intro to Computational Complexity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Models of Computation/Turing Machines/Decidability.md",
+                "file": "Models of Computation/Complexity/Intro to Computational Complexity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Models of Computation/Turing Machines/Decidability.md"
+                "file": "Models of Computation/Complexity/Intro to Computational Complexity.md"
               }
             }
           }
@@ -155,11 +155,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "56b6f0868eec3789",
+  "active": "536e217f1858c485",
   "lastOpenFiles": [
+    "Models of Computation/Turing Machines/Decidability.md",
+    "Models of Computation/Complexity/Intro to Computational Complexity.md",
     "Models of Computation/Complexity",
     "Models of Computation/Turing Machines/Robustness and Closure.md",
-    "Models of Computation/Turing Machines/Decidability.md",
     "Models of Computation/Regular Languages/Regular Expressions.md",
     "Models of Computation/Regular Languages/Automata.md",
     "Models of Computation/Regular Languages/Conversions.md",
@@ -195,7 +196,6 @@
     "Agile",
     "Databases",
     "Models of Computation",
-    "Non CS/Japanese/Grammar",
-    "Non CS/Japanese"
+    "Non CS/Japanese/Grammar"
   ]
 }
