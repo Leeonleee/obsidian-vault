@@ -48,8 +48,15 @@ Use things like adjacency lists
 The problem is the language
 $$L_\text{DFA-acceptance}=\lbrace D,w | D\text{ is a DFA that accepts }w\rbrace$$
 $$L(D)=\lbrace w:w\in L(D)\rbrace$$
-- $w$ is the input string
+- $w$ is the input string over the DFA $D$
 - This problem is decidable
 - This is a high level description of a decider for this language
 	1. Simulate $D$ on word $w$
-	2. If $D$ ends in an accepting state, 
+	2. If $D$ ends in an accepting state, accept, else reject
+---
+1. Membership/acceptance problems for DFA, NFA, RE, and CFG are decidable
+2. The emptiness problems for DFA, NFA, RE, and CFG are decidable
+3. The equivalence problems f0r DFA, NFA, and RE are decidable
+	- The equivalence problem for CFGs is not decidable
+
+# Acceptance problem for TMs
