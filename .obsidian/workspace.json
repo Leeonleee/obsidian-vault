@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Models of Computation/Turing Machines/Robustness and Closure.md",
+                "file": "Models of Computation/Turing Machines/Decidability.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Models of Computation/Turing Machines/Robustness and Closure.md",
+                "file": "Models of Computation/Turing Machines/Decidability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Models of Computation/Turing Machines/Robustness and Closure.md",
+                "file": "Models of Computation/Turing Machines/Decidability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Models of Computation/Turing Machines/Robustness and Closure.md"
+                "file": "Models of Computation/Turing Machines/Decidability.md"
               }
             }
           }
@@ -157,12 +157,13 @@
   },
   "active": "536e217f1858c485",
   "lastOpenFiles": [
+    "Models of Computation/Turing Machines/Robustness and Closure.md",
+    "Models of Computation/Turing Machines/Decidability.md",
     "Models of Computation/Regular Languages/Regular Expressions.md",
     "Models of Computation/Regular Languages/Automata.md",
     "Models of Computation/Regular Languages/Conversions.md",
     "Models of Computation/Context-Free Grammars/Chomsky Normal Form.md",
     "Models of Computation/Turing Machines/Turing Machines.md",
-    "Models of Computation/Turing Machines/Robustness and Closure.md",
     "Models of Computation/Turing Machines",
     "Models of Computation/Context-Free Grammars/Context-free Grammars.md",
     "Models of Computation/Context-Free Grammars/Parsing CFGs in CNF.md",
@@ -191,7 +192,6 @@
     "Data Structures/Linked Lists.md",
     "Data Structures/Arrays.md",
     "Terminology.md",
-    "Databases/Assessment.md",
     "Agile",
     "Databases",
     "Models of Computation",
