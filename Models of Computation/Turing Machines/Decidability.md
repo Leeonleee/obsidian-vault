@@ -60,3 +60,18 @@ $$L(D)=\lbrace w:w\in L(D)\rbrace$$
 	- The equivalence problem for CFGs is not decidable
 
 # Acceptance problem for TMs
+The acceptance problem for TMs is the language
+$$L_\text{TM-acceptance}=\lbrace M,w|M\text{ is a TM that accepts }w\rbrace$$
+- This language is recognisable
+- To show this, build a TM $U$ that recognises it
+High level description of $U$
+1. On input $M,w:$
+	1. simulate $M$ on $w$
+	2. accept if $M$ enters $q_\text{accept}$, reject if $M$ enters $q_\text{reject}$, if $M$ doesn't halt, $U$ doesn't
+- The TM $U$ is called a **universal TM** since it can do what any other TM can do
+
+## Implementation level description of $U$
+- Tape 1 holds the transition function $\delta_M$ of the input TM $M$
+- Tape 2 holds the simulated contents of $M$'s tape
+- Tape 3 holds the current state of $M$, and the current position of $M$'s tape head
+- $U$ simulates $M$ on input $x$ one step at a time
