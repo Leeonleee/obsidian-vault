@@ -27,5 +27,23 @@ P roughly corresponds to problems that can be realistically solved on a computer
 - Most problems studied in DSA
 
 # Non-Deterministic TMs
-The transition function of a ND TM $N$ becomes
-$$\delta:Q\times \Gamma\rightarrow P(\Gamma\times\lbrace L,R,S\rbrace)$$
+The transition function of a NTM $N$ becomes
+$$\delta:Q\times \Gamma\rightarrow P(\Gamma\times\lbrace L,R,S\rbrace\times Q)$$
+
+e.g. $(a',L,q')\in \delta(q,a)$ means
+- If $N$ is in state $q$ and reads symbol $a$ under the head, one of its possible transitions it to write $a'$, change to state $q'$ and move the head one cell to the left
+- A computation of $N$ on an input $u$ is a tree, called the **computation tree**
+
+## Accepting inputs
+A NTM accepts input $u$ if some branch of the computation tree of $u$ has an accepting configuration
+
+**Theorem:** Every NTM $N$ has an equivalent deterministic TM $D$
+**Idea:** $D$ will search the computation tree of $N$
+High level description of $D$:
+- $D$ does a breadth-first search of $N$'s computation tree on given input
+- If it finds $q_\text{accept}$, it accepts, otherwise it diverges
+
+## Time complexity for NTMs
+- An NTM $N$ is a **decider** if on every input, every branch of its computation tree halts
+- The **time-complexity** of $N$ is the function $f:\mathbb{N}\rightarrow\mathbb{N}$ where $f(n)$ is the max number of steps that $N$ uses on any branch of its computation on any input length $n$
+- If $f(n)=O(p(n))$ for some polynomial $p$, then $N$ runs in polynomial time
