@@ -60,6 +60,7 @@ $$L(D)=\lbrace w:w\in L(D)\rbrace$$
 	- The equivalence problem for CFGs is not decidable
 
 # Acceptance problem for TMs
+
 The acceptance problem for TMs is the language
 $$L_\text{TM-acceptance}=\lbrace M,w|M\text{ is a TM that accepts }w\rbrace$$
 - This language is recognisable
@@ -75,3 +76,19 @@ High level description of $U$
 - Tape 2 holds the simulated contents of $M$'s tape
 - Tape 3 holds the current state of $M$, and the current position of $M$'s tape head
 - $U$ simulates $M$ on input $x$ one step at a time
+	- In each step it updates:
+		- $M$'s state
+		- simulated tape contents
+		- head position as dictated by $\delta_M$
+	- If $M$ halts and accepts, or halts and rejects, then $U$ does the same
+## Universal TM
+- This is the blueprint for an interpreter, it takes TMs as input and executes them
+- It's similar to a Python interpreter written in Python
+	- A Python program that takes Python programs as input and executes them
+- They are analogous to a computer
+
+This is **NOT** a decider
+
+The **acceptance problem** for TMs is not decidable because 
+$$L_\text{TM-acceptance}=\lbrace M,w|M\text{ is a TM that accepts }w\rbrace$$
+- TM $U$ recognises the acceptance problem for TM, but it doesn't decide it
