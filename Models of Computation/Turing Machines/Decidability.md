@@ -29,5 +29,9 @@ e.g.
 - The delimiter here is the comma, but any other symbol can be used
 
 # Encoding TMs
+Let $Source_M$ denote the string encoding of a TM $M$
+You can think that it is the source code in any general purpose programming language
 
+# Encoding graphs
+Use things like adjacen
 
