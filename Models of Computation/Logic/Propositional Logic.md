@@ -118,3 +118,9 @@ The formula $(F\vee G)$ is true if and only if either or both formulas are true
 	TV2. $$tv(\neg F,\alpha)=\begin{cases}0\text{ if }tv(F,\alpha)=1\\1\text{ if }tv(F,\alpha)=0\end{cases}$$
 	TV3.$$tv(F\wedge G,\alpha)=\begin{cases}1\text{ if }tv(F,\alpha)\text{ and }tv(G,\alpha)=1\\0\text{ otherwise }\end{cases}$$
 	TV4.$$tv(F\vee G,\alpha)=\begin{cases}1\text{ if }tv(F,\alpha)\text{ or }tv(G,\alpha)=1\\0\text{ otherwise }\end{cases}$$
+This is a shorter way to code $tv(F,\alpha)$$
+	TV1. $tv(p,\alpha)=\alpha(p)$ for atoms $p$
+	TV2. $tv(\neg F,\alpha)=1-tv(F,\alpha)$
+	TV3. $tv(F\wedge G, \alpha)=\text{min}\lbrace tv(F,\alpha),tv(G,\alpha)\rbrace$
+	TV3. $tv(F\vee G, \alpha)=\text{max}\lbrace tv(F,\alpha),tv(G,\alpha)\rbrace$
+	
