@@ -133,3 +133,9 @@ This is a shorter way to code $tv(F,\alpha)$$
 	- $\alpha$ models $F$
 	- Also written as $\alpha\vDash F$
 - The symbol $\vDash$ is called the **double-turnstile**
+
+## Other symbols
+1. $\top$ and $\bot$ are formulas
+	- Called the **propositional constants**
+2. If $F,G$ are formulas, then so are $(F\rightarrow G)$ and $(F\leftrightarrow G)$
+3. 
