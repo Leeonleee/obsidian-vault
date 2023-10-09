@@ -115,4 +115,6 @@ The formula $(F\vee G)$ is true if and only if either or both formulas are true
 - On four variables, there are $2^4=16$ assignments
 - The truth value $tv(F,\alpha)$ of a formula $F$ under assignment $\alpha$ is defined by the following recursive process:
 	TV1. $tv(p,\alpha=\alpha(p)$ for every atom $p$
-	TV2. $
+	TV2. $$tv(\neg F,\alpha)=\begin{cases}0\text{ if }tv(F,\alpha)=1\\1\text{ if }tv(F,\alpha)=0\end{cases}$$
+	TV3.$$tv(F\wedge G,\alpha)=\begin{cases}1\text{ if }tv(F,\alpha)\text{ and }tv(G,\alpha)=1\\0\text{ otherwise }\end{cases}$$
+	TV4.$$tv(F\vee G,\alpha)=\begin{cases}1\text{ if }tv(F,\alpha)\text{ or }tv(G,\alpha)=1\\0\text{ otherwise }\end{cases}$$
