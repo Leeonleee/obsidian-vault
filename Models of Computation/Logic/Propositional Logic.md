@@ -57,4 +57,11 @@ Syntactic rules for defining formulas of Propositional logic
 3. By F3. $(q\vee\neg p)$ is a formula
 4. By F3. $(p\wedge(q\vee\neg p))$ is a formula
 
+## Syntax
+1. Specifies what we mean by a propositional formula
+2. Allows one to design algorithms that process/manipulate formulas using recursion
+	1. The base case is rule 1 of the definition
+	2. The recursive cases are rules 2 and 3
+3. One can prove things about propositional formulas and about code that processes formulas
+
 
