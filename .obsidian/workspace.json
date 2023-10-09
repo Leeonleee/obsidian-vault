@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Models of Computation/Logic/Propositional Logic.md",
+                "file": "Software Design/UML/UML Class Diagram.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Models of Computation/Logic/Propositional Logic.md",
+                "file": "Software Design/UML/UML Class Diagram.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Models of Computation/Logic/Propositional Logic.md",
+                "file": "Software Design/UML/UML Class Diagram.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Models of Computation/Logic/Propositional Logic.md"
+                "file": "Software Design/UML/UML Class Diagram.md"
               }
             }
           }
@@ -157,8 +157,12 @@
   },
   "active": "536e217f1858c485",
   "lastOpenFiles": [
-    "Models of Computation/Logic/General.md",
+    "Software Design/Design Patterns",
+    "Software Design/UML",
     "Models of Computation/Logic/Propositional Logic.md",
+    "Software Design/UML/UML Class Diagram.md",
+    "Software Design",
+    "Models of Computation/Logic/General.md",
     "Models of Computation/Turing Machines/Decidability.md",
     "Models of Computation/Logic",
     "Models of Computation/Untitled.md",
@@ -192,10 +196,6 @@
     "readme.md",
     "$Syntax.md",
     "Databases/Overview.md",
-    "Data Structures/Cheatsheet.md",
-    "<.md",
-    "Agile",
-    "Databases",
-    "Models of Computation"
+    "Agile"
   ]
 }
