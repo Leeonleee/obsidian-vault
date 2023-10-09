@@ -47,7 +47,14 @@ Syntactic rules for defining formulas of Propositional logic
 - $\wedge$ is read "and"
 - $\vee$ is read "or"
 
+- A formula can also be represented as a tree
+- 
+
 **Example**
 - Build $(p\wedge(q\vee\neg p))$ using the definition
-1. By F1., 
+1. By F1., $p,q$ are formulas
+2. By F2. $\neg p$ is a formula
+3. By F3. $(q\vee\neg p)$ is a formula
+4. By F3. $(p\wedge(q\vee\neg p))$ is a formula
+
 
