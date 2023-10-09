@@ -81,3 +81,30 @@ e.g.
 - The elements of the set $\lbrace 0,1\rbrace$ are called **truth values**
 - Read $1$ as "true", $2$ as "false"
 - After we assign truth values to atoms, we can give truth values to formulas
+- We only need to give rules for each connective $(\wedge, \vee, \neg)$
+
+## Truth tables
+The formula $\neg F$ is true if and only if the formula $F$ is false
+
+| $F$   | $\neg F$ |
+| --- | -------- |
+| 0   | 1        |
+| 1   | 0         |
+
+The formula $(F\wedge G)$ is true if and only if both formulas are true
+
+| $F$ | $G$ | $(F\wedge G)$ |
+| --- | --- | ------------- |
+| 0   | 0   | 0             |
+| 0   | 1   | 0             |
+| 1   | 0   | 0            |
+| 1   |  1   | 1              |
+
+The formula $(F\vee G)$ is true if and only if either or both formulas are true
+
+| $F$ | $G$ | $(F\vee G)$ |
+| --- | --- | ------------- |
+| 0   | 0   | 0             |
+| 0   | 1   | 1             |
+| 1   | 0   | 1            |
+| 1   |  1   | 1              |
