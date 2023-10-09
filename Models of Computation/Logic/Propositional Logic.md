@@ -164,3 +164,14 @@ A formula $F$ is **valid** if every assignment satisfies $F$
 - i.e. if its truth table always has value 1
 - Valid formulas represent logical laws
 	- In the same way that $x+0=x$ is an arithmetic law
+
+# Satisfiable
+A formula $F$ is **satisfiable** if at least one assignment satisfies $F$
+- i.e. if it's truth table has at least one 1
+
+## Satisfiability problem
+- To decide if a given propositional formula $F$ is satisfiable
+- Can be solved by checking all rows of the truth table for $F$
+	- Suppose $F$ has $n$ atoms, then the truth table has $2^n$ rows
+	- This algorithm is $O(2^n)$
+- if the satisfiability problem is in P, then P=NP
