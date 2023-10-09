@@ -150,3 +150,17 @@ This is a shorter way to code $tv(F,\alpha)$$
 | 0   | 1   | 1                  |
 | 1   | 0   | 0                  |
 | 1    |   1  |      1              |
+## Connection with natural language
+1. "or" in English
+	- Sometimes it's inclusive ("I will sing or dance"), so we write $p\vee q$
+	- Sometimes it's exclusive ("I will arrive now or later") so we write $(p\vee q)\wedge \neg(p\wedge q)$
+	- and sometimes it's unclear ("your error is in the program or the data")
+2. "and" in English
+	- "He throw the stone and the window broke"
+	- "The window broke and he threw the stone"
+	- Different meanings in English but the same in formal logic
+# Validity
+A formula $F$ is **valid** if every assignment satisfies $F$
+- i.e. if its truth table always has value 1
+- Valid formulas represent logical laws
+	- In the same way that $x+0=x$ is an arithmetic law
