@@ -57,11 +57,27 @@ Syntactic rules for defining formulas of Propositional logic
 3. By F3. $(q\vee\neg p)$ is a formula
 4. By F3. $(p\wedge(q\vee\neg p))$ is a formula
 
-## Syntax
+# Syntax 2
 1. Specifies what we mean by a propositional formula
 2. Allows one to design algorithms that process/manipulate formulas using recursion
 	1. The base case is rule 1 of the definition
 	2. The recursive cases are rules 2 and 3
 3. One can prove things about propositional formulas and about code that processes formulas
 
+- Use abbreviations:
+	- $(F_1\vee F_2\vee F_3)$ instead of $((F_1\vee F_2)\vee F_3)$
+	- $(F_1\wedge F_2\wedge F_3)$ instead of $((F_1\wedge F_2)\wedge F_3)$
 
+## Reading logical formulas
+- It's not always grammatically correct to read formulas by inserting the names of the symbols
+e.g. 
+- We read $p\wedge q$ as "p and q" and $\neg p$ as "not p"
+- But if we know $p$ stand for "The earth is flat" and $q$ stands for "The earth is round"
+- Then we can read $p\wedge q$ as "The earth is flat and the earth is round" or "The earth is flat and round"
+- We don't read $\neg p$ as "not the earth is flat", but rather "it is not the case that the earth is flat", or "the earth is not flat"
+
+# Semantics
+- How you derive the value of a formula based on the values of its atomic subformulas
+- The elements of the set $\lbrace 0,1\rbrace$ are called **truth values**
+- Read $1$ as "true", $2$ as "false"
+- After we assign truth values to atoms, we can give truth values to formulas
