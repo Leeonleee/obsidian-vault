@@ -123,4 +123,13 @@ This is a shorter way to code $tv(F,\alpha)$$
 	TV2. $tv(\neg F,\alpha)=1-tv(F,\alpha)$
 	TV3. $tv(F\wedge G, \alpha)=\text{min}\lbrace tv(F,\alpha),tv(G,\alpha)\rbrace$
 	TV3. $tv(F\vee G, \alpha)=\text{max}\lbrace tv(F,\alpha),tv(G,\alpha)\rbrace$
-	
+
+## Terminology
+- Sometimes shorten $tv(F,\alpha)$ to $\alpha(F)$
+	- e.g. $tv(F\wedge G,\alpha)=1$ can be written as $\alpha(F\wedge G) = 1$
+- If $\alpha(F)=1$, we say
+	- $\alpha$ makes $F$ true
+	- $\alpha$ satisfies $F$
+	- $\alpha$ models $F$
+	- Also written as $\alpha\vDash F$
+- The symbol $\vDash$ is called the **double-turnstile**
