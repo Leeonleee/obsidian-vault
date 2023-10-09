@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Models of Computation/Turing Machines/Decidability.md",
+                "file": "Models of Computation/Logic/General.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "831d54619545304a",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.14"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Models of Computation/Turing Machines/Decidability.md",
+                "file": "Models of Computation/Logic/General.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Models of Computation/Turing Machines/Decidability.md",
+                "file": "Models of Computation/Logic/General.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Models of Computation/Turing Machines/Decidability.md"
+                "file": "Models of Computation/Logic/General.md"
               }
             }
           }
@@ -166,12 +155,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "831d54619545304a",
+  "active": "536e217f1858c485",
   "lastOpenFiles": [
+    "Models of Computation/Logic/Propositional Logic.md",
+    "Models of Computation/Logic/General.md",
+    "Models of Computation/Turing Machines/Decidability.md",
+    "Models of Computation/Logic",
+    "Models of Computation/Untitled.md",
     "Models of Computation/Turing Machines/Undecidability.md",
     "Models of Computation/Complexity/Intro to Computational Complexity.md",
     "Untitled.md",
-    "Models of Computation/Turing Machines/Decidability.md",
     "Models of Computation/Complexity",
     "Models of Computation/Turing Machines/Robustness and Closure.md",
     "Models of Computation/Regular Languages/Regular Expressions.md",
@@ -183,7 +176,6 @@
     "Models of Computation/Context-Free Grammars/Context-free Grammars.md",
     "Models of Computation/Context-Free Grammars/Parsing CFGs in CNF.md",
     "Models of Computation/Regular Languages",
-    "Models of Computation/Untitled.md",
     "Models of Computation/Context-Free Grammars",
     "Models of Computation/Questions.md",
     "Agile/Software Development Process Models.md",
@@ -202,11 +194,8 @@
     "Databases/Overview.md",
     "Data Structures/Cheatsheet.md",
     "<.md",
-    "Templates/Data Structure Template.md",
-    "Data Structures/Linked Lists.md",
     "Agile",
     "Databases",
-    "Models of Computation",
-    "Non CS/Japanese/Grammar"
+    "Models of Computation"
   ]
 }
