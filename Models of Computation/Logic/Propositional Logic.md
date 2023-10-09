@@ -138,4 +138,15 @@ This is a shorter way to code $tv(F,\alpha)$$
 1. $\top$ and $\bot$ are formulas
 	- Called the **propositional constants**
 2. If $F,G$ are formulas, then so are $(F\rightarrow G)$ and $(F\leftrightarrow G)$
-3. 
+	- $\rightarrow$ is called the **conditional** (aka implication)
+	- $\leftrightarrow$ is called the **bi-conditional** (aka bi-implication)
+3. Semantics
+	- $\top$ is always true, $\bot$ is always false
+	- $(F\leftrightarrow G)$ is true if and only if $F$ and $G$ have the same truth values
+
+| $F$ | $G$ | $(F\rightarrow G)$ |
+| --- | --- | ------------------ |
+| 0   | 0   | 1                  |
+| 0   | 1   | 1                  |
+| 1   | 0   | 0                  |
+| 1    |   1  |      1              |
