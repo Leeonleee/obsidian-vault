@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "831d54619545304a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -155,7 +166,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "536e217f1858c485",
+  "active": "831d54619545304a",
   "lastOpenFiles": [
     "Models of Computation/Turing Machines/Undecidability.md",
     "Models of Computation/Complexity/Intro to Computational Complexity.md",
