@@ -4,3 +4,4 @@
 2. **Semantics**
 	- meaning of expressions, or how they are evaluated
 3. **Deduction**
+	- syntactic mechanism for deriving new true expressions from existing true expressions

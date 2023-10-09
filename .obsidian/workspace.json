@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Models of Computation/Logic/General.md",
+                "file": "Models of Computation/Logic/Propositional Logic.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Models of Computation/Logic/General.md",
+                "file": "Models of Computation/Logic/Propositional Logic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Models of Computation/Logic/General.md",
+                "file": "Models of Computation/Logic/Propositional Logic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Models of Computation/Logic/General.md"
+                "file": "Models of Computation/Logic/Propositional Logic.md"
               }
             }
           }
@@ -157,8 +157,8 @@
   },
   "active": "536e217f1858c485",
   "lastOpenFiles": [
-    "Models of Computation/Logic/Propositional Logic.md",
     "Models of Computation/Logic/General.md",
+    "Models of Computation/Logic/Propositional Logic.md",
     "Models of Computation/Turing Machines/Decidability.md",
     "Models of Computation/Logic",
     "Models of Computation/Untitled.md",
