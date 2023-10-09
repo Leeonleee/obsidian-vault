@@ -22,12 +22,32 @@
 - Java and Python each have their own syntax for writing propositional formulas
 - We will use another syntax standard in computer science and maths
 
-| Name           | Propositional Logic | Python  | Java   |
-| -------------- | ------------------- | ------- | ------ |
-| conjunction    | $\wedge$            | `and`   | `&&`   |
-| disjunction    | $\vee$              | `or`    | `||`   |
-| negation       | $\neg$              | `not`   | `!`    |
-| implication    | $\rightarrow$       |         |        |
-| bi-implication | $\leftrightarrow$   | `==`    | `==`   |
-| top/verum      | $\top$              | `True`  | `true` |
-| bottom/falsum  | $\bot$              | `False` |        |
+| Name           | Propositional Logic | Python              | Java                |
+| -------------- | ------------------- | ------------------- | ------------------- |
+| conjunction    | $\wedge$            | `and`               | `&&`                |
+| disjunction    | $\vee$              | `or`                | `||`                |
+| negation       | $\neg$              | `not`               | `!`                 |
+| implication    | $\rightarrow$       |                     |                     |
+| bi-implication | $\leftrightarrow$   | `==`                | `==`                |
+| top/verum      | $\top$              | `True`              | `true`              |
+| bottom/falsum  | $\bot$              | `False`             | `false`             |
+| atoms          | $p,q,r,\dots$       | Boolean variables   | Boolean variables   |
+| formulas       | $F,G,H,\dots        | Boolean expressions | Boolean expressions |
+
+## Rules
+Syntactic rules for defining formulas of Propositional logic
+**Definition**
+- An **atom** is a variable of the form $p_1,p_2,p_3,\dots,p,q,r$
+- A **formula** is defined by the following recursive process:
+	F1. Every atom is a formula
+	F2. If $F$ is a formula, then $\neg F$ is a formula
+	F3. If $F,G$ are formulas, then so are $(F\vee G)$ and $(F\wedge G)$
+**Reading guide**
+- $\neg$ is read "it is not the case that"
+- $\wedge$ is read "and"
+- $\vee$ is read "or"
+
+**Example**
+- Build $(p\wedge(q\vee\neg p))$ using the definition
+1. By F1., 
+
