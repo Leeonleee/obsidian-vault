@@ -17,3 +17,17 @@
 
 # Propositions
 - A **proposition** is a sentence that declares a fact that is either true, or false, but not both
+
+# Syntax
+- Java and Python each have their own syntax for writing propositional formulas
+- We will use another syntax standard in computer science and maths
+
+| Name           | Propositional Logic | Python  | Java   |
+| -------------- | ------------------- | ------- | ------ |
+| conjunction    | $\wedge$            | `and`   | `&&`   |
+| disjunction    | $\vee$              | `or`    | `||`   |
+| negation       | $\neg$              | `not`   | `!`    |
+| implication    | $\rightarrow$       |         |        |
+| bi-implication | $\leftrightarrow$   | `==`    | `==`   |
+| top/verum      | $\top$              | `True`  | `true` |
+| bottom/falsum  | $\bot$              | `False` |        |
