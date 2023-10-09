@@ -103,8 +103,16 @@ The formula $(F\wedge G)$ is true if and only if both formulas are true
 The formula $(F\vee G)$ is true if and only if either or both formulas are true
 
 | $F$ | $G$ | $(F\vee G)$ |
-| --- | --- | ------------- |
-| 0   | 0   | 0             |
-| 0   | 1   | 1             |
-| 1   | 0   | 1            |
-| 1   |  1   | 1              |
+| --- | --- | ----------- |
+| 0   | 0   | 0           |
+| 0   | 1   | 1           |
+| 1   | 0   | 0           |
+| 1   | 1   | 1           |
+
+- An **assignment** is a function $\alpha$ from atoms to truth values
+	- i.e. "row of a truth table"
+- On three variables, there are $2^3=8$ assignments
+- On four variables, there are $2^4=16$ assignments
+- The truth value $tv(F,\alpha)$ of a formula $F$ under assignment $\alpha$ is defined by the following recursive process:
+	TV1. $tv(p,\alpha=\alpha(p)$ for every atom $p$
+	TV2. $
