@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Design/UML/UML Class Diagram.md",
+                "file": "Models of Computation/Logic/Propositional Logic.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Design/UML/UML Class Diagram.md",
+                "file": "Models of Computation/Logic/Propositional Logic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Design/UML/UML Class Diagram.md",
+                "file": "Models of Computation/Logic/Propositional Logic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Design/UML/UML Class Diagram.md"
+                "file": "Models of Computation/Logic/Propositional Logic.md"
               }
             }
           }
@@ -157,12 +157,12 @@
   },
   "active": "536e217f1858c485",
   "lastOpenFiles": [
+    "Models of Computation/Logic/General.md",
+    "Software Design/UML/UML Class Diagram.md",
     "Software Design/Design Patterns",
     "Software Design/UML",
     "Models of Computation/Logic/Propositional Logic.md",
-    "Software Design/UML/UML Class Diagram.md",
     "Software Design",
-    "Models of Computation/Logic/General.md",
     "Models of Computation/Turing Machines/Decidability.md",
     "Models of Computation/Logic",
     "Models of Computation/Untitled.md",
@@ -195,7 +195,6 @@
     "Databases/SQL Concepts.md",
     "readme.md",
     "$Syntax.md",
-    "Databases/Overview.md",
-    "Agile"
+    "Databases/Overview.md"
   ]
 }
