@@ -11,14 +11,10 @@
             "id": "536e217f1858c485",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Models of Computation/Logic/Propositional Logic.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Propositional Logic"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -70,8 +66,8 @@
             "state": {
               "type": "starred",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "starred"
             }
           },
           {
@@ -88,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.50271224975586
+    "width": 400
   },
   "right": {
     "id": "39a09cbae1133db5",
@@ -170,54 +166,57 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "536e217f1858c485",
   "lastOpenFiles": [
-    "Models of Computation/Logic/General.md",
-    "Software Design/UML/UML Class Diagram.md",
-    "Software Design/Design Patterns",
-    "Software Design/UML",
-    "Models of Computation/Logic/Propositional Logic.md",
-    "Software Design",
-    "Models of Computation/Turing Machines/Decidability.md",
-    "Models of Computation/Logic",
-    "Models of Computation/Untitled.md",
-    "Models of Computation/Turing Machines/Undecidability.md",
-    "Models of Computation/Complexity/Intro to Computational Complexity.md",
-    "Untitled.md",
-    "Models of Computation/Complexity",
-    "Models of Computation/Turing Machines/Robustness and Closure.md",
-    "Models of Computation/Regular Languages/Regular Expressions.md",
-    "Models of Computation/Regular Languages/Automata.md",
-    "Models of Computation/Regular Languages/Conversions.md",
-    "Models of Computation/Context-Free Grammars/Chomsky Normal Form.md",
-    "Models of Computation/Turing Machines/Turing Machines.md",
-    "Models of Computation/Turing Machines",
-    "Models of Computation/Context-Free Grammars/Context-free Grammars.md",
-    "Models of Computation/Context-Free Grammars/Parsing CFGs in CNF.md",
-    "Models of Computation/Regular Languages",
-    "Models of Computation/Context-Free Grammars",
-    "Models of Computation/Questions.md",
-    "Agile/Software Development Process Models.md",
-    "Untitled",
+    "DSA/Patterns/GPT/Array and String/Two Pointers.md",
+    "DSA/Patterns/GPT",
+    "DSA/Patterns/GPT/Array and String/Fast and Slow Pointers.md",
+    "DSA/Patterns/Two Pointer",
+    "DSA/LeetCode Reference.md",
+    "DSA/Patterns/GPT/Recursion and DP/Index.md",
+    "DSA/Patterns/GPT/Graphs and Trees/Index.md",
+    "DSA/Patterns/GPT/Search and Selection/Index.md",
+    "DSA/Patterns/GPT/Array and String/Index.md",
+    "DSA/Templates/Pattern Template.md",
+    "DSA/Patterns/2 Colouring.md",
+    "DSA/Patterns/GPT/Search and Selection/Binary Search.md",
+    "DSA/Patterns/GPT/Recursion and DP/Dynamic Programming.md",
+    "DSA/Patterns/GPT/Search and Selection/Heap and Top K.md",
+    "DSA/Patterns/GPT/Graphs and Trees/Trees and Graph Traversal.md",
+    "DSA/Patterns/GPT/Recursion and DP/Backtracking.md",
+    "DSA/Patterns/GPT/Graphs and Trees/2 Colouring.md",
+    "DSA/Patterns/GPT/Array and String/Prefix Sum and Hash Map.md",
+    "DSA/Patterns/GPT/Array and String/Sliding Window.md",
+    "DSA/Templates",
+    "DSA/Patterns/GPT/Recursion and DP",
+    "DSA/Patterns/GPT/Graphs and Trees",
+    "DSA/Patterns/GPT/Search and Selection",
+    "DSA/Patterns/GPT/Array and String",
+    "DSA/Patterns/Trees and Graph Traversal.md",
+    "DSA/Patterns/Backtracking.md",
+    "Untitled.base",
+    "readme.md",
+    "DSA/Patterns/Dynamic Programming.md",
+    "DSA/Patterns/Binary Search.md",
+    "DSA/Patterns/Prefix Sum and Hash Map.md",
+    "DSA/Patterns/Heap and Top K.md",
+    "DSA/Patterns/Fast and Slow Pointers.md",
+    "DSA/Patterns",
+    "DSA",
     "Models of Computation/images/NFA_base_case_3.png",
     "Models of Computation/images/NFA_base_case_2.png",
     "Models of Computation/images/NFA_base_case_1.png",
-    "Models of Computation%2Fimages%2FPasted image 20230811230058.png.md",
-    "Models of Computation/images/Pasted image 20230811230058.png",
-    "Models of Computation/images",
-    "Models of Computation/Nondeterministic Finite Automata.md",
-    "Databases/ER Diagrams.md",
-    "Databases/SQL Concepts.md",
-    "readme.md",
-    "$Syntax.md",
-    "Databases/Overview.md"
+    "Models of Computation/images/Pasted image 20230811230058.png"
   ]
 }
